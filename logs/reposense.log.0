@@ -1,20 +1,20 @@
-Mar 02, 2020 1:30:12 PM reposense.model.RepoConfiguration merge
-WARNING: Repository https://github.com/AY1920S2-CS2103T-F11-3/main.git is not found in repo-config.csv.
-Mar 02, 2020 1:30:12 PM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/reposense/RepoSense.git...
-Mar 02, 2020 1:30:12 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/reposense/RepoSense.git to complete...
-Mar 02, 2020 1:30:14 PM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/reposense/RepoSense.git completed!
-Mar 02, 2020 1:30:14 PM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/1] Analyzing https://github.com/reposense/RepoSense.git (master)...
-Mar 02, 2020 1:30:15 PM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/reposense/RepoSense.git (master)...
-Mar 02, 2020 1:30:15 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/reposense/RepoSense.git (master)...
-Mar 02, 2020 1:30:15 PM reposense.authorship.FileInfoExtractor extractFileInfos
-INFO: Extracting relevant file info from https://github.com/reposense/RepoSense.git (master)...
-Mar 02, 2020 1:30:16 PM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/reposense/RepoSense.git (master) completed!
-Mar 02, 2020 1:30:16 PM reposense.report.ReportGenerator generateReposReport
+Mar 02, 2020 1:38:06 PM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/AY1920S2-CS2103T-F11-3/main.git...
+Mar 02, 2020 1:38:07 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/AY1920S2-CS2103T-F11-3/main.git to complete...
+Mar 02, 2020 1:38:07 PM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/AY1920S2-CS2103T-F11-3/main.git completed!
+Mar 02, 2020 1:38:07 PM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/1] Analyzing https://github.com/AY1920S2-CS2103T-F11-3/main.git (master)...
+Mar 02, 2020 1:38:08 PM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/AY1920S2-CS2103T-F11-3/main.git (master) does not contain a standalone config file.
+Mar 02, 2020 1:38:08 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/AY1920S2-CS2103T-F11-3/main.git (master)...
+Mar 02, 2020 1:38:08 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/AY1920S2-CS2103T-F11-3/main.git (master)...
+Mar 02, 2020 1:38:08 PM reposense.authorship.FileInfoExtractor extractFileInfos
+INFO: Extracting relevant file info from https://github.com/AY1920S2-CS2103T-F11-3/main.git (master)...
+Mar 02, 2020 1:38:12 PM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/AY1920S2-CS2103T-F11-3/main.git (master) completed!
+Mar 02, 2020 1:38:12 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/travis/build/AY1920S2-CS2103T-F11-3/publish-RepoSense/reposense-report
