@@ -293,27 +293,266 @@
             "deletions": 9
           }
         ]
+      },
+      {
+        "insertions": 48,
+        "deletions": 4,
+        "date": "2020-03-07",
+        "commitResults": [
+          {
+            "hash": "ac0a82a2f4428f3418a778b1d30f7d988f86fb84",
+            "messageTitle": "added canteen stalls",
+            "messageBody": "",
+            "insertions": 39,
+            "deletions": 3
+          },
+          {
+            "hash": "ccb7d969023840782b9d66ab613ef080a628e883",
+            "messageTitle": "Able to exit from stall interface to canteen interface",
+            "messageBody": "",
+            "insertions": 9,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 65,
+        "deletions": 45,
+        "date": "2020-03-09",
+        "commitResults": [
+          {
+            "hash": "a31e1a92e951a59eb4b5658c17e93dac686be779",
+            "messageTitle": "refixed exit, list in wrong context",
+            "messageBody": "",
+            "insertions": 52,
+            "deletions": 23
+          },
+          {
+            "hash": "4164098943fe7d8fbe53dc67582119bdc2993345",
+            "messageTitle": "Managed to fixed updatedFilteredStalls",
+            "messageBody": "",
+            "insertions": 9,
+            "deletions": 2
+          },
+          {
+            "hash": "79b3ee0d174ef092612df5e935cc83bd07bc2c6c",
+            "messageTitle": "Refixed updatefilteredstalls, actually it was correct to use predicate, dont need new method",
+            "messageBody": "",
+            "insertions": 4,
+            "deletions": 20
+          }
+        ]
+      },
+      {
+        "insertions": 610,
+        "deletions": 81,
+        "date": "2020-03-10",
+        "commitResults": [
+          {
+            "hash": "a8b114c26b60be3f6be0da20ca593d6eedc4617d",
+            "messageTitle": "Buggy context, but can access stalls and view food",
+            "messageBody": "",
+            "insertions": 562,
+            "deletions": 31
+          },
+          {
+            "hash": "0bbb1ddcbedc889f104985876b791dc4a476da47",
+            "messageTitle": "Fixed entering canteen with text bug",
+            "messageBody": "",
+            "insertions": 9,
+            "deletions": 6
+          },
+          {
+            "hash": "7cf7147567868b4ce608f20bf36f95eb322f1fe0",
+            "messageTitle": "Fixed entering stall with text bug",
+            "messageBody": "",
+            "insertions": 10,
+            "deletions": 6
+          },
+          {
+            "hash": "91dc9460a76b05c095a9c7d3491794854c858472",
+            "messageTitle": "Fixed checkstyles",
+            "messageBody": "",
+            "insertions": 23,
+            "deletions": 26
+          },
+          {
+            "hash": "13b9ac39b07832df8ac0d775fd6b7952d81cc071",
+            "messageTitle": "Fixed more errors",
+            "messageBody": "",
+            "insertions": 6,
+            "deletions": 11
+          },
+          {
+            "hash": "34b9f0a3e1691c612de4b003b60286b386900f69",
+            "messageTitle": "Fixed checkstyle",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 2,
+        "deletions": 5,
+        "date": "2020-03-12",
+        "commitResults": [
+          {
+            "hash": "2f57188a236acf9debd59e126dd91af66f627db0",
+            "messageTitle": "Fixed bug",
+            "messageBody": "",
+            "insertions": 2,
+            "deletions": 5
+          }
+        ]
       }
     ],
-    "ignatiusong": []
+    "ignatiusong": [
+      {
+        "insertions": 20,
+        "deletions": 229,
+        "date": "2020-02-16",
+        "commitResults": [
+          {
+            "hash": "3869d58e52034b2d2c755e785d8c1ceec46fba04",
+            "messageTitle": "delete address class",
+            "messageBody": "",
+            "insertions": 20,
+            "deletions": 229
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 1,
+        "date": "2020-02-17",
+        "commitResults": [
+          {
+            "hash": "42ae2571e60b6f5e5500b950fd5e0fc3be9f21ab",
+            "messageTitle": "tidy up ui for references to address",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 1
+          }
+        ]
+      },
+      {
+        "insertions": 1991,
+        "deletions": 554,
+        "date": "2020-02-22",
+        "commitResults": [
+          {
+            "hash": "ab8c26db62fb50d10f29294cce76feb1cd92712b",
+            "messageTitle": "Updated to current status of team repo",
+            "messageBody": "",
+            "insertions": 1881,
+            "deletions": 0
+          },
+          {
+            "hash": "cf2c8dfe9316fefe67d5d07b1ff3424fc2b72ba6",
+            "messageTitle": "update workspace.xml",
+            "messageBody": "",
+            "insertions": 110,
+            "deletions": 554
+          }
+        ]
+      },
+      {
+        "insertions": 0,
+        "deletions": 1531,
+        "date": "2020-03-02",
+        "commitResults": [
+          {
+            "hash": "abb72cf837bccc3c96db507ac4aa739954bdfeee",
+            "messageTitle": "Now its updated to actual team repo",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 1531
+          }
+        ]
+      },
+      {
+        "insertions": 1014,
+        "deletions": 181,
+        "date": "2020-03-06",
+        "commitResults": [
+          {
+            "hash": "d6629c3e3a7396748bcdc43d7f1087f8b3d0ff37",
+            "messageTitle": "slightly changed foodmenucommand",
+            "messageBody": "",
+            "insertions": 484,
+            "deletions": 135
+          },
+          {
+            "hash": "09859380854adb3c92357c9de205d513cfe60c7a",
+            "messageTitle": "Slightly changed food files",
+            "messageBody": "",
+            "insertions": 131,
+            "deletions": 11
+          },
+          {
+            "hash": "6d6bfb0ed318b8f9aa8b8fe267d56bdc97d1c74d",
+            "messageTitle": "changed enterCanteenCommand to be aware of its state i.e cannot enterCanteen then call enterCanteen again",
+            "messageBody": "",
+            "insertions": 126,
+            "deletions": 25
+          },
+          {
+            "hash": "c8b557de2da7d18181dad730179e66db9ac6c8d3",
+            "messageTitle": "allows the user to exit from canteen context and stall context add an option to allow commands to only save if necessary",
+            "messageBody": "",
+            "insertions": 48,
+            "deletions": 6
+          },
+          {
+            "hash": "2798d3923f5a74f9cf5d42a8ef5cc56bac0aa65f",
+            "messageTitle": "add EnterStallCommand to allow entry to a stall from a canteen interface. at this point the canteen still isn\u0027t loaded properly and neither are the stalls EnterStallCommand also doesnt change the actual display",
+            "messageBody": "",
+            "insertions": 225,
+            "deletions": 4
+          }
+        ]
+      },
+      {
+        "insertions": 134,
+        "deletions": 192,
+        "date": "2020-03-12",
+        "commitResults": [
+          {
+            "hash": "5c957e53231b747bac249d40c2815be8f969fdf4",
+            "messageTitle": "Merge randomize and canteen-food",
+            "messageBody": "",
+            "insertions": 134,
+            "deletions": 190
+          },
+          {
+            "hash": "a9745ea4ae150b71924a11d825033cc4d6da26bf",
+            "messageTitle": "fix trailing whitespace",
+            "messageBody": "",
+            "insertions": 0,
+            "deletions": 2
+          }
+        ]
+      }
+    ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 7622,
-    "lsjxavier": 1443,
-    "Samanthaseahpl": 1317,
-    "SHAUNGOH97": 1,
-    "ignatiusong": 0
+    "leslieharland": 7638,
+    "lsjxavier": 1442,
+    "Samanthaseahpl": 1337,
+    "SHAUNGOH97": 649,
+    "ignatiusong": 2578
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
-      "adoc": 8,
+      "adoc": 12,
       "gradle": 4,
       "adoc": 24,
       "adoc": 10,
-      "adoc": 139,
+      "adoc": 140,
       "java": 9,
       "java": 24,
-      "java": 65,
+      "java": 69,
       "java": 2,
       "java": 2,
       "java": 17,
@@ -329,7 +568,7 @@
       "java": 28,
       "java": 21,
       "java": 48,
-      "java": 108,
+      "java": 107,
       "java": 65,
       "java": 31,
       "java": 7,
@@ -338,11 +577,11 @@
       "java": 54,
       "java": 19,
       "java": 220,
-      "java": 79,
+      "java": 75,
       "java": 6,
       "java": 23,
       "java": 49,
-      "java": 29,
+      "java": 20,
       "java": 83,
       "java": 6,
       "java": 31,
@@ -361,7 +600,7 @@
       "java": 43,
       "java": 5,
       "java": 9,
-      "java": 28,
+      "java": 27,
       "java": 57,
       "java": 47,
       "java": 36,
@@ -373,19 +612,19 @@
       "java": 5,
       "java": 22,
       "java": 3,
-      "java": 168,
-      "java": 87,
-      "java": 225,
+      "java": 164,
+      "java": 86,
+      "java": 223,
       "java": 17,
       "java": 13,
       "java": 22,
       "java": 7,
       "java": 29,
-      "java": 174,
+      "java": 172,
       "java": 89,
       "java": 5,
       "java": 11,
-      "java": 144,
+      "java": 142,
       "java": 126,
       "java": 4,
       "java": 11,
@@ -395,24 +634,24 @@
       "java": 11,
       "java": 4,
       "java": 6,
-      "java": 71,
+      "java": 64,
       "java": 46,
-      "java": 105,
-      "java": 81,
+      "java": 104,
+      "java": 80,
       "java": 6,
       "java": 107,
       "java": 62,
       "java": 61,
       "java": 7,
-      "java": 27,
-      "java": 96,
+      "java": 24,
+      "java": 92,
       "java": 11,
       "java": 70,
       "java": 47,
       "java": 14,
       "java": 63,
       "java": 17,
-      "java": 89,
+      "java": 110,
       "java": 3,
       "java": 69,
       "java": 47,
@@ -420,7 +659,7 @@
       "java": 10,
       "java": 14,
       "java": 14,
-      "fxml": 24,
+      "fxml": 53,
       "fxml": 17,
       "fxml": 2,
       "fxml": 1,
@@ -473,14 +712,14 @@
       "java": 116,
       "java": 56,
       "java": 16,
-      "java": 11,
+      "java": 12,
       "java": 37,
-      "java": 131,
+      "java": 130,
       "java": 53,
       "java": 56,
       "java": 33,
       "java": 4,
-      "java": 117,
+      "java": 116,
       "java": 53,
       "java": 10,
       "java": 58,
@@ -493,7 +732,7 @@
     },
     "lsjxavier": {
       "gitignore": 2,
-      "java": 8,
+      "java": 7,
       "java": 8,
       "java": 6,
       "java": 88,
@@ -533,11 +772,11 @@
     },
     "Samanthaseahpl": {
       "gradle": 3,
-      "adoc": 3,
-      "adoc": 140,
+      "adoc": 6,
+      "adoc": 157,
       "html": 1034,
       "java": 2,
-      "java": 6,
+      "java": 4,
       "java": 2,
       "java": 16,
       "java": 6,
@@ -545,23 +784,104 @@
       "java": 4,
       "java": 13,
       "java": 71,
-      "java": 3,
+      "java": 5,
       "java": 3,
       "java": 1,
       "java": 7,
       "java": 2
     },
     "SHAUNGOH97": {
-      "adoc": 1
+      "adoc": 2,
+      "java": 5,
+      "java": 6,
+      "java": 10,
+      "java": 1,
+      "java": 3,
+      "java": 5,
+      "java": 12,
+      "java": 15,
+      "java": 12,
+      "java": 58,
+      "java": 5,
+      "java": 5,
+      "java": 19,
+      "java": 7,
+      "java": 81,
+      "java": 2,
+      "java": 93,
+      "java": 35,
+      "java": 61,
+      "java": 1,
+      "java": 10,
+      "java": 76,
+      "java": 47,
+      "java": 25,
+      "fxml": 47,
+      "java": 6
     },
-    "ignatiusong": {}
+    "ignatiusong": {
+      "properties": 2,
+      "xml": 5,
+      "xml": 4,
+      "xml": 18,
+      "xml": 7,
+      "xml": 6,
+      "xml": 966,
+      "0": 462,
+      "json": 39,
+      "xml": 20,
+      "fxml": 9,
+      "css": 352,
+      "css": 20,
+      "fxml": 39,
+      "fxml": 60,
+      "fxml": 36,
+      "fxml": 8,
+      "fxml": 9,
+      "fxml": 12,
+      "fxml": 1,
+      "fxml": 4,
+      "fxml": 6,
+      "java": 2,
+      "java": 5,
+      "java": 10,
+      "java": 73,
+      "java": 27,
+      "java": 2,
+      "java": 5,
+      "java": 4,
+      "java": 43,
+      "java": 1,
+      "java": 4,
+      "java": 50,
+      "java": 17,
+      "java": 19,
+      "java": 7,
+      "java": 14,
+      "java": 3,
+      "java": 9,
+      "java": 19,
+      "java": 138,
+      "java": 4,
+      "java": 1,
+      "java": 1,
+      "java": 8,
+      "json": 2,
+      "json": 1,
+      "json": 1,
+      "json": 1,
+      "java": 10,
+      "java": 7,
+      "java": 2,
+      "java": 3
+    }
   },
   "authorContributionVariance": {
     "leslieharland": 3725646.5,
     "lsjxavier": 57224.957,
     "Samanthaseahpl": 51213.586,
-    "SHAUNGOH97": 21.782215,
-    "ignatiusong": 0.0
+    "SHAUNGOH97": 15561.449,
+    "ignatiusong": 309256.94
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
