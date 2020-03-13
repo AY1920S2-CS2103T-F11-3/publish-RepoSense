@@ -7317,7 +7317,7 @@
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
         "content": "https://travis-ci.org/AY1920S2-CS2103T-F11-3/main[image:https://travis-ci.org/AY1920S2-CS2103T-F11-3/main.svg?branch\u003dmaster[Build Status]]"
       },
@@ -7331,7 +7331,7 @@
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
         "content": "https://coveralls.io/github/AY1920S2-CS2103T-F11-3/main?branch\u003dmaster[image:https://coveralls.io/repos/github/AY1920S2-CS2103T-F11-3/main/badge.svg?branch\u003dmaster[Coverage Status]]"
       },
@@ -7352,7 +7352,7 @@
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -7575,8 +7575,8 @@
       }
     ],
     "authorContributionMap": {
-      "leslieharland": 12,
-      "-": 28
+      "leslieharland": 9,
+      "-": 31
     }
   },
   {
@@ -31695,52 +31695,66 @@
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public static final String MESSAGE_BUDGET_VIEW \u003d \"Your %s budget has been set to $ %.2f.\\n\""
+        "content": "    public static final String MESSAGE_BUDGET_SET \u003d \"Your %s budget has been set to $ %.2f.\\n\""
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        + \"You have $ %.2f available to spend this week.\\n\""
+        "content": "        + \"You have $%.2f available to spend today.\\n\";"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        + \"Here are your spendings this week: \\n \";"
+        "content": "    public static final String MESSAGE_BUDGET_VIEW \u003d \"Your %s budget is $%.2f.\\n\""
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "lsjxavier"
         },
-        "content": "    public static final String MESSAGE_NOTAVAILABLE \u003d \"No information available\";"
+        "content": "            + \"Your remaining budget is $%.2f, with $%.2f to spend today.\\n\""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public static final String MESSAGE_INVALID_DATE \u003d \"Invalid date format!\";"
+        "content": "            + \"Here is your %s spending:\\n\";"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "    public static final String MESSAGE_INVALID_PREFIX \u003d \"Invalid prefix!\";"
+        "content": "    public static final String MESSAGE_NOTAVAILABLE \u003d \"No information available\";"
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public static final String MESSAGE_INVALID_DATE_RANGE \u003d \"Invalid date range!\";"
+        "content": "    public static final String MESSAGE_INVALID_DATE \u003d \"Invalid date format!\";"
       },
       {
         "lineNumber": 21,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "    public static final String MESSAGE_INVALID_PREFIX \u003d \"Invalid prefix!\";"
+      },
+      {
+        "lineNumber": 22,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "    public static final String MESSAGE_INVALID_DATE_RANGE \u003d \"Invalid date range!\";"
+      },
+      {
+        "lineNumber": 23,
         "author": {
           "gitId": "-"
         },
@@ -31749,7 +31763,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 7,
-      "lsjxavier": 8,
+      "lsjxavier": 10,
       "-": 6
     }
   },
@@ -40409,600 +40423,663 @@
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "lsjxavier"
         },
-        "content": "import static seedu.foodiebot.commons.core.Messages.MESSAGE_BUDGET_VIEW;"
+        "content": "import static seedu.foodiebot.commons.core.Messages.MESSAGE_BUDGET_SET;"
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "import static seedu.foodiebot.logic.parser.CliSyntax.PREFIX_DATE_BY_MONTH;"
+        "content": "import static seedu.foodiebot.commons.core.Messages.MESSAGE_BUDGET_VIEW;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "import static seedu.foodiebot.logic.parser.CliSyntax.PREFIX_DATE_BY_MONTH;"
       },
       {
         "lineNumber": 7,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 8,
         "author": {
           "gitId": "lsjxavier"
         },
         "content": "import seedu.foodiebot.commons.core.date.DefiniteDate;"
       },
       {
-        "lineNumber": 8,
+        "lineNumber": 9,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "import seedu.foodiebot.model.Model;"
       },
       {
-        "lineNumber": 9,
+        "lineNumber": 10,
         "author": {
           "gitId": "lsjxavier"
         },
         "content": "import seedu.foodiebot.model.budget.Budget;"
       },
       {
-        "lineNumber": 10,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 11,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "/** Manages the budget commands, e.g. view, set. */"
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "public class BudgetCommand extends Command {"
+        "content": "/** Manages the budget commands, e.g. view, set. */"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public static final String COMMAND_WORD \u003d \"budget\";"
+        "content": "public class BudgetCommand extends Command {"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    public static final String COMMAND_WORD \u003d \"budget\";"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public static final String MESSAGE_USAGE \u003d"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        COMMAND_WORD + \" VIEW : View the budget. \\n\""
+        "content": "    public static final String MESSAGE_USAGE \u003d"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            + \"SET : Set the budget\""
+        "content": "        COMMAND_WORD + \" VIEW : View the budget. \\n\""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            + \"Parameters: \""
+        "content": "            + \"SET : Set the budget\""
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            + PREFIX_DATE_BY_MONTH"
+        "content": "            + \"Parameters: \""
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            + \"AMOUNT \\n\""
+        "content": "            + PREFIX_DATE_BY_MONTH"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            + \"Example: \""
+        "content": "            + \"AMOUNT \\n\""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            + COMMAND_WORD"
+        "content": "            + \"Example: \""
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            + \" \""
+        "content": "            + COMMAND_WORD"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            + PREFIX_DATE_BY_MONTH"
+        "content": "            + \" \""
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            + \"100 \";"
+        "content": "            + PREFIX_DATE_BY_MONTH"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "            + \"100 \";"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public static final String MESSAGE_SUCCESS \u003d MESSAGE_BUDGET_VIEW;"
+        "content": ""
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public static final String MESSAGE_FAILURE \u003d \"No budget stored!\";"
+        "content": "    public static final String MESSAGE_SET \u003d MESSAGE_BUDGET_SET;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "    public static final String MESSAGE_VIEW \u003d MESSAGE_BUDGET_VIEW;"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    private final Budget budget;"
+        "content": "    public static final String MESSAGE_FAILURE \u003d \"No budget stored!\";"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    private final String action;"
+        "content": ""
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "    private final Budget budget;"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public BudgetCommand(Budget budget, String action) {"
+        "content": "    private final String action;"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        this.budget \u003d budget;"
+        "content": ""
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        this.action \u003d action;"
+        "content": "    public BudgetCommand(Budget budget, String action) {"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    }"
+        "content": "        this.budget \u003d budget;"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "        this.action \u003d action;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public BudgetCommand(String action) {"
+        "content": "    }"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        this.budget \u003d new Budget();"
+        "content": ""
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        this.action \u003d action;"
+        "content": "    public BudgetCommand(String action) {"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    }"
+        "content": "        this.budget \u003d new Budget();"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "        this.action \u003d action;"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    /** A boolean check if the current system date falls inside the budget range */"
+        "content": "    }"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "    public static boolean systemDateIsInCycleRange(Budget budget) {"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        return budget.getCycleRange().contains(DefiniteDate.TODAY);"
+        "content": "    /** A boolean check if the current system date falls inside the budget range */"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    }"
+        "content": "    public static boolean systemDateIsInCycleRange(Budget budget) {"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "        return budget.getCycleRange().contains(DefiniteDate.TODAY);"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    /** Helper function to write the budget to the model. */"
+        "content": "    }"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public static void saveBudget(Model model, Budget budget) {"
+        "content": ""
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        model.setBudget(budget);"
+        "content": "    /** Helper function to write the budget to the model. */"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    }"
+        "content": "    public static void saveBudget(Model model, Budget budget) {"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "        model.setBudget(budget);"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    /** Helper function to read the budget from the model. */"
+        "content": "    }"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public static Budget loadBudget(Model model) {"
+        "content": ""
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        return model.getBudget().isPresent()"
+        "content": "    /** Helper function to read the budget from the model. */"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "                ? model.getBudget().get()"
+        "content": "    public static Budget loadBudget(Model model) {"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "                : new Budget();"
+        "content": "        return model.getBudget().isPresent()"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    }"
+        "content": "                ? model.getBudget().get()"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "                : new Budget();"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    /** Helper function to hold a successful return message. */"
+        "content": "    }"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public static CommandResult commandSuccess(Budget budget) {"
+        "content": ""
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        return new CommandResult(COMMAND_WORD, String.format(MESSAGE_SUCCESS,"
+        "content": "    /** Helper function to hold a successful return message for \u0027budget set\u0027. */"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "                budget.getDurationAsString(), budget.getTotalBudget(), budget.getRemainingWeeklyBudget()));"
+        "content": "    public static CommandResult commandSetSuccess(Budget budget) {"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    }"
+        "content": "        return new CommandResult(COMMAND_WORD, String.format(MESSAGE_SET,"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "                budget.getDurationAsString(), budget.getTotalBudget(), budget.getRemainingDailyBudget()));"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "lsjxavier"
         },
-        "content": "    @Override"
+        "content": "    }"
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "lsjxavier"
         },
-        "content": "    public CommandResult execute(Model model) {"
+        "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "lsjxavier"
         },
-        "content": "        requireNonNull(model);"
+        "content": "    /** Helper function to hold a successful return message for \u0027budget view\u0027. */"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "    public static CommandResult commandViewSuccess(Budget budget) {"
       },
       {
         "lineNumber": 70,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        if (action.equals(\"set\")) {"
+        "content": "        return new CommandResult(COMMAND_WORD, String.format(MESSAGE_VIEW,"
       },
       {
         "lineNumber": 71,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "            saveBudget(model, budget);"
+        "content": "                budget.getDurationAsString(), budget.getTotalBudget(), budget.getRemainingBudget(),"
       },
       {
         "lineNumber": 72,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "            return commandSuccess(budget);"
+        "content": "                budget.getRemainingDailyBudget(), budget.getDurationAsString()));"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 74,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        } else {"
+        "content": ""
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "            Budget savedBudget \u003d loadBudget(model);"
+        "content": "    @Override"
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    public CommandResult execute(Model model) {"
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "            if (!savedBudget.equals(new Budget())) {"
+        "content": "        requireNonNull(model);"
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "                if (!systemDateIsInCycleRange(savedBudget)) {"
+        "content": ""
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "                    savedBudget.resetRemainingBudget();"
+        "content": "        if (action.equals(\"set\")) {"
       },
       {
         "lineNumber": 80,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "                }"
+        "content": "            saveBudget(model, budget);"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "                saveBudget(model, savedBudget);"
+        "content": "            return commandSetSuccess(budget);"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "                return commandSuccess(savedBudget);"
+        "content": ""
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "            }"
+        "content": "        } else {"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "            Budget savedBudget \u003d loadBudget(model);"
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "            return new CommandResult(COMMAND_WORD, MESSAGE_FAILURE);"
+        "content": ""
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        }"
+        "content": "            if (!savedBudget.equals(new Budget())) {"
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "                if (!systemDateIsInCycleRange(savedBudget)) {"
       },
       {
         "lineNumber": 88,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "                    savedBudget.resetRemainingBudget();"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "                saveBudget(model, savedBudget);"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "                return commandViewSuccess(savedBudget);"
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "            return new CommandResult(COMMAND_WORD, MESSAGE_FAILURE);"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 97,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 89,
+        "lineNumber": 98,
         "author": {
           "gitId": "leslieharland"
         },
@@ -41010,8 +41087,8 @@
       }
     ],
     "authorContributionMap": {
-      "leslieharland": 31,
-      "lsjxavier": 58
+      "leslieharland": 30,
+      "lsjxavier": 68
     }
   },
   {
@@ -47908,6 +47985,41 @@
       {
         "lineNumber": 53,
         "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "    public boolean needToSaveCommand() {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "        return false;"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
           "gitId": "leslieharland"
         },
         "content": "}"
@@ -47915,7 +48027,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 17,
-      "lsjxavier": 36
+      "lsjxavier": 41
     }
   },
   {
@@ -48452,6 +48564,41 @@
       {
         "lineNumber": 53,
         "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "    public boolean needToSaveCommand() {"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "        return false;"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
           "gitId": "leslieharland"
         },
         "content": "}"
@@ -48459,7 +48606,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 17,
-      "lsjxavier": 36
+      "lsjxavier": 41
     }
   },
   {
@@ -64499,14 +64646,14 @@
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "     * Multiplies the remaining budget by 5 if set to daily, or divide by 4 if set to monthly,"
+        "content": "     * Divides the remaining budget by 5 if set to weekly or 20 if set to monthly,"
       },
       {
         "lineNumber": 107,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "     * to get an average daily budget."
+        "content": "     * to get an average daily budget for weekdays."
       },
       {
         "lineNumber": 108,
@@ -64527,21 +64674,21 @@
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "    public float getRemainingWeeklyBudget() {"
+        "content": "    public float getRemainingDailyBudget() {"
       },
       {
         "lineNumber": 111,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "        if (duration.equals(DAILY)) {"
+        "content": "        if (duration.equals(WEEKLY)) {"
       },
       {
         "lineNumber": 112,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "            return this.remainingBudget * 5;"
+        "content": "            return this.remainingBudget / 5;"
       },
       {
         "lineNumber": 113,
@@ -64555,7 +64702,7 @@
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "            return this.remainingBudget / 4;"
+        "content": "            return this.remainingBudget / 20;"
       },
       {
         "lineNumber": 115,
