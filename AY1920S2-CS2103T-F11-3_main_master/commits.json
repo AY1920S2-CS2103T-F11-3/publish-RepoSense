@@ -279,7 +279,7 @@
         ]
       }
     ],
-    "SHAUNGOH97": [
+    "shaungoh97": [
       {
         "insertions": 17,
         "deletions": 9,
@@ -540,7 +540,7 @@
     "leslieharland": 7638,
     "lsjxavier": 1442,
     "Samanthaseahpl": 1337,
-    "SHAUNGOH97": 649,
+    "shaungoh97": 649,
     "ignatiusong": 2578
   },
   "authorFileTypeContributionMap": {
@@ -790,7 +790,7 @@
       "java": 7,
       "java": 2
     },
-    "SHAUNGOH97": {
+    "shaungoh97": {
       "adoc": 2,
       "java": 5,
       "java": 6,
@@ -877,17 +877,17 @@
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3725646.5,
-    "lsjxavier": 57224.957,
-    "Samanthaseahpl": 51213.586,
-    "SHAUNGOH97": 15561.449,
-    "ignatiusong": 309256.94
+    "leslieharland": 3845531.2,
+    "lsjxavier": 59083.68,
+    "Samanthaseahpl": 52815.914,
+    "shaungoh97": 16066.938,
+    "ignatiusong": 318566.03
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
     "lsjxavier": "Xavier Lee",
     "Samanthaseahpl": "Samantha Seah",
-    "SHAUNGOH97": "Shaun Goh",
+    "shaungoh97": "Shaun Goh",
     "ignatiusong": "Ignatius Ong"
   }
 }

@@ -15787,7 +15787,7 @@
       {
         "lineNumber": 164,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -15948,7 +15948,7 @@
       {
         "lineNumber": 187,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -16396,7 +16396,7 @@
     ],
     "authorContributionMap": {
       "Samanthaseahpl": 157,
-      "SHAUNGOH97": 2,
+      "shaungoh97": 2,
       "-": 91
     }
   },
@@ -28606,7 +28606,7 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.food.Food;"
       },
@@ -28886,14 +28886,14 @@
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new JsonFoodieBotStorage(userPrefs.getFoodieBotFilePath(),"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    userPrefs.getStallsFilePath(), userPrefs.getFoodFilePath(), userPrefs.getBudgetFilePath());"
       },
@@ -29089,14 +29089,14 @@
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            storage.readFoodieBot(Food.class.getSimpleName());"
       },
       {
         "lineNumber": 97,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -29902,7 +29902,7 @@
     "authorContributionMap": {
       "leslieharland": 69,
       "lsjxavier": 7,
-      "SHAUNGOH97": 5,
+      "shaungoh97": 5,
       "-": 130
     }
   },
@@ -38359,7 +38359,7 @@
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.food.Food;"
       },
@@ -38611,7 +38611,7 @@
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /** Returns an unmodifiable view of the filtered list of Stalls */"
       },
@@ -38625,21 +38625,21 @@
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /** Returns an unmodifiable view of the filtered list of Food */"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised);"
       },
@@ -38653,7 +38653,7 @@
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       }
@@ -38661,7 +38661,7 @@
     "authorContributionMap": {
       "leslieharland": 48,
       "Samanthaseahpl": 2,
-      "SHAUNGOH97": 6
+      "shaungoh97": 6
     }
   },
   {
@@ -38860,7 +38860,7 @@
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.logic.parser.ParserContext;"
       },
@@ -39259,7 +39259,7 @@
       {
         "lineNumber": 85,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            if (ParserContext.getCurrentContext().equals(ParserContext.MAIN_CONTEXT)) {"
       },
@@ -39273,21 +39273,21 @@
       {
         "lineNumber": 87,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            } else {"
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                return Food.class.getSimpleName();"
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            }"
       },
@@ -39868,35 +39868,35 @@
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 173,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 174,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised) {"
       },
       {
         "lineNumber": 175,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return model.getFilteredFoodList(isInitialised);"
       },
       {
         "lineNumber": 176,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
@@ -39912,7 +39912,7 @@
       "leslieharland": 107,
       "lsjxavier": 2,
       "Samanthaseahpl": 4,
-      "SHAUNGOH97": 10,
+      "shaungoh97": 10,
       "-": 52,
       "ignatiusong": 2
     }
@@ -44580,7 +44580,7 @@
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    model.updateFilteredStallList(s -\u003e s.getCanteenName().equalsIgnoreCase(c.getName().toString()));"
       },
@@ -44636,7 +44636,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 75,
-      "SHAUNGOH97": 1,
+      "shaungoh97": 1,
       "ignatiusong": 10
     }
   },
@@ -45067,7 +45067,7 @@
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            model.updateFilteredFoodList(f -\u003e f.getStallName().equalsIgnoreCase(stall.getName().toString()));"
       },
@@ -45116,7 +45116,7 @@
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    model.updateFilteredFoodList(f -\u003e f.getStallName().equalsIgnoreCase(s.getName().toString()));"
       },
@@ -45172,13 +45172,13 @@
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       }
     ],
     "authorContributionMap": {
-      "SHAUNGOH97": 3,
+      "shaungoh97": 3,
       "ignatiusong": 73
     }
   },
@@ -52702,14 +52702,14 @@
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Parses the given {@code String} of arguments in the context of the EnterStallCommand and returns a"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * EnterStallCommand object for execution."
       },
@@ -52835,14 +52835,14 @@
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            String stallName \u003d ParserUtil.parseStallName(enteredText);"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            return new EnterStallCommand(stallName);"
       },
@@ -52870,13 +52870,13 @@
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       }
     ],
     "authorContributionMap": {
-      "SHAUNGOH97": 5,
+      "shaungoh97": 5,
       "ignatiusong": 43
     }
   },
@@ -55239,84 +55239,84 @@
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //ParserContext.setCurrentContext(ParserContext.CANTEEN_CONTEXT);"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        /**I comment this out because in EnterCanteenCommand, if you"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "         * enter the canteen with text eg. enter The Deck, you change canteen context"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "         * inside the command. However, you cannot change the currentContext as"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "         * there is a check in MainWindow for EnterCanteenCommand, whether it is MAIN or"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "         * CANTEEN, so should only change currentContext after it passes through check"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "         */"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        ParserContext.setCurrentCanteen(Optional.of(canteen));"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public static void setStallContext(Stall stall) {"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //ParserContext.setCurrentContext(ParserContext.STALL_CONTEXT);"
       },
@@ -55350,7 +55350,7 @@
       }
     ],
     "authorContributionMap": {
-      "SHAUNGOH97": 12,
+      "shaungoh97": 12,
       "ignatiusong": 50
     }
   },
@@ -58525,28 +58525,28 @@
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public void setFood(List\u003cFood\u003e food) {"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.foods.setFood(food);"
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -58665,7 +58665,7 @@
       {
         "lineNumber": 87,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        setFood(newData.getFoodList());"
       },
@@ -59190,7 +59190,7 @@
       {
         "lineNumber": 162,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Returns true if a canteen with the same identity as {@code Stall} exists in the address"
       },
@@ -59246,63 +59246,63 @@
       {
         "lineNumber": 170,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 171,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Returns true if a food with the same identity as {@code food} exists in the address"
       },
       {
         "lineNumber": 172,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * book."
       },
       {
         "lineNumber": 173,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 174,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public boolean hasFood(Food food) {"
       },
       {
         "lineNumber": 175,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        requireNonNull(food);"
       },
       {
         "lineNumber": 176,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return foods.contains(food);"
       },
       {
         "lineNumber": 177,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 178,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -59556,7 +59556,7 @@
       "leslieharland": 164,
       "lsjxavier": 14,
       "Samanthaseahpl": 1,
-      "SHAUNGOH97": 15,
+      "shaungoh97": 15,
       "ignatiusong": 19
     }
   },
@@ -60183,7 +60183,7 @@
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /** Returns an unmodifiable view of the filtered stall list */"
       },
@@ -60204,7 +60204,7 @@
       {
         "lineNumber": 92,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /** Returns an unmodifiable view of the filtered stall list */"
       },
@@ -60267,7 +60267,7 @@
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /** Returns an unmodifiable view of the filtered food list */"
       },
@@ -60288,63 +60288,63 @@
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /** Returns an unmodifiable view of the filtered food list */"
       },
       {
         "lineNumber": 105,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised);"
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Updates the filter of the filtered food list to filter by the given {@code predicate}."
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     *"
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * @throws NullPointerException if {@code predicate} is null."
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    void updateFilteredFoodList(Predicate\u003cFood\u003e predicate);"
       },
@@ -60374,7 +60374,7 @@
       "leslieharland": 86,
       "Samanthaseahpl": 4,
       "lsjxavier": 6,
-      "SHAUNGOH97": 12,
+      "shaungoh97": 12,
       "ignatiusong": 7
     }
   },
@@ -60658,7 +60658,7 @@
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final FilteredList\u003cStall\u003e filteredStalls;"
       },
@@ -61792,42 +61792,42 @@
       {
         "lineNumber": 202,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 203,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Updates the filter of the filtered canteen list to filter by the given {@code predicate}."
       },
       {
         "lineNumber": 204,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     *"
       },
       {
         "lineNumber": 205,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * @param predicate"
       },
       {
         "lineNumber": 206,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * @throws NullPointerException if {@code predicate} is null."
       },
       {
         "lineNumber": 207,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
@@ -61925,28 +61925,28 @@
       {
         "lineNumber": 221,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 222,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Returns an unmodifiable view of the list of {@code Stall} backed by the internal list of"
       },
       {
         "lineNumber": 223,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * {@code versionedAddressBook}"
       },
       {
         "lineNumber": 224,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
@@ -62009,28 +62009,28 @@
       {
         "lineNumber": 233,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 234,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Returns an unmodifiable view of the list of {@code Stall} backed by the internal list of"
       },
       {
         "lineNumber": 235,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * {@code versionedAddressBook}"
       },
       {
         "lineNumber": 236,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
@@ -62065,28 +62065,28 @@
       {
         "lineNumber": 241,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 242,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Returns an unmodifiable view of the list of {@code Food} backed by the internal list of"
       },
       {
         "lineNumber": 243,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * {@code versionedAddressBook}"
       },
       {
         "lineNumber": 244,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
@@ -62128,28 +62128,28 @@
       {
         "lineNumber": 250,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 251,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Returns an unmodifiable view of the list of {@code Food} backed by the internal list of"
       },
       {
         "lineNumber": 252,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * {@code versionedAddressBook}"
       },
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
@@ -62163,119 +62163,119 @@
       {
         "lineNumber": 255,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised) {"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        if (!isInitialised) {"
       },
       {
         "lineNumber": 257,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            updateModelManagerFood();"
       },
       {
         "lineNumber": 258,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
       {
         "lineNumber": 259,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return filteredFoods;"
       },
       {
         "lineNumber": 260,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 261,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 262,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 263,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Updates the filter of the filtered food list to filter by the given {@code predicate}."
       },
       {
         "lineNumber": 264,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     *"
       },
       {
         "lineNumber": 265,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * @param predicate"
       },
       {
         "lineNumber": 266,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * @throws NullPointerException if {@code predicate} is null."
       },
       {
         "lineNumber": 267,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 268,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public void updateFilteredFoodList(Predicate\u003cFood\u003e predicate) {"
       },
       {
         "lineNumber": 270,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        requireNonNull(predicate);"
       },
       {
         "lineNumber": 271,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        filteredFoods.setPredicate(predicate);"
       },
@@ -62555,126 +62555,126 @@
       {
         "lineNumber": 311,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 312,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * ."
       },
       {
         "lineNumber": 313,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 314,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public void updateModelManagerFood() {"
       },
       {
         "lineNumber": 315,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        try {"
       },
       {
         "lineNumber": 316,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            FoodieBotStorage foodieBotStorage \u003d"
       },
       {
         "lineNumber": 317,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    new JsonFoodieBotStorage("
       },
       {
         "lineNumber": 318,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                            userPrefs.getStallsFilePath(), userPrefs.getBudgetFilePath(), userPrefs.getFoodFilePath());"
       },
       {
         "lineNumber": 319,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            Storage storage \u003d new StorageManager(foodieBotStorage);"
       },
       {
         "lineNumber": 320,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            Optional\u003cReadOnlyFoodieBot\u003e newBot \u003d storage.readFoodieBot(Food.class.getSimpleName());"
       },
       {
         "lineNumber": 321,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            foodieBot.setFood(newBot.get().getFoodList());"
       },
       {
         "lineNumber": 322,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        } catch (DataConversionException e) {"
       },
       {
         "lineNumber": 323,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            e.printStackTrace();"
       },
       {
         "lineNumber": 324,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        } catch (IOException e) {"
       },
       {
         "lineNumber": 325,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            e.printStackTrace();"
       },
       {
         "lineNumber": 326,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
       {
         "lineNumber": 327,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 328,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -62816,7 +62816,7 @@
       "leslieharland": 223,
       "Samanthaseahpl": 13,
       "lsjxavier": 39,
-      "SHAUNGOH97": 58,
+      "shaungoh97": 58,
       "ignatiusong": 14
     }
   },
@@ -63211,7 +63211,7 @@
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private Path foodFilePath \u003d Paths.get(\"foodiebot-food.json\");"
       },
@@ -63463,28 +63463,28 @@
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public Path getFoodFilePath() {"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return foodFilePath;"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -63751,7 +63751,7 @@
     "authorContributionMap": {
       "leslieharland": 22,
       "lsjxavier": 5,
-      "SHAUNGOH97": 5,
+      "shaungoh97": 5,
       "-": 62
     }
   },
@@ -68309,35 +68309,35 @@
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public static final String[] STALLS \u003d new String[]{"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \"Duck and Chicken Rice\", \"Five Grains Bee Hoon\", \"Indian Cuisine\","
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \"Japenese Korean\", \"Mala Hot Pot\", \"Minced Meat Noodle\", \"Mixed Veg Rice\","
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \"Taiwan Cuisine\", \"Thai Street Food\", \"Western\", \"Wok Fried\", \"Xiao Long Bao\","
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \"Yong Tau Foo\"};"
       },
@@ -69338,7 +69338,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 142,
-      "SHAUNGOH97": 5,
+      "shaungoh97": 5,
       "ignatiusong": 19
     }
   },
@@ -70426,7 +70426,7 @@
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.scene.image.Image;"
       },
@@ -70482,14 +70482,14 @@
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public static final String[] FOOD \u003d new String[]{\"ComboSet\"};"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public static final String IMAGE_FOLDER \u003d \"/images/canteen/\";"
       },
@@ -70531,7 +70531,7 @@
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final String foodImageName;"
       },
@@ -70566,7 +70566,7 @@
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final String stallName;"
       },
@@ -70622,7 +70622,7 @@
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            String foodImageName,"
       },
@@ -70643,7 +70643,7 @@
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            String stallName,"
       },
@@ -70699,14 +70699,14 @@
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.foodImageName \u003d foodImageName;"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.stallName \u003d stallName;"
       },
@@ -70846,70 +70846,70 @@
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public String getStallName() {"
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return stallName;"
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public Image getFoodImage() {"
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        String mImageUrl \u003d IMAGE_FOLDER + canteen + \"/\" + stallName + \"/\" + foodImageName;"
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        Image image \u003d new Image(Food.class.getResourceAsStream(\"/images/canteen/Nus Flavors/Western/ComboSet.png\"));"
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return image;"
       },
       {
         "lineNumber": 78,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -71392,7 +71392,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 128,
-      "SHAUNGOH97": 19
+      "shaungoh97": 19
     }
   },
   {
@@ -71479,7 +71479,7 @@
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.canteen.exceptions.DuplicateCanteenException;"
       },
@@ -71584,7 +71584,7 @@
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Returns true if the list contains an equivalent food as the given argument."
       },
@@ -71640,7 +71640,7 @@
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Adds a food to the list. The food must not already exist in the list."
       },
@@ -71955,7 +71955,7 @@
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Removes the equivalent food from the list. The food must exist in the list."
       },
@@ -72060,14 +72060,14 @@
       {
         "lineNumber": 95,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Replaces the contents of this list with {@code food}. {@code food} must not contain"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * duplicate food."
       },
@@ -72319,7 +72319,7 @@
       {
         "lineNumber": 132,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Returns true if {@code food} contains only unique foods."
       },
@@ -72416,7 +72416,7 @@
       }
     ],
     "authorContributionMap": {
-      "SHAUNGOH97": 7,
+      "shaungoh97": 7,
       "ignatiusong": 138
     }
   },
@@ -74708,7 +74708,7 @@
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.food.Food;"
       },
@@ -74820,280 +74820,280 @@
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        ArrayList\u003cStall\u003e deckStalls \u003d new ArrayList\u003cStall\u003e("
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                Arrays.asList("
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Taiwanese\"), \"The Deck\", 3, \"muslim.png\","
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        \"asian\","
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        \"$\", 0, new ArrayList\u003c\u003e())));"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        ArrayList\u003cStall\u003e flavourStalls \u003d new ArrayList\u003cStall\u003e("
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                Arrays.asList ("
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Duck and Chicken Rice\"), \"Nus Flavors\", 3, \"DuckandChickenRice.png\","
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"asian\","
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Five Grains Bee Hoon\"), \"Nus Flavors\", 5, \"FiveGrainsBeeHoon.png\","
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"asian\","
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Indian Cuisine\"), \"Nus Flavors\", 3, \"Indian Cuisine.png\","
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"Indian\","
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Japenese and Korean\"), \"Nus Flavors\", 5, \"JapKor.png\","
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"Fusion\","
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Mala Hot Pot\"), \"Nus Flavors\", 3, \"MalaHotPot.png\","
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"asian\","
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Minced Meat Noodle\"), \"Nus Flavors\", 5, \"MincedMeatNoodle.png\","
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"asian\","
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Mixed Veg Rice\"), \"Nus Flavors\", 3, \"MixedVegRice.png\","
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"asian\","
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Taiwan Cuisine\"), \"Nus Flavors\", 5, \"TaiwanCuisine.png\","
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"asian\","
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Western\"), \"Nus Flavors\", 3, \"Western.png\","
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"Western\","
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Wok Fried\"), \"Nus Flavors\", 5, \"WokFried.png\","
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"asian\","
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        new Stall(new Name(\"Xiao Long Bao\"), \"Nus Flavors\", 3, \"XiaoLongBao.png\","
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"asian\","
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                                \"$\", 0, new ArrayList\u003c\u003e())));"
       },
@@ -75219,217 +75219,217 @@
       {
         "lineNumber": 86,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Duck and Chicken Rice\"), \"Nus Flavors\", 3, \"DuckandChickenRice.png\","
       },
       {
         "lineNumber": 87,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"asian\","
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Five Grains Bee Hoon\"), \"Nus Flavors\", 5, \"FiveGrainsBeeHoon.png\","
       },
       {
         "lineNumber": 90,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"asian\","
       },
       {
         "lineNumber": 91,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 92,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Indian Cuisine\"), \"Nus Flavors\", 3, \"Indian Cuisine.png\","
       },
       {
         "lineNumber": 93,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"Indian\","
       },
       {
         "lineNumber": 94,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 95,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Japenese and Korean\"), \"Nus Flavors\", 5, \"JapKor.png\","
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"Fusion\","
       },
       {
         "lineNumber": 97,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 98,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Mala Hot Pot\"), \"Nus Flavors\", 3, \"MalaHotPot.png\","
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"asian\","
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Minced Meat Noodle\"), \"Nus Flavors\", 5, \"MincedMeatNoodle.png\","
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"asian\","
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Mixed Veg Rice\"), \"Nus Flavors\", 3, \"MixedVegRice.png\","
       },
       {
         "lineNumber": 105,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"asian\","
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Taiwan Cuisine\"), \"Nus Flavors\", 5, \"TaiwanCuisine.png\","
       },
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"asian\","
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Western\"), \"Nus Flavors\", 3, \"Western.png\","
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"Western\","
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Wok Fried\"), \"Nus Flavors\", 5, \"WokFried.png\","
       },
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"asian\","
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \"$\", 0, new ArrayList\u003c\u003e()),"
       },
       {
         "lineNumber": 116,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            new Stall(new Name(\"Xiao Long Bao\"), \"Nus Flavors\", 3, \"XiaoLongBao.png\","
       },
@@ -75471,35 +75471,35 @@
       {
         "lineNumber": 122,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public static Food[] getSampleFoods() {"
       },
       {
         "lineNumber": 123,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return new Food[] { new Food(\"Combo Set\", 6, \"1 Meat, 1 Pasta, 2 Sides\", \"ComboSet.png\","
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        1, \"Nus Flavors\", \"Western\", getTagSet(\"1\"))};"
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -75569,28 +75569,28 @@
       {
         "lineNumber": 136,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 137,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        for (Food sampleFood : getSampleFoods()) {"
       },
       {
         "lineNumber": 138,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            sampleAb.addFood(sampleFood);"
       },
       {
         "lineNumber": 139,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
@@ -75667,7 +75667,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 64,
-      "SHAUNGOH97": 81,
+      "shaungoh97": 81,
       "ignatiusong": 4
     }
   },
@@ -75804,14 +75804,14 @@
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    Path getFoodFilePath();"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -76043,7 +76043,7 @@
     "authorContributionMap": {
       "leslieharland": 46,
       "lsjxavier": 4,
-      "SHAUNGOH97": 2
+      "shaungoh97": 2
     }
   },
   {
@@ -77276,657 +77276,657 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "package seedu.foodiebot.storage;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.ArrayList;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.Arrays;"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.HashSet;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.List;"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.Set;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.stream.Collectors;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import com.fasterxml.jackson.annotation.JsonCreator;"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import com.fasterxml.jackson.annotation.JsonProperty;"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.commons.exceptions.IllegalValueException;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.canteen.Name;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.food.Food;"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.tag.Tag;"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "/** Jackson-friendly version of {@link Food}. */"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "class JsonAdaptedFood {"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public static final String MISSING_FIELD_MESSAGE_FORMAT \u003d \"Food\u0027s %s field is missing!\";"
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    //Identity fields"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final String name;"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final int price;"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final String description;"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final String foodImageName;"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    // Data fields"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final Set\u003cTag\u003e tags \u003d new HashSet\u003c\u003e();"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final String canteen;"
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final String stallName;"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final int stallNo;"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final List\u003cJsonAdaptedTag\u003e tagged \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /** Constructs a {@code JsonAdaptedFood} with the given person details. */"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @JsonCreator"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public JsonAdaptedFood("
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            @JsonProperty(\"name\") String name,"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            @JsonProperty(\"price\") String price,"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            @JsonProperty(\"description\") String description,"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            @JsonProperty(\"foodImageName\") String foodImageName,"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            @JsonProperty(\"stallNo\") String stallNo,"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            @JsonProperty(\"canteen\") String canteen,"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            @JsonProperty(\"stallName\") String stallName) {"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.name \u003d name;"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.price \u003d Integer.parseInt(price);"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.description \u003d description;"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.foodImageName \u003d foodImageName;"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.stallNo \u003d Integer.parseInt(stallNo);"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.canteen \u003d canteen;"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.stallName \u003d stallName;"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /** Converts a given {@code Food} into this class for Jackson use. */"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public JsonAdaptedFood(Food source) {"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        name \u003d source.getName();"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.price \u003d source.getPrice();"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.description \u003d source.getDescription();"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.foodImageName \u003d source.getFoodImage().toString();"
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.stallNo \u003d source.getStallNo();"
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.canteen \u003d source.getCanteen();"
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.stallName \u003d source.getStallName();"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public static Set\u003cTag\u003e getTagSet(String... strings) {"
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return Arrays.stream(strings).map(Tag::new).collect(Collectors.toSet());"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Converts this Jackson-friendly adapted person object into the model\u0027s {@code Food} object."
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     *"
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * @throws IllegalValueException if there were any data constraints violated in the adapted"
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     *     person."
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 78,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public Food toModelType() throws IllegalValueException {"
       },
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        if (name \u003d\u003d null) {"
       },
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            throw new IllegalValueException("
       },
       {
         "lineNumber": 81,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    String.format(MISSING_FIELD_MESSAGE_FORMAT, Name.class.getSimpleName()));"
       },
       {
         "lineNumber": 82,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
       {
         "lineNumber": 83,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        if (!Name.isValidName(name)) {"
       },
       {
         "lineNumber": 84,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            throw new IllegalValueException(Name.MESSAGE_CONSTRAINTS);"
       },
       {
         "lineNumber": 85,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
       {
         "lineNumber": 86,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        final String modelName \u003d name;"
       },
       {
         "lineNumber": 87,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        final String modelStallName \u003d stallName;"
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 90,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return new Food(modelName, price, description, foodImageName, stallNo,"
       },
       {
         "lineNumber": 91,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "               canteen, modelStallName, getTagSet(\"1\"));"
       },
       {
         "lineNumber": 92,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 93,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "SHAUNGOH97": 93
+      "shaungoh97": 93
     }
   },
   {
@@ -78999,7 +78999,7 @@
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private Path foodFilePath;"
       },
@@ -79076,84 +79076,84 @@
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public JsonFoodieBotStorage(Path stallsFilePath, Path budgetFilePath, Path foodFilePath) {"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.stallsFilePath \u003d stallsFilePath;"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.budgetFilePath \u003d budgetFilePath;"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.foodFilePath \u003d foodFilePath;"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public JsonFoodieBotStorage(Path canteensFilePath, Path stallsFilePath, Path budgetFilePath, Path foodFilePath) {"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.canteensFilePath \u003d canteensFilePath;"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.stallsFilePath \u003d stallsFilePath;"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.budgetFilePath \u003d budgetFilePath;"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.foodFilePath \u003d foodFilePath;"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
@@ -79251,28 +79251,28 @@
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public Path getFoodFilePath() {"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return foodFilePath;"
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
@@ -79615,42 +79615,42 @@
       {
         "lineNumber": 116,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        case \"Food\":"
       },
       {
         "lineNumber": 117,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            Optional\u003cJsonSerializableFood\u003e json3 \u003d JsonUtil.readJsonFile(filePath,"
       },
       {
         "lineNumber": 118,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    JsonSerializableFood.class);"
       },
       {
         "lineNumber": 119,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            if (!json3.isPresent()) {"
       },
       {
         "lineNumber": 120,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                return Optional.empty();"
       },
       {
         "lineNumber": 121,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            }"
       },
@@ -79664,42 +79664,42 @@
       {
         "lineNumber": 123,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            try {"
       },
       {
         "lineNumber": 124,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                return Optional.of(json3.get().toModelType());"
       },
       {
         "lineNumber": 125,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            } catch (IllegalValueException ive) {"
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                logger.info(\"Illegal values found in \" + filePath + \": \" + ive.getMessage());"
       },
       {
         "lineNumber": 127,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                throw new DataConversionException(ive);"
       },
       {
         "lineNumber": 128,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            }"
       },
@@ -79832,14 +79832,14 @@
       {
         "lineNumber": 147,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        case \"Food\":"
       },
       {
         "lineNumber": 148,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            return new UserPrefs().getFoodFilePath();"
       },
@@ -80196,28 +80196,28 @@
       {
         "lineNumber": 199,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        case \"Food\":"
       },
       {
         "lineNumber": 200,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            requireNonNull(foodieBot);"
       },
       {
         "lineNumber": 201,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            JsonUtil.saveJsonFile(new JsonSerializableFood(foodieBot), filePath);"
       },
       {
         "lineNumber": 202,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            break;"
       },
@@ -80288,7 +80288,7 @@
     "authorContributionMap": {
       "leslieharland": 107,
       "lsjxavier": 21,
-      "SHAUNGOH97": 35,
+      "shaungoh97": 35,
       "-": 48
     }
   },
@@ -80299,433 +80299,433 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "package seedu.foodiebot.storage;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.ArrayList;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.List;"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.stream.Collectors;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import com.fasterxml.jackson.annotation.JsonCreator;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import com.fasterxml.jackson.annotation.JsonProperty;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import com.fasterxml.jackson.annotation.JsonRootName;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.commons.exceptions.IllegalValueException;"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.FoodieBot;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.ReadOnlyFoodieBot;"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.food.Food;"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "/** An Immutable AddressBook that is serializable to JSON format. */"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "@JsonRootName(value \u003d \"foods\")"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "class JsonSerializableFood {"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public static final String MESSAGE_DUPLICATE_FOOD \u003d"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \"Food list contains duplicate food(s).\";"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final List\u003cJsonAdaptedFood\u003e foods \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /** Constructs a {@code JsonSerializableAddressBook} with the given stalls. */"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @JsonCreator"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public JsonSerializableFood(@JsonProperty(\"foods\") List\u003cJsonAdaptedFood\u003e foods) {"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.foods.addAll(foods);"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Converts a given {@code ReadOnlyAddressBook} into this class for Jackson use."
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     *"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * @param source future changes to this will not affect the created {@code"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     *     JsonSerializableAddressBook}."
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public JsonSerializableFood(ReadOnlyFoodieBot source) {"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        foods.addAll("
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                source.getFoodList().stream()"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        .map(JsonAdaptedFood::new)"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        .collect(Collectors.toList()));"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Converts this address book into the model\u0027s {@code AddressBook} object."
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     *"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * @throws IllegalValueException if there were any data constraints violated."
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public FoodieBot toModelType() throws IllegalValueException {"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        FoodieBot foodieBot \u003d new FoodieBot();"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        for (JsonAdaptedFood jsonAdaptedFood : foods) {"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            Food food \u003d jsonAdaptedFood.toModelType();"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            if (foodieBot.hasFood(food)) {"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                throw new IllegalValueException(MESSAGE_DUPLICATE_FOOD);"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            }"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            foodieBot.addFood(food);"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return foodieBot;"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "SHAUNGOH97": 61
+      "shaungoh97": 61
     }
   },
   {
@@ -82072,7 +82072,7 @@
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    //Path getFoodieBotFilePath();"
       },
@@ -82114,7 +82114,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 24,
-      "SHAUNGOH97": 1
+      "shaungoh97": 1
     }
   },
   {
@@ -82460,14 +82460,14 @@
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    //@Override"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    //public Path getFoodieBotFilePath() {"
       },
@@ -82481,14 +82481,14 @@
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    //    return null;"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    //}"
       },
@@ -82600,42 +82600,42 @@
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public Path getFoodFilePath() {"
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return foodieBotStorage.getFoodFilePath();"
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -82888,7 +82888,7 @@
     "authorContributionMap": {
       "leslieharland": 92,
       "lsjxavier": 7,
-      "SHAUNGOH97": 10
+      "shaungoh97": 10
     }
   },
   {
@@ -84927,538 +84927,538 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "package seedu.foodiebot.ui;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.fxml.FXML;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.scene.control.Label;"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.scene.image.ImageView;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.scene.layout.HBox;"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.scene.layout.Region;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.food.Food;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "/**"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": " * An UI component that displays information of a {@code Food}."
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": " */"
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "public class FoodCard extends UiPart\u003cRegion\u003e {"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private static final String FXML \u003d \"FoodListCard.fxml\";"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Note: Certain keywords such as \"location\" and \"resources\" are reserved keywords in JavaFX. As"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * a consequence, UI elements\u0027 variable names cannot be set to such keywords or an exception"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * will be thrown by JavaFX during runtime."
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     *"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * @see \u003ca href\u003d\"https://github.com/se-edu/addressbook-level4/issues/336\"\u003eThe issue on"
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * AddressBook level 4\u003c/a\u003e"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public final Food food;"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @FXML"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private HBox cardPane;"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @FXML"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private Label name;"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @FXML"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private ImageView iv;"
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @FXML"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private Label id;"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @FXML"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private Label stallName;"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    //@FXML"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    //private Label cuisine;"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @FXML"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private Label description;"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public FoodCard(Food food, int displayedIndex) {"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        super(FXML);"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        this.food \u003d food;"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //System.out.println(\"1\" + food);"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        id.setText(displayedIndex + \". \");"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //System.out.println(\"2\" + displayedIndex);"
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        iv.setImage(food.getFoodImage());"
       },
       {
         "lineNumber": 49,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //System.out.println(\"3\" + food.getFoodImage());"
       },
       {
         "lineNumber": 50,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        name.setText(food.getName());"
       },
       {
         "lineNumber": 51,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //System.out.println(\"4\" + food.getName());"
       },
       {
         "lineNumber": 52,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //System.out.println(\"5\" + food.getStallName());"
       },
       {
         "lineNumber": 53,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        stallName.setText(food.getStallName());"
       },
       {
         "lineNumber": 54,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //System.out.println(\"5\" + food.getStallName());"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //cuisine.setText(food.getCuisine());"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        description.setText(food.getDescription());"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        //System.out.println(\"6\" + food.getStallName());"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @Override"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 62,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 63,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        if (other \u003d\u003d this) {"
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            return true;"
       },
       {
         "lineNumber": 65,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 67,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        // instanceof handles nulls"
       },
       {
         "lineNumber": 68,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        if (!(other instanceof FoodCard)) {"
       },
       {
         "lineNumber": 69,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            return false;"
       },
       {
         "lineNumber": 70,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
       {
         "lineNumber": 71,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 72,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        // state check"
       },
       {
         "lineNumber": 73,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        FoodCard card \u003d (FoodCard) other;"
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        return id.getText().equals(card.id.getText()) \u0026\u0026 food.equals(card.food);"
       },
       {
         "lineNumber": 75,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "SHAUNGOH97": 76
+      "shaungoh97": 76
     }
   },
   {
@@ -85468,335 +85468,335 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "package seedu.foodiebot.ui;"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import java.util.logging.Logger;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.collections.ObservableList;"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.fxml.FXML;"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.scene.control.ListCell;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.scene.control.ListView;"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import javafx.scene.layout.Region;"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.commons.core.LogsCenter;"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "import seedu.foodiebot.model.food.Food;"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "/**"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": " * Panel containing the list of foods."
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": " */"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "public class FoodListPanel extends UiPart\u003cRegion\u003e {"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private static final String FXML \u003d \"SimpleListViewPanel.fxml\";"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private final Logger logger \u003d LogsCenter.getLogger(FoodListPanel.class);"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @FXML"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private ListView\u003cFood\u003e simpleListView;"
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public FoodListPanel(ObservableList\u003cFood\u003e foodList) {"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        super(FXML);"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        simpleListView.setItems(foodList);"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        simpleListView.setCellFactory(listView -\u003e new FoodListViewCell());"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Custom {@code ListCell} that displays the graphics of a {@code Food} using a {@code"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * FoodCard}."
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    class FoodListViewCell extends ListCell\u003cFood\u003e {"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        @Override"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        protected void updateItem(Food food, boolean empty) {"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            super.updateItem(food, empty);"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            if (empty || food \u003d\u003d null) {"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                setGraphic(null);"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                setText(null);"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            } else {"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                setGraphic(new FoodCard(food, getIndex() + 1).getRoot());"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            }"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "SHAUNGOH97": 47
+      "shaungoh97": 47
     }
   },
   {
@@ -86705,7 +86705,7 @@
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    private boolean isFoodInitialised;"
       },
@@ -87769,77 +87769,77 @@
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
         "lineNumber": 199,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     * Fills the foodListPanel region."
       },
       {
         "lineNumber": 200,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
         "lineNumber": 201,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    @FXML"
       },
       {
         "lineNumber": 202,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    public void handleListFood() {"
       },
       {
         "lineNumber": 203,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        listPanelPlaceholder.getChildren().clear();"
       },
       {
         "lineNumber": 204,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        listPanelPlaceholder.getChildren().add(new FoodListPanel(logic.getFilteredFoodList(isFoodInitialised))"
       },
       {
         "lineNumber": 205,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                .getRoot());"
       },
       {
         "lineNumber": 206,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        isFoodInitialised \u003d true;"
       },
       {
         "lineNumber": 207,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    }"
       },
       {
         "lineNumber": 208,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -88154,7 +88154,7 @@
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                if (ParserContext.getCurrentContext().equals(ParserContext.MAIN_CONTEXT)) {"
       },
@@ -88168,21 +88168,21 @@
       {
         "lineNumber": 255,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                } else {"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    resultDisplay.setFeedbackToUser(ParserContext.INVALID_CONTEXT_MESSAGE);"
       },
       {
         "lineNumber": 257,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                }"
       },
@@ -88203,14 +88203,14 @@
       {
         "lineNumber": 260,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                if (ParserContext.getCurrentContext().equals(ParserContext.MAIN_CONTEXT)) {"
       },
       {
         "lineNumber": 261,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    ParserContext.setCurrentContext(ParserContext.CANTEEN_CONTEXT);"
       },
@@ -88224,28 +88224,28 @@
       {
         "lineNumber": 263,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                } else if (ParserContext.getCurrentContext().equals(ParserContext.CANTEEN_CONTEXT)) {"
       },
       {
         "lineNumber": 264,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    ParserContext.setCurrentContext(ParserContext.STALL_CONTEXT);"
       },
       {
         "lineNumber": 265,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    handleListFood();"
       },
       {
         "lineNumber": 266,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                }"
       },
@@ -88287,21 +88287,21 @@
       {
         "lineNumber": 272,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    handleListStalls();"
       },
       {
         "lineNumber": 273,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                } else if (ParserContext.getCurrentContext().equals(ParserContext.STALL_CONTEXT)) {"
       },
       {
         "lineNumber": 274,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    handleListFood();"
       },
@@ -88449,7 +88449,7 @@
     "authorContributionMap": {
       "leslieharland": 110,
       "Samanthaseahpl": 3,
-      "SHAUNGOH97": 25,
+      "shaungoh97": 25,
       "-": 148,
       "ignatiusong": 8
     }
@@ -91444,335 +91444,335 @@
       {
         "lineNumber": 1,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?xml version\u003d\"1.0\" encoding\u003d\"UTF-8\"?\u003e"
       },
       {
         "lineNumber": 2,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.geometry.Insets?\u003e"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.scene.control.Label?\u003e"
       },
       {
         "lineNumber": 5,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.scene.image.ImageView?\u003e"
       },
       {
         "lineNumber": 6,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.scene.layout.ColumnConstraints?\u003e"
       },
       {
         "lineNumber": 7,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.scene.layout.FlowPane?\u003e"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.scene.layout.GridPane?\u003e"
       },
       {
         "lineNumber": 9,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.scene.layout.HBox?\u003e"
       },
       {
         "lineNumber": 10,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.scene.layout.Region?\u003e"
       },
       {
         "lineNumber": 11,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.scene.layout.RowConstraints?\u003e"
       },
       {
         "lineNumber": 12,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c?import javafx.scene.layout.VBox?\u003e"
       },
       {
         "lineNumber": 13,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003cHBox id\u003d\"cardPane\" fx:id\u003d\"cardPane\" xmlns\u003d\"http://javafx.com/javafx/8\" xmlns:fx\u003d\"http://javafx.com/fxml/1\"\u003e"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    \u003cImageView fx:id\u003d\"iv\" fitHeight\u003d\"150.0\" fitWidth\u003d\"150.0\" pickOnBounds\u003d\"true\" preserveRatio\u003d\"true\" /\u003e"
       },
       {
         "lineNumber": 16,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    \u003cGridPane HBox.hgrow\u003d\"ALWAYS\"\u003e"
       },
       {
         "lineNumber": 17,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \u003ccolumnConstraints\u003e"
       },
       {
         "lineNumber": 18,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \u003cColumnConstraints hgrow\u003d\"SOMETIMES\" minWidth\u003d\"10\" prefWidth\u003d\"150\" /\u003e"
       },
       {
         "lineNumber": 19,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \u003c/columnConstraints\u003e"
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \u003cVBox alignment\u003d\"CENTER_LEFT\" minHeight\u003d\"105\" GridPane.columnIndex\u003d\"0\"\u003e"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \u003cpadding\u003e"
       },
       {
         "lineNumber": 22,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \u003cInsets bottom\u003d\"5\" left\u003d\"15\" right\u003d\"5\" top\u003d\"5\" /\u003e"
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \u003c/padding\u003e"
       },
       {
         "lineNumber": 24,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \u003cHBox alignment\u003d\"CENTER_LEFT\" spacing\u003d\"5\"\u003e"
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \u003cLabel fx:id\u003d\"id\" styleClass\u003d\"cell_big_label\"\u003e"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    \u003cminWidth\u003e"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        \u003c!-- Ensures that the label text is never truncated --\u003e"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                        \u003cRegion fx:constant\u003d\"USE_PREF_SIZE\" /\u003e"
       },
       {
         "lineNumber": 29,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    \u003c/minWidth\u003e"
       },
       {
         "lineNumber": 30,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \u003c/Label\u003e"
       },
       {
         "lineNumber": 31,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \u003cLabel fx:id\u003d\"name\" styleClass\u003d\"cell_big_label\" text\u003d\"\\$first\" /\u003e"
       },
       {
         "lineNumber": 32,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \u003c/HBox\u003e"
       },
       {
         "lineNumber": 33,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 34,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \u003cLabel fx:id\u003d\"stallName\" styleClass\u003d\"cell_small_label\" text\u003d\"\\$stallName\" /\u003e"
       },
       {
         "lineNumber": 35,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \u003cHBox\u003e"
       },
       {
         "lineNumber": 36,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \u003cchildren\u003e"
       },
       {
         "lineNumber": 37,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    \u003cLabel text\u003d\"Description: \" /\u003e"
       },
       {
         "lineNumber": 38,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                    \u003cLabel fx:id\u003d\"description\" styleClass\u003d\"cell_small_label\" text\u003d\"\\$description\" /\u003e"
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "                \u003c/children\u003e"
       },
       {
         "lineNumber": 40,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \u003c/HBox\u003e"
       },
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \u003c/VBox\u003e"
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \u003crowConstraints\u003e"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            \u003cRowConstraints /\u003e"
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        \u003c/rowConstraints\u003e"
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "    \u003c/GridPane\u003e"
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "\u003c/HBox\u003e"
       }
     ],
     "authorContributionMap": {
-      "SHAUNGOH97": 47
+      "shaungoh97": 47
     }
   },
   {
@@ -103836,14 +103836,14 @@
       {
         "lineNumber": 211,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        public ObservableList\u003cFood\u003e getFilteredFoodList() {"
       },
       {
         "lineNumber": 212,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            throw new AssertionError(\"This method is a placeholder\");"
       },
@@ -103871,14 +103871,14 @@
       {
         "lineNumber": 216,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        public ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised) {"
       },
       {
         "lineNumber": 217,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "            return null;"
       },
@@ -103892,7 +103892,7 @@
       {
         "lineNumber": 219,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
@@ -103906,7 +103906,7 @@
       {
         "lineNumber": 221,
         "author": {
-          "gitId": "SHAUNGOH97"
+          "gitId": "shaungoh97"
         },
         "content": "        public void updateFilteredFoodList(Predicate\u003cFood\u003e predicate) {"
       },
@@ -104237,7 +104237,7 @@
       "leslieharland": 90,
       "Samanthaseahpl": 7,
       "lsjxavier": 12,
-      "SHAUNGOH97": 6,
+      "shaungoh97": 6,
       "-": 142,
       "ignatiusong": 10
     }
