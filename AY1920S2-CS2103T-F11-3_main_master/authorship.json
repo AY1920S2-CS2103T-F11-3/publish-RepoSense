@@ -21394,6 +21394,13 @@
       {
         "lineNumber": 23,
         "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    public static final String MESSAGE_INVALID_FILEREADER \u003d \"Problem loading file!\";"
+      },
+      {
+        "lineNumber": 24,
+        "author": {
           "gitId": "-"
         },
         "content": "}"
@@ -21402,6 +21409,7 @@
     "authorContributionMap": {
       "leslieharland": 7,
       "lsjxavier": 10,
+      "Samanthaseahpl": 1,
       "-": 6
     }
   },
@@ -37038,208 +37046,222 @@
       {
         "lineNumber": 8,
         "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "import seedu.foodiebot.logic.commands.exceptions.CommandException;"
+      },
+      {
+        "lineNumber": 9,
+        "author": {
           "gitId": "leslieharland"
         },
         "content": "import seedu.foodiebot.model.Model;"
       },
       {
-        "lineNumber": 9,
+        "lineNumber": 10,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": "import seedu.foodiebot.model.randomize.Randomize;"
       },
       {
-        "lineNumber": 10,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 11,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "/** Randomize a food item for the user based on index. */"
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "public class RandomizeCommand extends Command {"
+        "content": "/** Randomize a food item for the user based on index. */"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public static final String COMMAND_WORD \u003d \"randomize\";"
+        "content": "public class RandomizeCommand extends Command {"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    public static final String COMMAND_WORD \u003d \"randomize\";"
       },
       {
         "lineNumber": 15,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \": Generate a random food option.\";"
+        "content": ""
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "    public static final String MESSAGE_USAGE \u003d COMMAND_WORD + \": Generate a random food option.\";"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    public static final String MESSAGE_SUCCESS \u003d \"Here are the choices: \\n%s\";"
+        "content": ""
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "    public static final String MESSAGE_SUCCESS \u003d \"Here are the choices: \\n%s\";"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    private final Randomize randomize \u003d new Randomize();"
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "    private final Randomize randomize \u003d new Randomize();"
       },
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "    public RandomizeCommand() {"
+        "content": ""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    }"
+        "content": "    public RandomizeCommand() {"
       },
       {
         "lineNumber": 23,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "    public CommandResult execute(Model model) throws IOException {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 26,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    public CommandResult execute(Model model) throws IOException, CommandException {"
+      },
+      {
+        "lineNumber": 27,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "        requireNonNull(model);"
       },
       {
-        "lineNumber": 27,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "        FileReader file \u003d model.listOfCanteen();"
-      },
-      {
         "lineNumber": 28,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        //ObservableList\u003cCanteen\u003e list \u003d model.getFilteredCanteenList();"
+        "content": "        //FileReader file \u003d model.listOfCanteens();"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        randomize.getSelectedCanteen(file);"
+        "content": "        //randomize.getSelectedCanteen(file);"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        return new CommandResult(COMMAND_WORD, String.format(MESSAGE_SUCCESS, randomize.selectCanteen()));"
+        "content": "        FileReader file \u003d model.listOfStalls();"
       },
       {
         "lineNumber": 31,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        randomize.getOptions(file);"
+      },
+      {
+        "lineNumber": 32,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        return new CommandResult(COMMAND_WORD, String.format(MESSAGE_SUCCESS, randomize.output()));"
+      },
+      {
+        "lineNumber": 33,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 34,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": ""
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 35,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "    @Override"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 36,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "    public boolean needToSaveCommand() {"
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 37,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "        return false;"
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 38,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 39,
         "author": {
           "gitId": "leslieharland"
         },
@@ -37248,7 +37270,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 16,
-      "Samanthaseahpl": 16,
+      "Samanthaseahpl": 18,
       "ignatiusong": 5
     }
   },
@@ -49851,56 +49873,56 @@
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    FileReader listOfCanteen() throws FileNotFoundException;"
+        "content": "    /** Return a FileReader of the list of canteen in json file */"
       },
       {
         "lineNumber": 73,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "    FileReader listOfCanteens() throws FileNotFoundException;"
       },
       {
         "lineNumber": 74,
         "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    /** Returns an unmodifiable view of the filtered canteen list */"
-      },
-      {
-        "lineNumber": 75,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    ObservableList\u003cCanteen\u003e getFilteredCanteenList();"
-      },
-      {
-        "lineNumber": 76,
-        "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    /** Return a FileReader of the list of Stalls in json file */"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    FileReader listOfStalls() throws FileNotFoundException;"
+      },
+      {
         "lineNumber": 77,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "    /** Returns an unmodifiable view of the filtered canteen list sorted by distance */"
+        "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    ObservableList\u003cCanteen\u003e getFilteredCanteenListSortedByDistance();"
+        "content": "    /** Returns an unmodifiable view of the filtered canteen list */"
       },
       {
         "lineNumber": 79,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    void setLocationSpecified(boolean isLocationSpecified);"
+        "content": "    ObservableList\u003cCanteen\u003e getFilteredCanteenList();"
       },
       {
         "lineNumber": 80,
@@ -49914,70 +49936,70 @@
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    /**"
+        "content": "    /** Returns an unmodifiable view of the filtered canteen list sorted by distance */"
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * Updates the filter of the filtered canteen list to filter by the given {@code predicate}."
+        "content": "    ObservableList\u003cCanteen\u003e getFilteredCanteenListSortedByDistance();"
       },
       {
         "lineNumber": 83,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     *"
+        "content": "    void setLocationSpecified(boolean isLocationSpecified);"
       },
       {
         "lineNumber": 84,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * @throws NullPointerException if {@code predicate} is null."
+        "content": ""
       },
       {
         "lineNumber": 85,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 86,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    void updateFilteredCanteenList(Predicate\u003cCanteen\u003e predicate);"
+        "content": "     * Updates the filter of the filtered canteen list to filter by the given {@code predicate}."
       },
       {
         "lineNumber": 87,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "     *"
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "     * @throws NullPointerException if {@code predicate} is null."
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "    /** Returns an unmodifiable view of the filtered stall list */"
+        "content": "     */"
       },
       {
         "lineNumber": 90,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    ObservableList\u003cStall\u003e getFilteredStallList();"
+        "content": "    void updateFilteredCanteenList(Predicate\u003cCanteen\u003e predicate);"
       },
       {
         "lineNumber": 91,
@@ -49989,166 +50011,194 @@
       {
         "lineNumber": 92,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": "    /** Returns an unmodifiable view of the filtered stall list */"
+        "content": ""
       },
       {
         "lineNumber": 93,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "    ObservableList\u003cStall\u003e getFilteredStallList(boolean isInitialised);"
+        "content": "    /** Returns an unmodifiable view of the filtered stall list */"
       },
       {
         "lineNumber": 94,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    /**"
+        "content": "    ObservableList\u003cStall\u003e getFilteredStallList();"
       },
       {
         "lineNumber": 95,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * Updates the filter of the filtered stall list to filter by the given {@code predicate}."
+        "content": ""
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "     *"
+        "content": "    /** Returns an unmodifiable view of the filtered stall list */"
       },
       {
         "lineNumber": 97,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * @throws NullPointerException if {@code predicate} is null."
+        "content": "    ObservableList\u003cStall\u003e getFilteredStallList(boolean isInitialised);"
       },
       {
         "lineNumber": 98,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 99,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    void updateFilteredStallList(Predicate\u003cStall\u003e predicate);"
+        "content": "     * Updates the filter of the filtered stall list to filter by the given {@code predicate}."
       },
       {
         "lineNumber": 100,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "     *"
       },
       {
         "lineNumber": 101,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "    /** Returns an unmodifiable view of the filtered food list */"
+        "content": "     * @throws NullPointerException if {@code predicate} is null."
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "    ObservableList\u003cFood\u003e getFilteredFoodList();"
+        "content": "     */"
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    void updateFilteredStallList(Predicate\u003cStall\u003e predicate);"
       },
       {
         "lineNumber": 104,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": "    /** Returns an unmodifiable view of the filtered food list */"
+        "content": ""
       },
       {
         "lineNumber": 105,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "    ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised);"
+        "content": "    /** Returns an unmodifiable view of the filtered food list */"
       },
       {
         "lineNumber": 106,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "    ObservableList\u003cFood\u003e getFilteredFoodList();"
       },
       {
         "lineNumber": 107,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 108,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     * Updates the filter of the filtered food list to filter by the given {@code predicate}."
-      },
-      {
-        "lineNumber": 109,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 110,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     * @throws NullPointerException if {@code predicate} is null."
-      },
-      {
-        "lineNumber": 111,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 112,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "    void updateFilteredFoodList(Predicate\u003cFood\u003e predicate);"
-      },
-      {
-        "lineNumber": 113,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": ""
       },
       {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "    /** Returns an unmodifiable view of the filtered food list */"
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "    ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised);"
+      },
+      {
+        "lineNumber": 110,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 111,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 112,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     * Updates the filter of the filtered food list to filter by the given {@code predicate}."
+      },
+      {
+        "lineNumber": 113,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     *"
+      },
+      {
         "lineNumber": 114,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     * @throws NullPointerException if {@code predicate} is null."
+      },
+      {
+        "lineNumber": 115,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 116,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "    void updateFilteredFoodList(Predicate\u003cFood\u003e predicate);"
+      },
+      {
+        "lineNumber": 117,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 118,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "    boolean isLocationSpecified();"
       },
       {
-        "lineNumber": 115,
+        "lineNumber": 119,
         "author": {
           "gitId": "leslieharland"
         },
@@ -50157,7 +50207,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 86,
-      "Samanthaseahpl": 4,
+      "Samanthaseahpl": 8,
       "lsjxavier": 6,
       "shaungoh97": 12,
       "ignatiusong": 7
@@ -51425,7 +51475,7 @@
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "     * @return FileRead of the jsonfile"
+        "content": "     * @return FileReader of the jsonfile"
       },
       {
         "lineNumber": 181,
@@ -51453,7 +51503,7 @@
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    public FileReader listOfCanteen() throws FileNotFoundException {"
+        "content": "    public FileReader listOfCanteens() throws FileNotFoundException {"
       },
       {
         "lineNumber": 185,
@@ -51493,700 +51543,700 @@
       {
         "lineNumber": 190,
         "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 191,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "     * This function return a FIleReader of the jsonfile (foodiebot-stalls.json)."
+      },
+      {
+        "lineNumber": 192,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "     * @return FileReader of the jsonfile"
+      },
+      {
+        "lineNumber": 193,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "     * @throws FileNotFoundException"
+      },
+      {
+        "lineNumber": 194,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 195,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 196,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    public FileReader listOfStalls() throws FileNotFoundException {"
+      },
+      {
+        "lineNumber": 197,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        FoodieBotStorage foodieBotStorage \u003d"
+      },
+      {
+        "lineNumber": 198,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                new JsonFoodieBotStorage(userPrefs.getFoodieBotFilePath(), userPrefs.getStallsFilePath(),"
+      },
+      {
+        "lineNumber": 199,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                        userPrefs.getBudgetFilePath(), userPrefs.getFoodieBotFilePath());"
+      },
+      {
+        "lineNumber": 200,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        return new FileReader(String.valueOf(foodieBotStorage.getStallsFilePath()));"
+      },
+      {
+        "lineNumber": 201,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 202,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 203,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 204,
+        "author": {
           "gitId": "leslieharland"
         },
         "content": "    // \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d Filtered Person List Accessors"
       },
       {
-        "lineNumber": 191,
+        "lineNumber": 205,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "    // \u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
       },
       {
-        "lineNumber": 192,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 193,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 194,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "     * Returns an unmodifiable view of the list of {@code Person} backed by the internal list of"
-      },
-      {
-        "lineNumber": 195,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "     * {@code versionedAddressBook}"
-      },
-      {
-        "lineNumber": 196,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 197,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 198,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    public ObservableList\u003cCanteen\u003e getFilteredCanteenList() {"
-      },
-      {
-        "lineNumber": 199,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "        return filteredCanteens;"
-      },
-      {
-        "lineNumber": 200,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 201,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 202,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 203,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     * Updates the filter of the filtered canteen list to filter by the given {@code predicate}."
-      },
-      {
-        "lineNumber": 204,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 205,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     * @param predicate"
-      },
-      {
         "lineNumber": 206,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "     * @throws NullPointerException if {@code predicate} is null."
+        "content": ""
       },
       {
         "lineNumber": 207,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "     */"
+        "content": "    /**"
       },
       {
         "lineNumber": 208,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @Override"
+        "content": "     * Returns an unmodifiable view of the list of {@code Person} backed by the internal list of"
       },
       {
         "lineNumber": 209,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public ObservableList\u003cCanteen\u003e getFilteredCanteenListSortedByDistance() {"
+        "content": "     * {@code versionedAddressBook}"
       },
       {
         "lineNumber": 210,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        SortedList\u003cCanteen\u003e sortedCanteenList \u003d new SortedList\u003c\u003e(filteredCanteens);"
+        "content": "     */"
       },
       {
         "lineNumber": 211,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        sortedCanteenList.setComparator(Comparator.comparingInt(Canteen::getDistance));"
+        "content": "    @Override"
       },
       {
         "lineNumber": 212,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        return sortedCanteenList;"
+        "content": "    public ObservableList\u003cCanteen\u003e getFilteredCanteenList() {"
       },
       {
         "lineNumber": 213,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    }"
+        "content": "        return filteredCanteens;"
       },
       {
         "lineNumber": 214,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 215,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 216,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    public void updateFilteredCanteenList(Predicate\u003cCanteen\u003e predicate) {"
-      },
-      {
-        "lineNumber": 217,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "        requireNonNull(predicate);"
-      },
-      {
-        "lineNumber": 218,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "        filteredCanteens.setPredicate(predicate);"
-      },
-      {
-        "lineNumber": 219,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 220,
-        "author": {
-          "gitId": "leslieharland"
-        },
         "content": ""
       },
       {
-        "lineNumber": 221,
+        "lineNumber": 216,
         "author": {
           "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 222,
+        "lineNumber": 217,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     * Returns an unmodifiable view of the list of {@code Stall} backed by the internal list of"
+        "content": "     * Updates the filter of the filtered canteen list to filter by the given {@code predicate}."
       },
       {
-        "lineNumber": 223,
+        "lineNumber": 218,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     * {@code versionedAddressBook}"
+        "content": "     *"
       },
       {
-        "lineNumber": 224,
+        "lineNumber": 219,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     * @throws NullPointerException if {@code predicate} is null."
+      },
+      {
+        "lineNumber": 220,
         "author": {
           "gitId": "shaungoh97"
         },
         "content": "     */"
+      },
+      {
+        "lineNumber": 221,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 222,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "    public ObservableList\u003cCanteen\u003e getFilteredCanteenListSortedByDistance() {"
+      },
+      {
+        "lineNumber": 223,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        SortedList\u003cCanteen\u003e sortedCanteenList \u003d new SortedList\u003c\u003e(filteredCanteens);"
+      },
+      {
+        "lineNumber": 224,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        sortedCanteenList.setComparator(Comparator.comparingInt(Canteen::getDistance));"
       },
       {
         "lineNumber": 225,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public ObservableList\u003cStall\u003e getFilteredStallList(boolean isInitialised) {"
+        "content": "        return sortedCanteenList;"
       },
       {
         "lineNumber": 226,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        if (!isInitialised) {"
+        "content": "    }"
       },
       {
         "lineNumber": 227,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            updateModelManagerStalls();"
+        "content": ""
       },
       {
         "lineNumber": 228,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 229,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    public void updateFilteredCanteenList(Predicate\u003cCanteen\u003e predicate) {"
       },
       {
         "lineNumber": 230,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        return filteredStalls;"
+        "content": "        requireNonNull(predicate);"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    }"
+        "content": "        filteredCanteens.setPredicate(predicate);"
       },
       {
         "lineNumber": 232,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 233,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     * Returns an unmodifiable view of the list of {@code Stall} backed by the internal list of"
+        "content": "    /**"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     * {@code versionedAddressBook}"
+        "content": "     * Returns an unmodifiable view of the list of {@code Stall} backed by the internal list of"
       },
       {
         "lineNumber": 236,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     */"
+        "content": "     * {@code versionedAddressBook}"
       },
       {
         "lineNumber": 237,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "    public ObservableList\u003cStall\u003e getFilteredStallList() {"
+        "content": "     */"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        return filteredStalls;"
+        "content": "    public ObservableList\u003cStall\u003e getFilteredStallList(boolean isInitialised) {"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    }"
+        "content": "        if (!isInitialised) {"
       },
       {
         "lineNumber": 240,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "            updateModelManagerStalls();"
       },
       {
         "lineNumber": 241,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "    /**"
+        "content": "        }"
       },
       {
         "lineNumber": 242,
         "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     * Returns an unmodifiable view of the list of {@code Food} backed by the internal list of"
-      },
-      {
-        "lineNumber": 243,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     * {@code versionedAddressBook}"
-      },
-      {
-        "lineNumber": 244,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 245,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 246,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "    public ObservableList\u003cFood\u003e getFilteredFoodList() {"
-      },
-      {
-        "lineNumber": 247,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "        return filteredFoods;"
-      },
-      {
-        "lineNumber": 248,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 249,
-        "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
-        "lineNumber": 250,
+        "lineNumber": 243,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        return filteredStalls;"
+      },
+      {
+        "lineNumber": 244,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 245,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 246,
         "author": {
           "gitId": "shaungoh97"
         },
         "content": "    /**"
       },
       {
-        "lineNumber": 251,
+        "lineNumber": 247,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     * Returns an unmodifiable view of the list of {@code Food} backed by the internal list of"
+        "content": "     * Returns an unmodifiable view of the list of {@code Stall} backed by the internal list of"
       },
       {
-        "lineNumber": 252,
+        "lineNumber": 248,
         "author": {
           "gitId": "shaungoh97"
         },
         "content": "     * {@code versionedAddressBook}"
       },
       {
-        "lineNumber": 253,
+        "lineNumber": 249,
         "author": {
           "gitId": "shaungoh97"
         },
         "content": "     */"
       },
       {
+        "lineNumber": 250,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "    public ObservableList\u003cStall\u003e getFilteredStallList() {"
+      },
+      {
+        "lineNumber": 251,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        return filteredStalls;"
+      },
+      {
+        "lineNumber": 252,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 253,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
         "lineNumber": 254,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "shaungoh97"
         },
-        "content": "    @Override"
+        "content": "    /**"
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "    public ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised) {"
+        "content": "     * Returns an unmodifiable view of the list of {@code Food} backed by the internal list of"
       },
       {
         "lineNumber": 256,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "        if (!isInitialised) {"
+        "content": "     * {@code versionedAddressBook}"
       },
       {
         "lineNumber": 257,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "            updateModelManagerFood();"
+        "content": "     */"
       },
       {
         "lineNumber": 258,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": "        }"
+        "content": "    @Override"
       },
       {
         "lineNumber": 259,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": "        return filteredFoods;"
+        "content": "    public ObservableList\u003cFood\u003e getFilteredFoodList() {"
       },
       {
         "lineNumber": 260,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": "    }"
+        "content": "        return filteredFoods;"
       },
       {
         "lineNumber": 261,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 262,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 263,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     * Updates the filter of the filtered food list to filter by the given {@code predicate}."
+        "content": "    /**"
       },
       {
         "lineNumber": 264,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     *"
+        "content": "     * Returns an unmodifiable view of the list of {@code Food} backed by the internal list of"
       },
       {
         "lineNumber": 265,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     * @param predicate"
+        "content": "     * {@code versionedAddressBook}"
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "     * @throws NullPointerException if {@code predicate} is null."
+        "content": "     */"
       },
       {
         "lineNumber": 267,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": "     */"
+        "content": "    @Override"
       },
       {
         "lineNumber": 268,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "    @Override"
+        "content": "    public ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised) {"
       },
       {
         "lineNumber": 269,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "    public void updateFilteredFoodList(Predicate\u003cFood\u003e predicate) {"
+        "content": "        if (!isInitialised) {"
       },
       {
         "lineNumber": 270,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "        requireNonNull(predicate);"
+        "content": "            updateModelManagerFood();"
       },
       {
         "lineNumber": 271,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "        filteredFoods.setPredicate(predicate);"
+        "content": "        }"
       },
       {
         "lineNumber": 272,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "        return filteredFoods;"
+      },
+      {
+        "lineNumber": 273,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 274,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 275,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 276,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     * Updates the filter of the filtered food list to filter by the given {@code predicate}."
+      },
+      {
+        "lineNumber": 277,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     *"
+      },
+      {
+        "lineNumber": 278,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     * @param predicate"
+      },
+      {
+        "lineNumber": 279,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     * @throws NullPointerException if {@code predicate} is null."
+      },
+      {
+        "lineNumber": 280,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 281,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 282,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "    public void updateFilteredFoodList(Predicate\u003cFood\u003e predicate) {"
+      },
+      {
+        "lineNumber": 283,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "        requireNonNull(predicate);"
+      },
+      {
+        "lineNumber": 284,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "        filteredFoods.setPredicate(predicate);"
+      },
+      {
+        "lineNumber": 285,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "        //List\u003cFood\u003e filterCopy \u003d new ArrayList\u003c\u003e(filteredFoods);"
       },
       {
-        "lineNumber": 273,
+        "lineNumber": 286,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "        //filteredFoods.removeAll(filterCopy);"
       },
       {
-        "lineNumber": 274,
+        "lineNumber": 287,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "        //filteredFoods.addAll(foods);"
       },
       {
-        "lineNumber": 275,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 276,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 277,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 278,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 279,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "     * Updates the filter of the filtered stall list to filter by the given {@code predicate}."
-      },
-      {
-        "lineNumber": 280,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "     *"
-      },
-      {
-        "lineNumber": 281,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "     * @param predicate"
-      },
-      {
-        "lineNumber": 282,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "     * @throws NullPointerException if {@code predicate} is null."
-      },
-      {
-        "lineNumber": 283,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 284,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    @Override"
-      },
-      {
-        "lineNumber": 285,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    public void updateFilteredStallList(Predicate\u003cStall\u003e predicate) {"
-      },
-      {
-        "lineNumber": 286,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "        requireNonNull(predicate);"
-      },
-      {
-        "lineNumber": 287,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "        filteredStalls.setPredicate(predicate);"
-      },
-      {
         "lineNumber": 288,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
         "content": "    }"
       },
       {
         "lineNumber": 289,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
         "content": ""
       },
@@ -52195,42 +52245,42 @@
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @Override"
+        "content": ""
       },
       {
         "lineNumber": 291,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public boolean isLocationSpecified() {"
+        "content": "    /**"
       },
       {
         "lineNumber": 292,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        return foodieBot.isLocationSpecified();"
+        "content": "     * Updates the filter of the filtered stall list to filter by the given {@code predicate}."
       },
       {
         "lineNumber": 293,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    }"
+        "content": "     *"
       },
       {
         "lineNumber": 294,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    /**"
+        "content": "     * @param predicate"
       },
       {
         "lineNumber": 295,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * ."
+        "content": "     * @throws NullPointerException if {@code predicate} is null."
       },
       {
         "lineNumber": 296,
@@ -52244,353 +52294,444 @@
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public void updateModelManagerStalls() {"
+        "content": "    @Override"
       },
       {
         "lineNumber": 298,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        try {"
+        "content": "    public void updateFilteredStallList(Predicate\u003cStall\u003e predicate) {"
       },
       {
         "lineNumber": 299,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            FoodieBotStorage foodieBotStorage \u003d"
+        "content": "        requireNonNull(predicate);"
       },
       {
         "lineNumber": 300,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "                new JsonFoodieBotStorage(userPrefs.getStallsFilePath());"
+        "content": "        filteredStalls.setPredicate(predicate);"
       },
       {
         "lineNumber": 301,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            Storage storage \u003d new StorageManager(foodieBotStorage);"
+        "content": "    }"
       },
       {
         "lineNumber": 302,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            Optional\u003cReadOnlyFoodieBot\u003e newBot \u003d storage.readFoodieBot(Stall.class.getSimpleName());"
+        "content": ""
       },
       {
         "lineNumber": 303,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            foodieBot.setStalls(newBot.get().getStallList());"
+        "content": "    @Override"
       },
       {
         "lineNumber": 304,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        } catch (DataConversionException e) {"
+        "content": "    public boolean isLocationSpecified() {"
       },
       {
         "lineNumber": 305,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            e.printStackTrace();"
+        "content": "        return foodieBot.isLocationSpecified();"
       },
       {
         "lineNumber": 306,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        } catch (IOException e) {"
+        "content": "    }"
       },
       {
         "lineNumber": 307,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            e.printStackTrace();"
+        "content": "    /**"
       },
       {
         "lineNumber": 308,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        }"
+        "content": "     * ."
       },
       {
         "lineNumber": 309,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    }"
+        "content": "     */"
       },
       {
         "lineNumber": 310,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    public void updateModelManagerStalls() {"
       },
       {
         "lineNumber": 311,
         "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 312,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     * ."
-      },
-      {
-        "lineNumber": 313,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 314,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "    public void updateModelManagerFood() {"
-      },
-      {
-        "lineNumber": 315,
-        "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
         "content": "        try {"
       },
       {
-        "lineNumber": 316,
+        "lineNumber": 312,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
         "content": "            FoodieBotStorage foodieBotStorage \u003d"
       },
       {
-        "lineNumber": 317,
+        "lineNumber": 313,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "                    new JsonFoodieBotStorage("
+        "content": "                new JsonFoodieBotStorage(userPrefs.getStallsFilePath());"
       },
       {
-        "lineNumber": 318,
+        "lineNumber": 314,
         "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "                            userPrefs.getStallsFilePath(), userPrefs.getBudgetFilePath(), userPrefs.getFoodFilePath());"
-      },
-      {
-        "lineNumber": 319,
-        "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
         "content": "            Storage storage \u003d new StorageManager(foodieBotStorage);"
       },
       {
-        "lineNumber": 320,
+        "lineNumber": 315,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "            Optional\u003cReadOnlyFoodieBot\u003e newBot \u003d storage.readFoodieBot(Food.class.getSimpleName());"
+        "content": "            Optional\u003cReadOnlyFoodieBot\u003e newBot \u003d storage.readFoodieBot(Stall.class.getSimpleName());"
       },
       {
-        "lineNumber": 321,
+        "lineNumber": 316,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "            foodieBot.setFood(newBot.get().getFoodList());"
+        "content": "            foodieBot.setStalls(newBot.get().getStallList());"
       },
       {
-        "lineNumber": 322,
+        "lineNumber": 317,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
         "content": "        } catch (DataConversionException e) {"
       },
       {
-        "lineNumber": 323,
+        "lineNumber": 318,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
         "content": "            e.printStackTrace();"
+      },
+      {
+        "lineNumber": 319,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        } catch (IOException e) {"
+      },
+      {
+        "lineNumber": 320,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "            e.printStackTrace();"
+      },
+      {
+        "lineNumber": 321,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 322,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 323,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
       },
       {
         "lineNumber": 324,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "        } catch (IOException e) {"
+        "content": "    /**"
       },
       {
         "lineNumber": 325,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "            e.printStackTrace();"
+        "content": "     * ."
       },
       {
         "lineNumber": 326,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "        }"
+        "content": "     */"
       },
       {
         "lineNumber": 327,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "    }"
+        "content": "    public void updateModelManagerFood() {"
       },
       {
         "lineNumber": 328,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": ""
+        "content": "        try {"
       },
       {
         "lineNumber": 329,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "    @Override"
+        "content": "            FoodieBotStorage foodieBotStorage \u003d"
       },
       {
         "lineNumber": 330,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "    public boolean equals(Object obj) {"
+        "content": "                    new JsonFoodieBotStorage("
       },
       {
         "lineNumber": 331,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "        // short circuit if same object"
+        "content": "                            userPrefs.getStallsFilePath(), userPrefs.getBudgetFilePath(), userPrefs.getFoodFilePath());"
       },
       {
         "lineNumber": 332,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "        if (obj \u003d\u003d this) {"
+        "content": "            Storage storage \u003d new StorageManager(foodieBotStorage);"
       },
       {
         "lineNumber": 333,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "            return true;"
+        "content": "            Optional\u003cReadOnlyFoodieBot\u003e newBot \u003d storage.readFoodieBot(Food.class.getSimpleName());"
       },
       {
         "lineNumber": 334,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "        }"
+        "content": "            foodieBot.setFood(newBot.get().getFoodList());"
       },
       {
         "lineNumber": 335,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": ""
+        "content": "        } catch (DataConversionException e) {"
       },
       {
         "lineNumber": 336,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "        // instanceof handles nulls"
+        "content": "            e.printStackTrace();"
       },
       {
         "lineNumber": 337,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "        if (!(obj instanceof ModelManager)) {"
+        "content": "        } catch (IOException e) {"
       },
       {
         "lineNumber": 338,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "            return false;"
+        "content": "            e.printStackTrace();"
       },
       {
         "lineNumber": 339,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
         "content": "        }"
       },
       {
         "lineNumber": 340,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": ""
+        "content": "    }"
       },
       {
         "lineNumber": 341,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "shaungoh97"
         },
-        "content": "        // state check"
+        "content": ""
       },
       {
         "lineNumber": 342,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        ModelManager other \u003d (ModelManager) obj;"
+        "content": "    @Override"
       },
       {
         "lineNumber": 343,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        return foodieBot.equals(other.foodieBot)"
+        "content": "    public boolean equals(Object obj) {"
       },
       {
         "lineNumber": 344,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            \u0026\u0026 userPrefs.equals(other.userPrefs)"
+        "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 345,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            \u0026\u0026 filteredCanteens.equals(other.filteredCanteens);"
+        "content": "        if (obj \u003d\u003d this) {"
       },
       {
         "lineNumber": 346,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    }"
+        "content": "            return true;"
       },
       {
         "lineNumber": 347,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 348,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 349,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 350,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        if (!(obj instanceof ModelManager)) {"
+      },
+      {
+        "lineNumber": 351,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 352,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 353,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 354,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        // state check"
+      },
+      {
+        "lineNumber": 355,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        ModelManager other \u003d (ModelManager) obj;"
+      },
+      {
+        "lineNumber": 356,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        return foodieBot.equals(other.foodieBot)"
+      },
+      {
+        "lineNumber": 357,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "            \u0026\u0026 userPrefs.equals(other.userPrefs)"
+      },
+      {
+        "lineNumber": 358,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "            \u0026\u0026 filteredCanteens.equals(other.filteredCanteens);"
+      },
+      {
+        "lineNumber": 359,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 360,
         "author": {
           "gitId": "leslieharland"
         },
@@ -52599,9 +52740,9 @@
     ],
     "authorContributionMap": {
       "leslieharland": 223,
-      "Samanthaseahpl": 13,
+      "Samanthaseahpl": 27,
       "lsjxavier": 39,
-      "shaungoh97": 58,
+      "shaungoh97": 57,
       "ignatiusong": 14
     }
   },
@@ -62291,49 +62432,49 @@
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "/**"
+        "content": "import seedu.foodiebot.commons.core.Messages;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": " * Randomize a canteen, stall and food choice for the user"
+        "content": "import seedu.foodiebot.logic.commands.exceptions.CommandException;"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": " */"
+        "content": ""
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "public class Randomize {"
+        "content": "/**"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": " * Randomize a canteen, stall and food choice for the user"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    private String selectedCanteen \u003d \"\";"
+        "content": " */"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    private String selectedStall \u003d \"\";"
+        "content": "public class Randomize {"
       },
       {
         "lineNumber": 19,
@@ -62347,350 +62488,350 @@
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    private Random rand \u003d new Random();"
+        "content": "    private String selectedCanteen \u003d \"\";"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "    private String selectedStall \u003d \"\";"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    public Randomize(){"
+        "content": "    private String output \u003d \"\";"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "    private Random rand \u003d new Random();"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    /**"
+        "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "     * This method return the name of the selected canteen."
+        "content": "    public Randomize(){"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "     * @return String of the canteen name."
+        "content": "    }"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "     */"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    public String selectCanteen() {"
+        "content": "    /**"
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        return selectedCanteen;"
+        "content": "     * This method return the name of the selected canteen."
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    }"
+        "content": "     * @return String of the canteen name."
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //public void getSelectedCanteen(ObservableList\u003cCanteen\u003e list) {"
+        "content": "    public String selectCanteen() {"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //    listSize \u003d list.size();"
+        "content": "        return selectedCanteen;"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //    index \u003d rand.nextInt(listSize);"
+        "content": "    }"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //    List\u003cString\u003e lst \u003d new ArrayList\u003cString\u003e();"
+        "content": ""
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //    selectedCanteen \u003d list.get(index).toString();"
+        "content": "    /**"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //}"
+        "content": "     * This method return the name of the selected stall."
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "     * @return String of the stall name"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    /**"
+        "content": "     */"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "     * This function select a canteen from the jsonfile (foodiebot.json)."
+        "content": "    public String selectStall() {"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "     * @param file which is provided from the RandomizeCommand"
+        "content": "        return selectedStall;"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "     */"
+        "content": "    }"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    public void getSelectedCanteen(FileReader file) {"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        int listSize;"
+        "content": "    /**"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        int index;"
+        "content": "     * This method return the output list option."
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        JSONParser parser \u003d new JSONParser();"
+        "content": "     * @return String of options."
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        try {"
+        "content": "     */"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "            JSONObject obj \u003d (JSONObject) parser.parse(file);"
+        "content": "    public String output() {"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "            JSONArray canteenList \u003d (JSONArray) obj.get(\"canteens\");"
+        "content": "        return output;"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "            //System.out.println((canteenList));"
+        "content": "    }"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "            listSize \u003d canteenList.size();"
+        "content": "     * This function select a canteen from the jsonfile (foodiebot.json)."
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "            index \u003d rand.nextInt(listSize);"
+        "content": "     * @param file which is provided from the RandomizeCommand"
       },
       {
         "lineNumber": 55,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "     */"
       },
       {
         "lineNumber": 56,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "            JSONObject canteen \u003d (JSONObject) canteenList.get(index);"
+        "content": "    public void getSelectedCanteen(FileReader file) {"
       },
       {
         "lineNumber": 57,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "            selectedCanteen \u003d (String) canteen.get(\"name\");"
+        "content": "        int listSize;"
       },
       {
         "lineNumber": 58,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "        int index;"
       },
       {
         "lineNumber": 59,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        } catch (IOException | ParseException e) {"
+        "content": "        JSONParser parser \u003d new JSONParser();"
       },
       {
         "lineNumber": 60,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "            e.printStackTrace();"
+        "content": "        try {"
       },
       {
         "lineNumber": 61,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        }"
+        "content": "            JSONObject obj \u003d (JSONObject) parser.parse(file);"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    }"
+        "content": "            JSONArray canteenList \u003d (JSONArray) obj.get(\"canteens\");"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "            //System.out.println((canteenList));"
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //public void parseCanteenObject (JSONObject canteen) {"
+        "content": ""
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //    JSONObject canteenObject \u003d (JSONObject) canteen.get(\"canteen\");"
+        "content": "            listSize \u003d canteenList.size();"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //    String canteenName \u003d (String) canteenObject.get(\"name\");"
+        "content": "            index \u003d rand.nextInt(listSize);"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //    System.out.println(canteenName);"
+        "content": ""
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //    canteens.add(canteenName);"
+        "content": "            JSONObject canteen \u003d (JSONObject) canteenList.get(index);"
       },
       {
         "lineNumber": 69,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "    //}"
+        "content": "            selectedCanteen \u003d (String) canteen.get(\"name\");"
       },
       {
         "lineNumber": 70,
@@ -62704,11 +62845,277 @@
         "author": {
           "gitId": "Samanthaseahpl"
         },
+        "content": "        } catch (IOException | ParseException e) {"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "            e.printStackTrace();"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "     * This method produce a list of options from the jsonfile (foodiebot-stalls.json)."
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "     * @param file which is provided from the RandomizeCommand."
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 80,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    public void getOptions(FileReader file) throws CommandException {"
+      },
+      {
+        "lineNumber": 81,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        int listSize;"
+      },
+      {
+        "lineNumber": 82,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        int index;"
+      },
+      {
+        "lineNumber": 83,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        int i \u003d 0;"
+      },
+      {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        JSONParser parser \u003d new JSONParser();"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        try {"
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "            JSONObject obj \u003d (JSONObject) parser.parse(file);"
+      },
+      {
+        "lineNumber": 87,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "            JSONArray stallList \u003d (JSONArray) obj.get(\"stalls\");"
+      },
+      {
+        "lineNumber": 88,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "            //System.out.println((canteenList));"
+      },
+      {
+        "lineNumber": 89,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 90,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "            listSize \u003d stallList.size();"
+      },
+      {
+        "lineNumber": 91,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 92,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "            while (i \u003c 5) {"
+      },
+      {
+        "lineNumber": 93,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                index \u003d rand.nextInt(listSize);"
+      },
+      {
+        "lineNumber": 94,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                JSONObject stall \u003d (JSONObject) stallList.get(index);"
+      },
+      {
+        "lineNumber": 95,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                selectedStall \u003d (String) stall.get(\"name\");"
+      },
+      {
+        "lineNumber": 96,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                selectedCanteen \u003d (String) stall.get(\"canteenName\");"
+      },
+      {
+        "lineNumber": 97,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                if (!output.contains(selectedStall)) {"
+      },
+      {
+        "lineNumber": 98,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                    output \u003d output + String.format(\"%d. %s: %s\\n\", i + 1, selectedCanteen, selectedStall);"
+      },
+      {
+        "lineNumber": 99,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                    i++;"
+      },
+      {
+        "lineNumber": 100,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "                }"
+      },
+      {
+        "lineNumber": 101,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 102,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        } catch (IOException | ParseException e) {"
+      },
+      {
+        "lineNumber": 103,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "            throw new CommandException(Messages.MESSAGE_INVALID_FILEREADER);"
+      },
+      {
+        "lineNumber": 104,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 105,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 106,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 107,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 108,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 109,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
         "content": "}"
       }
     ],
     "authorContributionMap": {
-      "Samanthaseahpl": 71
+      "Samanthaseahpl": 109
     }
   },
   {
@@ -93532,7 +93939,7 @@
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "        public FileReader listOfCanteen() throws FileNotFoundException {"
+        "content": "        public FileReader listOfCanteens() throws FileNotFoundException {"
       },
       {
         "lineNumber": 191,
@@ -93558,79 +93965,79 @@
       {
         "lineNumber": 194,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "        /**"
+        "content": "        @Override"
       },
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "         * Updates the filter of the filtered stall list to filter by the given {@code predicate}."
+        "content": "        public FileReader listOfStalls() throws FileNotFoundException {"
       },
       {
         "lineNumber": 196,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "         *"
+        "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 197,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "         * @param predicate"
+        "content": "        }"
       },
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "         * @throws NullPointerException if {@code predicate} is null."
+        "content": ""
       },
       {
         "lineNumber": 199,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "         */"
+        "content": "        /**"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        @Override"
+        "content": "         * Updates the filter of the filtered stall list to filter by the given {@code predicate}."
       },
       {
         "lineNumber": 201,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        public void updateFilteredStallList(Predicate\u003cStall\u003e predicate) {"
+        "content": "         *"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            throw new AssertionError(\"This method should not be called.\");"
+        "content": "         * @param predicate"
       },
       {
         "lineNumber": 203,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        }"
+        "content": "         * @throws NullPointerException if {@code predicate} is null."
       },
       {
         "lineNumber": 204,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "         */"
       },
       {
         "lineNumber": 205,
@@ -93644,14 +94051,14 @@
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        public boolean isLocationSpecified() {"
+        "content": "        public void updateFilteredStallList(Predicate\u003cStall\u003e predicate) {"
       },
       {
         "lineNumber": 207,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            return false;"
+        "content": "            throw new AssertionError(\"This method should not be called.\");"
       },
       {
         "lineNumber": 208,
@@ -93663,35 +94070,35 @@
       {
         "lineNumber": 209,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
         "lineNumber": 210,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
         "content": "        @Override"
       },
       {
         "lineNumber": 211,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "        public ObservableList\u003cFood\u003e getFilteredFoodList() {"
+        "content": "        public boolean isLocationSpecified() {"
       },
       {
         "lineNumber": 212,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "            throw new AssertionError(\"This method is a placeholder\");"
+        "content": "            return false;"
       },
       {
         "lineNumber": 213,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
         "content": "        }"
       },
@@ -93714,14 +94121,14 @@
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "        public ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised) {"
+        "content": "        public ObservableList\u003cFood\u003e getFilteredFoodList() {"
       },
       {
         "lineNumber": 217,
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "            return null;"
+        "content": "            throw new AssertionError(\"This method is a placeholder\");"
       },
       {
         "lineNumber": 218,
@@ -93733,7 +94140,7 @@
       {
         "lineNumber": 219,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
         "content": ""
       },
@@ -93749,14 +94156,14 @@
         "author": {
           "gitId": "shaungoh97"
         },
-        "content": "        public void updateFilteredFoodList(Predicate\u003cFood\u003e predicate) {"
+        "content": "        public ObservableList\u003cFood\u003e getFilteredFoodList(boolean isInitialised) {"
       },
       {
         "lineNumber": 222,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "shaungoh97"
         },
-        "content": ""
+        "content": "            return null;"
       },
       {
         "lineNumber": 223,
@@ -93768,86 +94175,86 @@
       {
         "lineNumber": 224,
         "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 225,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        @Override"
+      },
+      {
+        "lineNumber": 226,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "        public void updateFilteredFoodList(Predicate\u003cFood\u003e predicate) {"
+      },
+      {
+        "lineNumber": 227,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 228,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 229,
+        "author": {
           "gitId": "-"
         },
         "content": "    }"
       },
       {
-        "lineNumber": 225,
+        "lineNumber": 230,
         "author": {
           "gitId": "-"
         },
         "content": ""
-      },
-      {
-        "lineNumber": 226,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 227,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     * A Model stub that contains a single person."
-      },
-      {
-        "lineNumber": 228,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 229,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    private class ModelStubWithCanteen extends ModelStub {"
-      },
-      {
-        "lineNumber": 230,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "        private final Canteen person;"
       },
       {
         "lineNumber": 231,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "    /**"
       },
       {
         "lineNumber": 232,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
-        "content": "        ModelStubWithCanteen(Canteen person) {"
+        "content": "     * A Model stub that contains a single person."
       },
       {
         "lineNumber": 233,
         "author": {
           "gitId": "-"
         },
-        "content": "            requireNonNull(person);"
+        "content": "     */"
       },
       {
         "lineNumber": 234,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": "            this.person \u003d person;"
+        "content": "    private class ModelStubWithCanteen extends ModelStub {"
       },
       {
         "lineNumber": 235,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": "        }"
+        "content": "        private final Canteen person;"
       },
       {
         "lineNumber": 236,
@@ -93859,198 +94266,198 @@
       {
         "lineNumber": 237,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": "        @Override"
+        "content": "        ModelStubWithCanteen(Canteen person) {"
       },
       {
         "lineNumber": 238,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
-        "content": "        public boolean hasCanteen(Canteen person) {"
+        "content": "            requireNonNull(person);"
       },
       {
         "lineNumber": 239,
         "author": {
           "gitId": "-"
         },
-        "content": "            requireNonNull(person);"
+        "content": "            this.person \u003d person;"
       },
       {
         "lineNumber": 240,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
-        "content": "            return this.person.isSameCanteen(person);"
+        "content": "        }"
       },
       {
         "lineNumber": 241,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 242,
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
-      },
-      {
-        "lineNumber": 243,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 244,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "    /**"
-      },
-      {
-        "lineNumber": 245,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     * A Model stub that always accept the person being added."
-      },
-      {
-        "lineNumber": 246,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "     */"
-      },
-      {
-        "lineNumber": 247,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "    private class ModelStubAcceptingCanteenAdded extends ModelStub {"
-      },
-      {
-        "lineNumber": 248,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "        final ArrayList\u003cCanteen\u003e personsAdded \u003d new ArrayList\u003c\u003e();"
-      },
-      {
-        "lineNumber": 249,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 250,
-        "author": {
-          "gitId": "-"
-        },
         "content": "        @Override"
       },
       {
-        "lineNumber": 251,
+        "lineNumber": 243,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "        public boolean hasCanteen(Canteen person) {"
       },
       {
-        "lineNumber": 252,
+        "lineNumber": 244,
         "author": {
           "gitId": "-"
         },
         "content": "            requireNonNull(person);"
+      },
+      {
+        "lineNumber": 245,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "            return this.person.isSameCanteen(person);"
+      },
+      {
+        "lineNumber": 246,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 247,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 248,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 249,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    /**"
+      },
+      {
+        "lineNumber": 250,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     * A Model stub that always accept the person being added."
+      },
+      {
+        "lineNumber": 251,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "     */"
+      },
+      {
+        "lineNumber": 252,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "    private class ModelStubAcceptingCanteenAdded extends ModelStub {"
       },
       {
         "lineNumber": 253,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            return personsAdded.stream().anyMatch(person::isSameCanteen);"
+        "content": "        final ArrayList\u003cCanteen\u003e personsAdded \u003d new ArrayList\u003c\u003e();"
       },
       {
         "lineNumber": 254,
         "author": {
           "gitId": "-"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 255,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "        @Override"
       },
       {
         "lineNumber": 256,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": "        @Override"
+        "content": "        public boolean hasCanteen(Canteen person) {"
       },
       {
         "lineNumber": 257,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "        public void addCanteen(Canteen person) {"
-      },
-      {
-        "lineNumber": 258,
         "author": {
           "gitId": "-"
         },
         "content": "            requireNonNull(person);"
       },
       {
-        "lineNumber": 259,
+        "lineNumber": 258,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": "            personsAdded.add(person);"
+        "content": "            return personsAdded.stream().anyMatch(person::isSameCanteen);"
       },
       {
-        "lineNumber": 260,
+        "lineNumber": 259,
         "author": {
           "gitId": "-"
         },
         "content": "        }"
       },
       {
-        "lineNumber": 261,
+        "lineNumber": 260,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 262,
+        "lineNumber": 261,
         "author": {
           "gitId": "-"
         },
         "content": "        @Override"
       },
       {
-        "lineNumber": 263,
+        "lineNumber": 262,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        public ReadOnlyFoodieBot getFoodieBot() {"
+        "content": "        public void addCanteen(Canteen person) {"
+      },
+      {
+        "lineNumber": 263,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "            requireNonNull(person);"
       },
       {
         "lineNumber": 264,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
-        "content": "            return new FoodieBot();"
+        "content": "            personsAdded.add(person);"
       },
       {
         "lineNumber": 265,
@@ -94064,10 +94471,45 @@
         "author": {
           "gitId": "-"
         },
-        "content": "    }"
+        "content": ""
       },
       {
         "lineNumber": 267,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        @Override"
+      },
+      {
+        "lineNumber": 268,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        public ReadOnlyFoodieBot getFoodieBot() {"
+      },
+      {
+        "lineNumber": 269,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "            return new FoodieBot();"
+      },
+      {
+        "lineNumber": 270,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 271,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 272,
         "author": {
           "gitId": "-"
         },
@@ -94076,7 +94518,7 @@
     ],
     "authorContributionMap": {
       "leslieharland": 90,
-      "Samanthaseahpl": 7,
+      "Samanthaseahpl": 12,
       "lsjxavier": 12,
       "shaungoh97": 6,
       "-": 142,

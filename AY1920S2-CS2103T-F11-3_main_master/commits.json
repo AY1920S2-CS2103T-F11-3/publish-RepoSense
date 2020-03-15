@@ -291,6 +291,20 @@
             "deletions": 25
           }
         ]
+      },
+      {
+        "insertions": 85,
+        "deletions": 22,
+        "date": "2020-03-15",
+        "commitResults": [
+          {
+            "hash": "cb6060e2f0e536afbc152eb38afdfde8c8b7ea01",
+            "messageTitle": "randomise generate a list of options",
+            "messageBody": "",
+            "insertions": 85,
+            "deletions": 22
+          }
+        ]
       }
     ],
     "shaungoh97": [
@@ -567,8 +581,8 @@
   "authorFinalContributionMap": {
     "leslieharland": 7637,
     "lsjxavier": 1464,
-    "Samanthaseahpl": 1337,
-    "shaungoh97": 657,
+    "Samanthaseahpl": 1401,
+    "shaungoh97": 656,
     "ignatiusong": 1108
   },
   "authorFileTypeContributionMap": {
@@ -803,19 +817,20 @@
       "adoc": 6,
       "adoc": 157,
       "html": 1034,
+      "java": 1,
       "java": 2,
       "java": 4,
       "java": 2,
-      "java": 16,
+      "java": 18,
       "java": 6,
       "java": 1,
-      "java": 4,
-      "java": 13,
-      "java": 71,
+      "java": 8,
+      "java": 27,
+      "java": 109,
       "java": 5,
       "java": 3,
       "java": 1,
-      "java": 7,
+      "java": 12,
       "java": 2
     },
     "shaungoh97": {
@@ -829,7 +844,7 @@
       "java": 12,
       "java": 15,
       "java": 12,
-      "java": 58,
+      "java": 57,
       "java": 5,
       "java": 5,
       "java": 19,
@@ -899,7 +914,7 @@
   "authorContributionVariance": {
     "leslieharland": 3725646.5,
     "lsjxavier": 57115.246,
-    "Samanthaseahpl": 51213.582,
+    "Samanthaseahpl": 51099.355,
     "shaungoh97": 83040.36,
     "ignatiusong": 309256.94
   },
