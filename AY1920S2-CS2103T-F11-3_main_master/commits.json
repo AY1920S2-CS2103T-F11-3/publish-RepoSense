@@ -521,20 +521,6 @@
     ],
     "ignatiusong": [
       {
-        "insertions": 0,
-        "deletions": 1,
-        "date": "2020-02-17",
-        "commitResults": [
-          {
-            "hash": "42ae2571e60b6f5e5500b950fd5e0fc3be9f21ab",
-            "messageTitle": "tidy up ui for references to address",
-            "messageBody": "",
-            "insertions": 0,
-            "deletions": 1
-          }
-        ]
-      },
-      {
         "insertions": 1991,
         "deletions": 554,
         "date": "2020-02-22",
@@ -639,7 +625,7 @@
     "lsjxavier": 1458,
     "Samanthaseahpl": 1600,
     "shaungoh97": 813,
-    "ignatiusong": 1061
+    "ignatiusong": 1056
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -988,10 +974,6 @@
       "java": 1,
       "java": 1,
       "java": 8,
-      "json": 2,
-      "json": 1,
-      "json": 1,
-      "json": 1,
       "java": 9,
       "java": 7,
       "java": 2,
@@ -999,11 +981,11 @@
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3713757.8,
-    "lsjxavier": 57073.137,
-    "Samanthaseahpl": 70289.57,
-    "shaungoh97": 83546.25,
-    "ignatiusong": 310356.8
+    "leslieharland": 3831539.0,
+    "lsjxavier": 58917.71,
+    "Samanthaseahpl": 72359.49,
+    "shaungoh97": 86160.25,
+    "ignatiusong": 319829.88
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
