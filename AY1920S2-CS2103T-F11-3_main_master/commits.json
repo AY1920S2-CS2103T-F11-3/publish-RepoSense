@@ -233,6 +233,20 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 139,
+        "deletions": 41,
+        "date": "2020-03-19",
+        "commitResults": [
+          {
+            "hash": "f27666971b54cbe2d0fb40395a63fda1180c3d2a",
+            "messageTitle": "Add Javadocs (#96)",
+            "messageBody": "Add Javadocs\r\nFixed an issue where a change in system date does not reset budget if at the end of a budget cycle.",
+            "insertions": 139,
+            "deletions": 41
+          }
+        ]
       }
     ],
     "Samanthaseahpl": [
@@ -359,6 +373,20 @@
             "messageBody": "* branch-documentation\r\n\r\n* branch-documentation\r\n\r\n* Documentation for v1.2\r\n\r\n* fixup! Documentation for v1.2\r\n\r\nCo-authored-by: Xavier Lee \u003c43834485+lsjxavier@users.noreply.github.com\u003e",
             "insertions": 529,
             "deletions": 320
+          }
+        ]
+      },
+      {
+        "insertions": 216,
+        "deletions": 60,
+        "date": "2020-03-19",
+        "commitResults": [
+          {
+            "hash": "9aeeb89fc0b639b86abb2aa4324ccd7106a71838",
+            "messageTitle": "Randomize options based on canteen - Use \"c/\" flags to randomize by canteen",
+            "messageBody": "",
+            "insertions": 216,
+            "deletions": 60
           }
         ]
       }
@@ -617,15 +645,36 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 450,
+        "deletions": 113,
+        "date": "2020-03-19",
+        "commitResults": [
+          {
+            "hash": "f2b466de0b6429c8849a3b23bef5a6ba679388aa",
+            "messageTitle": "Fix UserGuide Grammar and Add Placeholder for Filter Function (#49)",
+            "messageBody": "* fix UserGuide grammar\r\n\r\n* add placeholder for Filter function",
+            "insertions": 446,
+            "deletions": 111
+          },
+          {
+            "hash": "bba32ab62587e3860fe5262f0235a1e5baee498a",
+            "messageTitle": "Update ug and Add Filter Command Class",
+            "messageBody": "* add placeholder for Filter function\r\n\r\n* changed constructor for filterCommand\r\n\r\n* update foodiebot.json",
+            "insertions": 4,
+            "deletions": 2
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 8212,
-    "lsjxavier": 1458,
-    "Samanthaseahpl": 1600,
-    "shaungoh97": 813,
-    "ignatiusong": 1056
+    "leslieharland": 8186,
+    "lsjxavier": 1556,
+    "Samanthaseahpl": 1742,
+    "shaungoh97": 801,
+    "ignatiusong": 1368
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -634,7 +683,7 @@
       "gradle": 4,
       "adoc": 24,
       "adoc": 10,
-      "adoc": 118,
+      "adoc": 97,
       "java": 9,
       "java": 24,
       "java": 69,
@@ -684,20 +733,20 @@
       "java": 43,
       "java": 9,
       "java": 27,
-      "java": 56,
+      "java": 55,
       "java": 47,
       "java": 36,
       "java": 4,
       "java": 58,
       "java": 3,
-      "java": 5,
+      "java": 3,
       "java": 22,
       "java": 3,
       "java": 22,
       "java": 3,
       "java": 188,
       "java": 89,
-      "java": 251,
+      "java": 250,
       "java": 27,
       "java": 13,
       "java": 27,
@@ -719,7 +768,7 @@
       "java": 11,
       "java": 4,
       "java": 6,
-      "java": 77,
+      "java": 76,
       "java": 48,
       "java": 104,
       "java": 80,
@@ -844,17 +893,17 @@
       "java": 7,
       "java": 10,
       "java": 6,
-      "java": 88,
-      "java": 223,
+      "java": 103,
+      "java": 285,
       "java": 14,
-      "java": 10,
+      "java": 9,
       "java": 2,
-      "java": 66,
+      "java": 83,
       "java": 3,
       "java": 41,
       "java": 41,
       "java": 51,
-      "java": 58,
+      "java": 64,
       "java": 3,
       "java": 4,
       "java": 4,
@@ -865,7 +914,7 @@
       "java": 33,
       "java": 2,
       "java": 5,
-      "java": 188,
+      "java": 187,
       "java": 4,
       "java": 67,
       "java": 15,
@@ -881,20 +930,23 @@
     },
     "Samanthaseahpl": {
       "gradle": 3,
-      "adoc": 44,
-      "adoc": 178,
+      "adoc": 55,
+      "adoc": 137,
       "html": 1177,
-      "java": 1,
+      "java": 2,
       "java": 2,
       "java": 4,
       "java": 1,
-      "java": 17,
-      "java": 6,
+      "java": 27,
+      "java": 2,
+      "java": 1,
+      "java": 69,
       "java": 1,
       "java": 8,
       "java": 25,
       "java": 3,
-      "java": 109,
+      "java": 191,
+      "java": 13,
       "java": 3,
       "java": 3,
       "java": 1,
@@ -922,7 +974,7 @@
       "java": 5,
       "java": 29,
       "java": 7,
-      "java": 88,
+      "java": 76,
       "java": 2,
       "java": 93,
       "java": 33,
@@ -938,6 +990,20 @@
     },
     "ignatiusong": {
       "json": 39,
+      "adoc": 2,
+      "adoc": 43,
+      "adoc": 2,
+      "adoc": 46,
+      "puml": 4,
+      "puml": 13,
+      "puml": 3,
+      "puml": 22,
+      "puml": 75,
+      "puml": 15,
+      "puml": 3,
+      "puml": 30,
+      "puml": 7,
+      "puml": 8,
       "xml": 20,
       "fxml": 9,
       "css": 352,
@@ -955,17 +1021,18 @@
       "java": 10,
       "java": 73,
       "java": 27,
+      "java": 32,
       "java": 2,
       "java": 4,
       "java": 4,
       "java": 43,
       "java": 1,
-      "java": 4,
+      "java": 8,
       "java": 50,
       "java": 17,
       "java": 19,
       "java": 7,
-      "java": 14,
+      "java": 17,
       "java": 2,
       "java": 9,
       "java": 19,
@@ -981,11 +1048,11 @@
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3831539.0,
-    "lsjxavier": 58917.71,
-    "Samanthaseahpl": 72359.49,
-    "shaungoh97": 86160.25,
-    "ignatiusong": 319829.88
+    "leslieharland": 3713757.8,
+    "lsjxavier": 57411.137,
+    "Samanthaseahpl": 70911.5,
+    "shaungoh97": 83546.25,
+    "ignatiusong": 313580.22
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
