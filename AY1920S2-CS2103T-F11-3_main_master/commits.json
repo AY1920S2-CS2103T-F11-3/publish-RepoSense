@@ -168,6 +168,20 @@
             "deletions": 74
           }
         ]
+      },
+      {
+        "insertions": 131,
+        "deletions": 20,
+        "date": "2020-03-20",
+        "commitResults": [
+          {
+            "hash": "dc54b1cae070115ba52a84655d998310a7bb1d84",
+            "messageTitle": "Portfolio page Leslie and \"bug fix #101\"",
+            "messageBody": "",
+            "insertions": 131,
+            "deletions": 20
+          }
+        ]
       }
     ],
     "lsjxavier": [
@@ -545,6 +559,27 @@
             "deletions": 53
           }
         ]
+      },
+      {
+        "insertions": 245,
+        "deletions": 106,
+        "date": "2020-03-20",
+        "commitResults": [
+          {
+            "hash": "4fcc3dc1595d6f14942069ee468c2a12b331a673",
+            "messageTitle": "Added food tags and pictures",
+            "messageBody": "",
+            "insertions": 202,
+            "deletions": 67
+          },
+          {
+            "hash": "accba2ef9db6d266acbc22311d3c38efa6492937",
+            "messageTitle": "Fixed tag errors  (#100)",
+            "messageBody": "",
+            "insertions": 43,
+            "deletions": 39
+          }
+        ]
       }
     ],
     "ignatiusong": [
@@ -666,15 +701,29 @@
             "deletions": 2
           }
         ]
+      },
+      {
+        "insertions": 78,
+        "deletions": 52,
+        "date": "2020-03-20",
+        "commitResults": [
+          {
+            "hash": "addebdf44908b3d0a8e5d033c4446c142f0c34ac",
+            "messageTitle": "Add filter command to filter canteens by tag (#49)",
+            "messageBody": "* changed constructor for filterCommand\r\n\r\n* add FilterCommand to enable users to filter canteens based on tags\r\n",
+            "insertions": 78,
+            "deletions": 52
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 8186,
+    "leslieharland": 8264,
     "lsjxavier": 1556,
-    "Samanthaseahpl": 1742,
-    "shaungoh97": 801,
-    "ignatiusong": 1368
+    "Samanthaseahpl": 1724,
+    "shaungoh97": 971,
+    "ignatiusong": 1428
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -684,6 +733,8 @@
       "adoc": 24,
       "adoc": 10,
       "adoc": 97,
+      "adoc": 19,
+      "adoc": 105,
       "java": 9,
       "java": 24,
       "java": 69,
@@ -768,10 +819,10 @@
       "java": 11,
       "java": 4,
       "java": 6,
-      "java": 76,
+      "java": 75,
       "java": 48,
       "java": 104,
-      "java": 80,
+      "java": 73,
       "java": 6,
       "java": 142,
       "java": 61,
@@ -795,7 +846,7 @@
       "java": 10,
       "java": 14,
       "java": 14,
-      "fxml": 53,
+      "fxml": 23,
       "fxml": 17,
       "fxml": 1,
       "fxml": 3,
@@ -858,7 +909,7 @@
       "java": 2,
       "java": 58,
       "java": 29,
-      "java": 44,
+      "java": 39,
       "java": 116,
       "java": 10,
       "java": 56,
@@ -871,12 +922,12 @@
       "java": 56,
       "java": 33,
       "java": 4,
-      "java": 116,
+      "java": 114,
       "java": 44,
       "java": 10,
       "java": 58,
       "java": 5,
-      "java": 46,
+      "java": 45,
       "java": 10,
       "java": 5,
       "java": 5,
@@ -931,7 +982,7 @@
     "Samanthaseahpl": {
       "gradle": 3,
       "adoc": 55,
-      "adoc": 137,
+      "adoc": 129,
       "html": 1177,
       "java": 2,
       "java": 2,
@@ -946,7 +997,7 @@
       "java": 25,
       "java": 3,
       "java": 191,
-      "java": 13,
+      "java": 3,
       "java": 3,
       "java": 3,
       "java": 1,
@@ -971,12 +1022,13 @@
       "java": 12,
       "java": 54,
       "java": 5,
-      "java": 5,
-      "java": 29,
+      "java": 20,
+      "java": 32,
       "java": 7,
-      "java": 76,
+      "java": 183,
       "java": 2,
       "java": 93,
+      "java": 19,
       "java": 33,
       "java": 56,
       "java": 1,
@@ -986,14 +1038,17 @@
       "java": 25,
       "fxml": 48,
       "java": 6,
-      "java": 4
+      "java": 4,
+      "java": 16,
+      "java": 9,
+      "java": 1
     },
     "ignatiusong": {
       "json": 39,
       "adoc": 2,
       "adoc": 43,
       "adoc": 2,
-      "adoc": 46,
+      "adoc": 42,
       "puml": 4,
       "puml": 13,
       "puml": 3,
@@ -1010,7 +1065,6 @@
       "css": 20,
       "fxml": 39,
       "fxml": 60,
-      "fxml": 1,
       "fxml": 9,
       "fxml": 12,
       "fxml": 1,
@@ -1021,38 +1075,38 @@
       "java": 10,
       "java": 73,
       "java": 27,
-      "java": 32,
+      "java": 50,
       "java": 2,
       "java": 4,
       "java": 4,
       "java": 43,
+      "java": 35,
       "java": 1,
       "java": 8,
       "java": 50,
-      "java": 17,
+      "java": 34,
       "java": 19,
       "java": 7,
       "java": 17,
       "java": 2,
       "java": 9,
-      "java": 19,
+      "java": 18,
       "java": 138,
-      "java": 4,
-      "java": 1,
+      "java": 2,
       "java": 1,
       "java": 8,
       "java": 9,
       "java": 7,
       "java": 2,
-      "java": 3
+      "java": 2
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3713757.8,
+    "leslieharland": 3709087.2,
     "lsjxavier": 57411.137,
-    "Samanthaseahpl": 70911.5,
-    "shaungoh97": 83546.25,
-    "ignatiusong": 313580.22
+    "Samanthaseahpl": 70911.51,
+    "shaungoh97": 85491.96,
+    "ignatiusong": 312344.97
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
