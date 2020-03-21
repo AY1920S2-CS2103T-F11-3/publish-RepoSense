@@ -182,6 +182,20 @@
             "deletions": 20
           }
         ]
+      },
+      {
+        "insertions": 735,
+        "deletions": 285,
+        "date": "2020-03-21",
+        "commitResults": [
+          {
+            "hash": "0d1967d9e6ff0dd9b229cdbb9313b4233f8f9a91",
+            "messageTitle": "Gui update using JavaFX",
+            "messageBody": "",
+            "insertions": 735,
+            "deletions": 285
+          }
+        ]
       }
     ],
     "lsjxavier": [
@@ -715,15 +729,29 @@
             "deletions": 52
           }
         ]
+      },
+      {
+        "insertions": 44,
+        "deletions": 12,
+        "date": "2020-03-21",
+        "commitResults": [
+          {
+            "hash": "de8636e50a4984ffa98ae6ff66e29344cc1b9efa",
+            "messageTitle": "Update UI for Enter Canteen and Enter Stall (#106)",
+            "messageBody": "* Developer guide Leslie\r\n\r\n* Updated classes in original class diagrams\r\n\r\n* Updated names in class diagrams fix\r\n\r\n* fix UserGuide grammar somewhat\r\n\r\n* add placeholder for Filter function\r\n\r\n* remove unneccessary constructor in FIlterCommand\r\n\r\n* fix trailing whitespace\r\n\r\n* actually fixed hopefully trailing whitespace\r\n\r\n* changed constructor for filterCommand\r\n\r\n* update foodiebot.json\r\n\r\n* add FilterCommand to enable users to filter canteens based on tags\r\n\r\n* Gui update using JavaFX\r\n\r\n* fixed some bugs and wrote test for parseFilterTags\r\n\r\n* update EnterCanteen and EnterStall UI to display canteen and stall entered\r\n\r\nCo-authored-by: leslieharland \u003cleslieharland@outlook.com\u003e",
+            "insertions": 44,
+            "deletions": 12
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 8264,
+    "leslieharland": 8734,
     "lsjxavier": 1556,
-    "Samanthaseahpl": 1724,
-    "shaungoh97": 971,
-    "ignatiusong": 1428
+    "Samanthaseahpl": 1720,
+    "shaungoh97": 946,
+    "ignatiusong": 1462
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -788,6 +816,7 @@
       "java": 47,
       "java": 36,
       "java": 4,
+      "java": 1,
       "java": 58,
       "java": 3,
       "java": 3,
@@ -833,23 +862,31 @@
       "java": 24,
       "java": 97,
       "java": 11,
+      "java": 256,
       "java": 70,
       "java": 47,
-      "java": 14,
+      "java": 18,
+      "java": 32,
       "java": 63,
       "java": 17,
-      "java": 125,
+      "java": 30,
+      "java": 14,
+      "java": 110,
       "java": 3,
       "java": 69,
       "java": 47,
       "java": 3,
       "java": 10,
-      "java": 14,
-      "java": 14,
+      "java": 15,
+      "java": 33,
       "fxml": 23,
-      "fxml": 17,
+      "css": 4,
+      "fxml": 30,
       "fxml": 1,
+      "fxml": 51,
       "fxml": 3,
+      "fxml": 16,
+      "fxml": 44,
       "fxml": 1,
       "fxml": 53,
       "json": 9,
@@ -997,8 +1034,7 @@
       "java": 25,
       "java": 3,
       "java": 191,
-      "java": 3,
-      "java": 3,
+      "java": 2,
       "java": 3,
       "java": 1,
       "java": 12,
@@ -1035,7 +1071,6 @@
       "java": 10,
       "java": 71,
       "java": 47,
-      "java": 25,
       "fxml": 48,
       "java": 6,
       "java": 4,
@@ -1072,10 +1107,10 @@
       "fxml": 6,
       "java": 2,
       "java": 4,
-      "java": 10,
-      "java": 73,
+      "java": 11,
+      "java": 74,
       "java": 27,
-      "java": 50,
+      "java": 51,
       "java": 2,
       "java": 4,
       "java": 4,
@@ -1092,21 +1127,23 @@
       "java": 9,
       "java": 18,
       "java": 138,
-      "java": 2,
+      "java": 3,
       "java": 1,
-      "java": 8,
+      "java": 18,
+      "fxml": 8,
       "java": 9,
+      "java": 12,
       "java": 7,
       "java": 2,
       "java": 2
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3709087.2,
+    "leslieharland": 3705769.2,
     "lsjxavier": 57411.137,
     "Samanthaseahpl": 70911.51,
     "shaungoh97": 85491.96,
-    "ignatiusong": 312344.97
+    "ignatiusong": 311663.34
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
