@@ -2,41 +2,6 @@
   "authorDailyContributionsMap": {
     "leslieharland": [
       {
-        "insertions": 61,
-        "deletions": 40,
-        "date": "2020-02-22",
-        "commitResults": [
-          {
-            "hash": "d44b5cd16b3be8dfcf459100f6fe9820200a3a93",
-            "messageTitle": "Update documentation",
-            "messageBody": "",
-            "insertions": 27,
-            "deletions": 7
-          },
-          {
-            "hash": "4cf9e004bcfe4e37b10c4bd6e332f089cc37d5b2",
-            "messageTitle": "Update README.adoc",
-            "messageBody": "",
-            "insertions": 16,
-            "deletions": 4
-          },
-          {
-            "hash": "0b0a9b06e660cf3b4ba53eee86266230a4b5e7ce",
-            "messageTitle": "Update UserGuide on Location",
-            "messageBody": "",
-            "insertions": 14,
-            "deletions": 25
-          },
-          {
-            "hash": "ebdf6d8fd9e42c3f5d764dd7747bd4e05fc989db",
-            "messageTitle": "Update UserGuide.adoc",
-            "messageBody": "",
-            "insertions": 4,
-            "deletions": 4
-          }
-        ]
-      },
-      {
         "insertions": 26,
         "deletions": 47,
         "date": "2020-02-23",
@@ -199,6 +164,27 @@
             "deletions": 285
           }
         ]
+      },
+      {
+        "insertions": 571,
+        "deletions": 82,
+        "date": "2020-03-23",
+        "commitResults": [
+          {
+            "hash": "21530b273dffefd222139ee5baac39feda794be0",
+            "messageTitle": "added unit tests",
+            "messageBody": "",
+            "insertions": 569,
+            "deletions": 80
+          },
+          {
+            "hash": "d299a33b1f12f15e00c04fa39843f18add2463ac",
+            "messageTitle": "Update badges",
+            "messageBody": "- Code quality with Codacy\n- Coverage badge to show most recent coverage after new commit has ran coverage check\n",
+            "insertions": 2,
+            "deletions": 2
+          }
+        ]
       }
     ],
     "lsjxavier": [
@@ -292,23 +278,23 @@
             "deletions": 19
           }
         ]
+      },
+      {
+        "insertions": 289,
+        "deletions": 36,
+        "date": "2020-03-23",
+        "commitResults": [
+          {
+            "hash": "98f966c4c21a34111d20d16a1f6c7c9caaad611c",
+            "messageTitle": "Transactions (#111)",
+            "messageBody": "Update Transactions feature to show purchased food.",
+            "insertions": 289,
+            "deletions": 36
+          }
+        ]
       }
     ],
     "Samanthaseahpl": [
-      {
-        "insertions": 4,
-        "deletions": 4,
-        "date": "2020-02-22",
-        "commitResults": [
-          {
-            "hash": "798479936490e709de6fa2fd02e52a3d084f67f5",
-            "messageTitle": "branch-UpdateUserGuide",
-            "messageBody": "",
-            "insertions": 4,
-            "deletions": 4
-          }
-        ]
-      },
       {
         "insertions": 211,
         "deletions": 134,
@@ -454,20 +440,6 @@
       }
     ],
     "shaungoh97": [
-      {
-        "insertions": 17,
-        "deletions": 9,
-        "date": "2020-02-22",
-        "commitResults": [
-          {
-            "hash": "1346c18c2e6c4a39589ab8d3b5899f557dd61458",
-            "messageTitle": "Update UserGuide.adoc",
-            "messageBody": "",
-            "insertions": 17,
-            "deletions": 9
-          }
-        ]
-      },
       {
         "insertions": 48,
         "deletions": 4,
@@ -628,30 +600,23 @@
             "deletions": 39
           }
         ]
+      },
+      {
+        "insertions": 64,
+        "deletions": 34,
+        "date": "2020-03-23",
+        "commitResults": [
+          {
+            "hash": "ad959a5c7cc3e749068ae0be632b1845cc80633f",
+            "messageTitle": "Edit UG/DG and fixed duplicate stall bug (#110)",
+            "messageBody": "* Fixed duplicate stall bug, edit UG/DG\r\n\r\n* Edit Ug/dg, fixed duplicate stall name bug\r\n\r\n* checkstyle\r\n\r\n* Fixed checkstyles\r\n\r\n* checkstyle\r\n\r\n* checkstyle",
+            "insertions": 64,
+            "deletions": 34
+          }
+        ]
       }
     ],
     "ignatiusong": [
-      {
-        "insertions": 1991,
-        "deletions": 554,
-        "date": "2020-02-22",
-        "commitResults": [
-          {
-            "hash": "ab8c26db62fb50d10f29294cce76feb1cd92712b",
-            "messageTitle": "Updated to current status of team repo",
-            "messageBody": "",
-            "insertions": 1881,
-            "deletions": 0
-          },
-          {
-            "hash": "cf2c8dfe9316fefe67d5d07b1ff3424fc2b72ba6",
-            "messageTitle": "update workspace.xml",
-            "messageBody": "",
-            "insertions": 110,
-            "deletions": 554
-          }
-        ]
-      },
       {
         "insertions": 0,
         "deletions": 1531,
@@ -781,53 +746,51 @@
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 8731,
-    "lsjxavier": 2165,
-    "Samanthaseahpl": 1878,
-    "shaungoh97": 918,
-    "ignatiusong": 1460
+    "leslieharland": 9509,
+    "lsjxavier": 2419,
+    "Samanthaseahpl": 1900,
+    "shaungoh97": 960,
+    "ignatiusong": 1028
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
       "gitignore": 1,
-      "adoc": 263,
-      "gradle": 4,
-      "java": 8184,
-      "fxml": 224,
+      "adoc": 275,
+      "gradle": 7,
+      "java": 8917,
+      "fxml": 254,
       "css": 4,
       "json": 51
     },
     "lsjxavier": {
       "gitignore": 2,
-      "java": 2163
+      "java": 2366,
+      "fxml": 51
     },
     "Samanthaseahpl": {
       "gradle": 3,
-      "adoc": 184,
+      "adoc": 203,
       "html": 1177,
-      "java": 514
+      "java": 517
     },
     "shaungoh97": {
-      "adoc": 2,
-      "java": 868,
+      "html": 31,
+      "java": 881,
       "fxml": 48
     },
     "ignatiusong": {
-      "json": 39,
-      "adoc": 89,
+      "adoc": 225,
       "puml": 180,
-      "xml": 20,
-      "fxml": 148,
-      "css": 372,
-      "java": 612
+      "fxml": 14,
+      "java": 609
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3705769.0,
-    "lsjxavier": 67477.14,
-    "Samanthaseahpl": 71785.09,
-    "shaungoh97": 85491.96,
-    "ignatiusong": 311663.34
+    "leslieharland": 3698114.8,
+    "lsjxavier": 69020.91,
+    "Samanthaseahpl": 71846.46,
+    "shaungoh97": 85312.42,
+    "ignatiusong": 124456.086
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
