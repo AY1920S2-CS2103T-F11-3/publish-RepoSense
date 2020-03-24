@@ -2,20 +2,6 @@
   "authorDailyContributionsMap": {
     "leslieharland": [
       {
-        "insertions": 26,
-        "deletions": 47,
-        "date": "2020-02-23",
-        "commitResults": [
-          {
-            "hash": "37fb9c4788d8e15e5a130d27e6b37ec1f5e49267",
-            "messageTitle": "Updated AboutUs page (#52)",
-            "messageBody": "",
-            "insertions": 26,
-            "deletions": 47
-          }
-        ]
-      },
-      {
         "insertions": 142,
         "deletions": 302,
         "date": "2020-02-26",
@@ -166,8 +152,8 @@
         ]
       },
       {
-        "insertions": 571,
-        "deletions": 82,
+        "insertions": 1341,
+        "deletions": 95,
         "date": "2020-03-23",
         "commitResults": [
           {
@@ -183,6 +169,27 @@
             "messageBody": "- Code quality with Codacy\n- Coverage badge to show most recent coverage after new commit has ran coverage check\n",
             "insertions": 2,
             "deletions": 2
+          },
+          {
+            "hash": "96b40598fd84a957ba0346fc9d5510eb7face1fb",
+            "messageTitle": "Ui tests",
+            "messageBody": "",
+            "insertions": 770,
+            "deletions": 13
+          }
+        ]
+      },
+      {
+        "insertions": 18,
+        "deletions": 47,
+        "date": "2020-03-24",
+        "commitResults": [
+          {
+            "hash": "7f1ed4688b2d2a28d29be2ce936b0a4494300ba6",
+            "messageTitle": "Modified travis.yml",
+            "messageBody": "",
+            "insertions": 18,
+            "deletions": 47
           }
         ]
       }
@@ -292,37 +299,23 @@
             "deletions": 36
           }
         ]
+      },
+      {
+        "insertions": 244,
+        "deletions": 10,
+        "date": "2020-03-24",
+        "commitResults": [
+          {
+            "hash": "4aab97329bb7269a92d3d17a6c4515fa6e078e8e",
+            "messageTitle": "Add Rating \u0026 Review feature. (#114)",
+            "messageBody": "",
+            "insertions": 244,
+            "deletions": 10
+          }
+        ]
       }
     ],
     "Samanthaseahpl": [
-      {
-        "insertions": 211,
-        "deletions": 134,
-        "date": "2020-02-23",
-        "commitResults": [
-          {
-            "hash": "b8a51b75807d921670480f38fda1b1b16ed3e5fe",
-            "messageTitle": "branch-UpdateUserGuide_0.4",
-            "messageBody": "",
-            "insertions": 120,
-            "deletions": 48
-          },
-          {
-            "hash": "c6ecc4e619a42f12246108012e216b78251bf110",
-            "messageTitle": "UpdateUserGuide_0.6",
-            "messageBody": "",
-            "insertions": 54,
-            "deletions": 52
-          },
-          {
-            "hash": "f5cefa68d8174ff99092853bdf04f84678aff38a",
-            "messageTitle": "UpdateUserGuide_0.6",
-            "messageBody": "",
-            "insertions": 37,
-            "deletions": 34
-          }
-        ]
-      },
       {
         "insertions": 163,
         "deletions": 149,
@@ -614,6 +607,20 @@
             "deletions": 34
           }
         ]
+      },
+      {
+        "insertions": 42,
+        "deletions": 30,
+        "date": "2020-03-24",
+        "commitResults": [
+          {
+            "hash": "a9f53969c415038360a884f46021ec1d4d8d64ab",
+            "messageTitle": "Edit UG/DG (#113)",
+            "messageBody": "* Fixed duplicate stall bug, edit UG/DG\r\n\r\n* Edit Ug/dg, fixed duplicate stall name bug\r\n\r\n* Edit UG/DG",
+            "insertions": 42,
+            "deletions": 30
+          }
+        ]
       }
     ],
     "ignatiusong": [
@@ -746,50 +753,52 @@
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 9509,
-    "lsjxavier": 2419,
-    "Samanthaseahpl": 1900,
-    "shaungoh97": 960,
-    "ignatiusong": 1028
+    "leslieharland": 10107,
+    "lsjxavier": 2653,
+    "Samanthaseahpl": 1879,
+    "shaungoh97": 1003,
+    "ignatiusong": 1022
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
       "gitignore": 1,
-      "adoc": 275,
-      "gradle": 7,
-      "java": 8917,
+      "yml": 12,
+      "adoc": 131,
+      "gradle": 11,
+      "java": 9643,
       "fxml": 254,
       "css": 4,
       "json": 51
     },
     "lsjxavier": {
       "gitignore": 2,
-      "java": 2366,
+      "java": 2600,
       "fxml": 51
     },
     "Samanthaseahpl": {
       "gradle": 3,
-      "adoc": 203,
+      "adoc": 182,
       "html": 1177,
       "java": 517
     },
     "shaungoh97": {
-      "html": 31,
+      "html": 33,
+      "adoc": 41,
       "java": 881,
       "fxml": 48
     },
     "ignatiusong": {
-      "adoc": 225,
+      "adoc": 219,
       "puml": 180,
       "fxml": 14,
       "java": 609
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3698114.8,
-    "lsjxavier": 69020.91,
-    "Samanthaseahpl": 71846.46,
-    "shaungoh97": 85312.42,
+    "leslieharland": 3721233.2,
+    "lsjxavier": 69462.84,
+    "Samanthaseahpl": 70482.164,
+    "shaungoh97": 84996.6,
     "ignatiusong": 124456.086
   },
   "authorDisplayNameMap": {
