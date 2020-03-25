@@ -1,22 +1,22 @@
-Mar 24, 2020 1:58:21 PM reposense.report.RepoCloner spawnCloneProcess
+Mar 25, 2020 1:58:54 PM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/AY1920S2-CS2103T-F11-3/main.git...
-Mar 24, 2020 1:58:21 PM reposense.report.RepoCloner waitForCloneProcess
+Mar 25, 2020 1:58:54 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/AY1920S2-CS2103T-F11-3/main.git to complete...
-Mar 24, 2020 1:58:22 PM reposense.report.RepoCloner waitForCloneProcess
+Mar 25, 2020 1:58:56 PM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/AY1920S2-CS2103T-F11-3/main.git completed!
-Mar 24, 2020 1:58:22 PM reposense.report.ReportGenerator analyzeRepos
+Mar 25, 2020 1:58:56 PM reposense.report.ReportGenerator analyzeRepos
 INFO: [1/1] Analyzing https://github.com/AY1920S2-CS2103T-F11-3/main.git (master)...
-Mar 24, 2020 1:58:23 PM reposense.report.ReportGenerator updateRepoConfig
+Mar 25, 2020 1:58:56 PM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/AY1920S2-CS2103T-F11-3/main.git (master) does not contain a standalone config file.
-Mar 24, 2020 1:58:23 PM reposense.commits.CommitInfoExtractor extractCommitInfos
+Mar 25, 2020 1:58:56 PM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/AY1920S2-CS2103T-F11-3/main.git (master)...
-Mar 24, 2020 1:58:23 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
+Mar 25, 2020 1:58:56 PM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/AY1920S2-CS2103T-F11-3/main.git (master)...
-Mar 24, 2020 1:58:23 PM reposense.authorship.FileInfoExtractor extractFileInfos
+Mar 25, 2020 1:58:56 PM reposense.authorship.FileInfoExtractor extractFileInfos
 INFO: Extracting relevant file info from https://github.com/AY1920S2-CS2103T-F11-3/main.git (master)...
-Mar 24, 2020 1:58:30 PM reposense.report.ReportGenerator analyzeRepo
+Mar 25, 2020 1:59:04 PM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/AY1920S2-CS2103T-F11-3/main.git (master) completed!
-Mar 24, 2020 1:58:30 PM reposense.report.ReportGenerator generateReposReport
+Mar 25, 2020 1:59:04 PM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/travis/build/AY1920S2-CS2103T-F11-3/publish-RepoSense/reposense-report
-Mar 24, 2020 1:58:30 PM reposense.RepoSense main
-INFO: Elapsed processing time: 9.29 second(s)
+Mar 25, 2020 1:59:04 PM reposense.RepoSense main
+INFO: Elapsed processing time: 10.15 second(s)

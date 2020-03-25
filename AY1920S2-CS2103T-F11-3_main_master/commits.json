@@ -301,8 +301,8 @@
         ]
       },
       {
-        "insertions": 244,
-        "deletions": 10,
+        "insertions": 294,
+        "deletions": 17,
         "date": "2020-03-24",
         "commitResults": [
           {
@@ -311,6 +311,13 @@
             "messageBody": "",
             "insertions": 244,
             "deletions": 10
+          },
+          {
+            "hash": "219898e5076629ed88fae4838ef3934400dc26e5",
+            "messageTitle": "Filter transactions by week (#115)",
+            "messageBody": "",
+            "insertions": 50,
+            "deletions": 7
           }
         ]
       }
@@ -428,6 +435,20 @@
             "messageBody": "- include tag \"t/\" function.\r\n- able to randomize with index for canteen \"c/\" only.",
             "insertions": 225,
             "deletions": 87
+          }
+        ]
+      },
+      {
+        "insertions": 317,
+        "deletions": 273,
+        "date": "2020-03-25",
+        "commitResults": [
+          {
+            "hash": "a5c0d043194c0a996383320c49f94d79780ea60d",
+            "messageTitle": "Branch documentation (#118)",
+            "messageBody": "* branch-randomize\n- include tag \"t/\" function.\n- able to randomize with index for canteen \"c/\" only.\n\n* branch-Documentation\n- Updated randomize function",
+            "insertions": 317,
+            "deletions": 273
           }
         ]
       }
@@ -749,15 +770,29 @@
             "deletions": 12
           }
         ]
+      },
+      {
+        "insertions": 94,
+        "deletions": 16,
+        "date": "2020-03-25",
+        "commitResults": [
+          {
+            "hash": "712a993dc565aa4575be4d004e827ba0c8076ad6",
+            "messageTitle": "Fixed bugs with enter stall and enter canteen when using invalid index (#116)",
+            "messageBody": "* Developer guide Leslie\r\n\r\n* Updated classes in original class diagrams\r\n\r\n* Updated names in class diagrams fix\r\n\r\n* fix UserGuide grammar somewhat\r\n\r\n* add placeholder for Filter function\r\n\r\n* remove unneccessary constructor in FIlterCommand\r\n\r\n* fix trailing whitespace\r\n\r\n* actually fixed hopefully trailing whitespace\r\n\r\n* changed constructor for filterCommand\r\n\r\n* update foodiebot.json\r\n\r\n* add FilterCommand to enable users to filter canteens based on tags\r\n\r\n* Gui update using JavaFX\r\n\r\n* fixed some bugs and wrote test for parseFilterTags\r\n\r\n* update EnterCanteen and EnterStall UI to display canteen and stall entered\r\n\r\n* Fix a bug with enter canteen when using an invalid index\r\n\r\n* fix bug with using invalid index when entering stall\r\n\r\n* fix a bug with exit not exiting\r\n\r\nCo-authored-by: leslieharland \u003cleslieharland@outlook.com\u003e",
+            "insertions": 94,
+            "deletions": 16
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 10107,
-    "lsjxavier": 2653,
-    "Samanthaseahpl": 1879,
+    "leslieharland": 10100,
+    "lsjxavier": 2700,
+    "Samanthaseahpl": 1922,
     "shaungoh97": 1003,
-    "ignatiusong": 1022
+    "ignatiusong": 1106
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -765,20 +800,21 @@
       "yml": 12,
       "adoc": 131,
       "gradle": 11,
-      "java": 9643,
-      "fxml": 254,
+      "java": 9637,
+      "fxml": 253,
       "css": 4,
       "json": 51
     },
     "lsjxavier": {
       "gitignore": 2,
-      "java": 2600,
+      "adoc": 10,
+      "java": 2637,
       "fxml": 51
     },
     "Samanthaseahpl": {
       "gradle": 3,
-      "adoc": 182,
-      "html": 1177,
+      "adoc": 184,
+      "html": 1218,
       "java": 517
     },
     "shaungoh97": {
@@ -788,18 +824,19 @@
       "fxml": 48
     },
     "ignatiusong": {
-      "adoc": 219,
+      "adoc": 218,
       "puml": 180,
-      "fxml": 14,
-      "java": 609
+      "fxml": 17,
+      "java": 675,
+      "xml": 16
     }
   },
   "authorContributionVariance": {
     "leslieharland": 3721233.2,
-    "lsjxavier": 69462.84,
-    "Samanthaseahpl": 70482.164,
+    "lsjxavier": 70133.234,
+    "Samanthaseahpl": 77473.016,
     "shaungoh97": 84996.6,
-    "ignatiusong": 124456.086
+    "ignatiusong": 123916.78
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
