@@ -189,6 +189,20 @@
             "deletions": 172
           }
         ]
+      },
+      {
+        "insertions": 150,
+        "deletions": 77,
+        "date": "2020-03-28",
+        "commitResults": [
+          {
+            "hash": "7e8635161e6dac4edef81d03f75ca89c65f9c419",
+            "messageTitle": "User guide to follow style standards",
+            "messageBody": "",
+            "insertions": 150,
+            "deletions": 77
+          }
+        ]
       }
     ],
     "lsjxavier": [
@@ -848,15 +862,29 @@
             "deletions": 36
           }
         ]
+      },
+      {
+        "insertions": 55,
+        "deletions": 5,
+        "date": "2020-03-28",
+        "commitResults": [
+          {
+            "hash": "32038608532aa155e97eb3565290614f3aa597a3",
+            "messageTitle": "Changed UI for stalls and Update Filter Food Command to filter by tag and price (#129)",
+            "messageBody": "* Developer guide Leslie\n\n* Updated classes in original class diagrams\n\n* Updated names in class diagrams fix\n\n* fix UserGuide grammar somewhat\n\n* add placeholder for Filter function\n\n* remove unneccessary constructor in FIlterCommand\n\n* fix trailing whitespace\n\n* actually fixed hopefully trailing whitespace\n\n* changed constructor for filterCommand\n\n* update foodiebot.json\n\n* add FilterCommand to enable users to filter canteens based on tags\n\n* Gui update using JavaFX\n\n* fixed some bugs and wrote test for parseFilterTags\n\n* update EnterCanteen and EnterStall UI to display canteen and stall entered\n\n* Fix a bug with enter canteen when using an invalid index\n\n* fix bug with using invalid index when entering stall\n\n* fix a bug with exit not exiting\n\n* Update user guide mainly and a bit of developer guide\n\n* add tags for stall\n*for some reason randomize will throw ClassCastException with updated stallCard\n\n* fixed a problem with the tags not placed in the correct position\n\n* update filtercommand to allow filter food by tag and price\n\nCo-authored-by: leslieharland \u003cleslieharland@outlook.com\u003e\n",
+            "insertions": 55,
+            "deletions": 5
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 10483,
-    "lsjxavier": 2806,
-    "Samanthaseahpl": 2031,
-    "shaungoh97": 989,
-    "ignatiusong": 1666
+    "leslieharland": 10627,
+    "lsjxavier": 2796,
+    "Samanthaseahpl": 2007,
+    "shaungoh97": 984,
+    "ignatiusong": 1685
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -867,7 +895,7 @@
       "adoc": 24,
       "adoc": 10,
       "adoc": 110,
-      "adoc": 23,
+      "adoc": 170,
       "adoc": 105,
       "java": 9,
       "java": 24,
@@ -996,7 +1024,7 @@
       "fxml": 16,
       "fxml": 44,
       "fxml": 1,
-      "fxml": 53,
+      "fxml": 50,
       "json": 9,
       "json": 21,
       "json": 19,
@@ -1106,7 +1134,7 @@
     },
     "lsjxavier": {
       "gitignore": 2,
-      "adoc": 27,
+      "adoc": 17,
       "java": 10,
       "java": 10,
       "java": 6,
@@ -1169,7 +1197,7 @@
     "Samanthaseahpl": {
       "gradle": 3,
       "adoc": 52,
-      "adoc": 113,
+      "adoc": 89,
       "html": 1218,
       "java": 2,
       "java": 5,
@@ -1198,7 +1226,7 @@
       "html": 22,
       "html": 11,
       "adoc": 23,
-      "adoc": 11,
+      "adoc": 6,
       "java": 4,
       "java": 6,
       "java": 12,
@@ -1241,7 +1269,7 @@
       "adoc": 2,
       "adoc": 189,
       "adoc": 2,
-      "adoc": 69,
+      "adoc": 35,
       "puml": 4,
       "puml": 13,
       "puml": 3,
@@ -1268,11 +1296,11 @@
       "java": 17,
       "java": 73,
       "java": 27,
-      "java": 51,
+      "java": 79,
       "java": 4,
       "java": 6,
       "java": 41,
-      "java": 35,
+      "java": 40,
       "java": 8,
       "java": 50,
       "java": 46,
@@ -1286,8 +1314,10 @@
       "java": 3,
       "java": 1,
       "java": 20,
+      "java": 11,
       "xml": 16,
       "fxml": 11,
+      "fxml": 9,
       "json": 2,
       "json": 1,
       "json": 1,
@@ -1301,11 +1331,11 @@
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3720621.0,
+    "leslieharland": 3712867.0,
     "lsjxavier": 69564.22,
     "Samanthaseahpl": 77076.21,
     "shaungoh97": 84983.016,
-    "ignatiusong": 123395.59
+    "ignatiusong": 122978.15
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",

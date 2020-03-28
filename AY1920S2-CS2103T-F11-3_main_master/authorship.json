@@ -14305,9 +14305,9 @@
       {
         "lineNumber": 21,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "FoodieBot is an all-in-one application to help both people new to NUS and people experienced in NUS with their campus dining needs. Whether the user needs a random suggestion of what to eat, directions to get to the canteen, help planning their budget for the week or just wants to see what each canteen has to offer, FoodieBot is here to provide for your needs."
+        "content": "FoodieBot is an all-in-one application created for students, staff and visitors, to help  with everyday\u0027s campus dining needs. Whether you need a random suggestion of what to eat, directions to get to the canteen, help in planning your budget for the week, or just want to see what each canteen has to offer, FoodieBot is here to provide for your needs."
       },
       {
         "lineNumber": 22,
@@ -14333,105 +14333,105 @@
       {
         "lineNumber": 25,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "\u003d\u003d About This document"
+        "content": "\u003d\u003d About this Document"
       },
       {
         "lineNumber": 26,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "This document shows you how to use the features of FoodieBot."
+        "content": "\u003d\u003d\u003d Symbols and Notations Used"
       },
       {
         "lineNumber": 27,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "The following are symbols and formatting used in this document:"
       },
       {
         "lineNumber": 28,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "Note the following symbols and formatting used in this document:"
+        "content": ""
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
-      },
-      {
-        "lineNumber": 30,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
         "content": "[NOTE]"
       },
       {
-        "lineNumber": 31,
+        "lineNumber": 30,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "This symbol indicates important information."
       },
       {
-        "lineNumber": 32,
+        "lineNumber": 31,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
-        "lineNumber": 33,
+        "lineNumber": 32,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": "[TIP]"
       },
       {
-        "lineNumber": 34,
+        "lineNumber": 33,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "This symbol indicates tips for the particular feature."
       },
       {
-        "lineNumber": 35,
+        "lineNumber": 34,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
-        "lineNumber": 36,
+        "lineNumber": 35,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": "`list` - A grey highlight (called a mark-up) indicates that this is a command that can be typed into the command line and executed by the application."
       },
       {
-        "lineNumber": 37,
+        "lineNumber": 36,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "\u003d\u003d\u003d How to Use this Document"
+      },
+      {
         "lineNumber": 38,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": "\u003d\u003d Quick Start"
+        "content": "Section 4. Features will introduce you the commands to enter in the application."
       },
       {
         "lineNumber": 39,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
@@ -14445,149 +14445,149 @@
       {
         "lineNumber": 41,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "-"
         },
-        "content": ".  Ensure that you have **Java 11** or above installed in your Computer."
+        "content": "\u003d\u003d Quick Start"
       },
       {
         "lineNumber": 42,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "-"
         },
-        "content": ".  Download the latest **foodiebot.jar** link:{repoURL}/releases[here]."
+        "content": ""
       },
       {
         "lineNumber": 43,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": ".  Copy the file to the folder you want to use as the home folder for your FoodieBot."
+        "content": ""
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": ".  Double-click the file to start the app. The Graphical User Interface(GUI) similar to the image shown below should appear in a few seconds."
+        "content": ".  Ensure that you have **Java 11** or above installed in your Computer."
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": ".  Download the latest **foodiebot.jar** link:{repoURL}/releases[here]."
       },
       {
         "lineNumber": 46,
         "author": {
-          "gitId": "-"
+          "gitId": "ignatiusong"
         },
-        "content": "+"
+        "content": ".  Copy the file to the folder you want to use as the home folder for your FoodieBot."
       },
       {
         "lineNumber": 47,
         "author": {
-          "gitId": "-"
+          "gitId": "ignatiusong"
         },
-        "content": "image::Ui.png[width\u003d\"790\"]"
+        "content": ".  Double-click the file to start the app. The Graphical User Interface(GUI) similar to the image shown below should appear in a few seconds."
       },
       {
         "lineNumber": 48,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": "+"
+        "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Type the command in the command box and press kbd:[Enter] to execute it. +"
+        "content": "+"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "-"
         },
-        "content": "e.g. typing *`help`* and pressing kbd:[Enter] will open the help window."
+        "content": "image::Ui.png[width\u003d\"790\"]"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "-"
         },
-        "content": ".  Some example commands you can try:"
+        "content": "+"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": ".  Type the command in the command box and press kbd:[Enter] to execute it. +"
       },
       {
         "lineNumber": 53,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "e.g. typing *`help`* and pressing kbd:[Enter] will open the help window."
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ".  Some example commands you can try:"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 56,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": "* *`list`* : Lists all canteens."
       },
       {
-        "lineNumber": 54,
+        "lineNumber": 57,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "* *`list`*`f/ COM1` : Locate the nearest canteen from COM1."
       },
       {
-        "lineNumber": 55,
+        "lineNumber": 58,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": "* *`goto`*`deck f/ COM1` : Display direction to go to deck from COM1."
       },
       {
-        "lineNumber": 56,
+        "lineNumber": 59,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "* *`exit`* : Go back to the previous view, if the application is at the main screen, the exit command will close the application"
       },
       {
-        "lineNumber": 57,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 58,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "//.  Refer to \u003c\u003cFeatures\u003e\u003e for details of each command."
-      },
-      {
-        "lineNumber": 59,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 60,
         "author": {
           "gitId": "-"
         },
-        "content": "[[Features]]"
+        "content": ""
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "-"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "\u003d\u003d Features"
+        "content": "//.  Refer to \u003c\u003cFeatures\u003e\u003e for details of each command."
       },
       {
         "lineNumber": 62,
@@ -14601,14 +14601,14 @@
         "author": {
           "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d\u003d"
+        "content": "[[Features]]"
       },
       {
         "lineNumber": 64,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "-"
         },
-        "content": "[red]*Command Format*"
+        "content": "\u003d\u003d Features"
       },
       {
         "lineNumber": 65,
@@ -14620,177 +14620,177 @@
       {
         "lineNumber": 66,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d\u003d"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "* Words in `UPPER_CASE` are the parameters to be supplied by the user e.g. in `budget set w/ AMOUNT`, `AMOUNT` is a parameter which can be used as `budget set w/ 9.50`"
+        "content": "[red]*Command Format*"
       },
       {
         "lineNumber": 68,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "* Words in `UPPER_CASE` are the parameters to be supplied by the user e.g. in `budget set w/ AMOUNT`, `AMOUNT` is a parameter which can be used as `budget set w/ 9.50`"
+      },
+      {
+        "lineNumber": 71,
         "author": {
           "gitId": "ignatiusong"
         },
         "content": "* Items in square brackets are optional entries e.g `report [w/DATE]` can be entered as `report [w/ 12-02-2020]` or as `report`."
       },
       {
-        "lineNumber": 69,
+        "lineNumber": 72,
         "author": {
           "gitId": "-"
         },
         "content": "\u003d\u003d\u003d\u003d"
       },
       {
-        "lineNumber": 70,
+        "lineNumber": 73,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 71,
+        "lineNumber": 74,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": "\u003d\u003d\u003d List All Canteens: `*list*`"
       },
       {
-        "lineNumber": 72,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 73,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "Displays a list of all available canteens on campus."
-      },
-      {
-        "lineNumber": 74,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
         "lineNumber": 75,
         "author": {
           "gitId": "-"
         },
-        "content": "Format: `list`"
+        "content": ""
       },
       {
         "lineNumber": 76,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "Displays a list of available canteens on campus."
       },
       {
         "lineNumber": 77,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
-        "content": "* `[f/BLOCK_NAME]` - displays canteens ordered by increasing distance from current location."
+        "content": ""
       },
       {
         "lineNumber": 78,
         "author": {
           "gitId": "-"
         },
-        "content": ""
+        "content": "Format: `list`"
       },
       {
         "lineNumber": 79,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
-        "content": "Examples:"
+        "content": ""
       },
       {
         "lineNumber": 80,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "Parameters:"
       },
       {
         "lineNumber": 81,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "* `list` +"
+        "content": ""
       },
       {
         "lineNumber": 82,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "List all canteens."
+        "content": "*  `[f/BLOCK_NAME]` - displays canteens ordered by increasing distance from current location."
       },
       {
         "lineNumber": 83,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "* `list f/com1` +"
-      },
-      {
-        "lineNumber": 84,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "List all canteens starting with the nearest canteen from com1"
-      },
-      {
-        "lineNumber": 85,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 86,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 84,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Examples:"
+      },
+      {
+        "lineNumber": 85,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 86,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "* `list` +"
+      },
+      {
         "lineNumber": 87,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "image::app/list.png[width\u003d\"700\", align\u003d\"left\"]"
+        "content": "List all canteens."
       },
       {
         "lineNumber": 88,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "* `list f/com1` +"
       },
       {
         "lineNumber": 89,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "List all canteens starting with the nearest canteen from com1"
       },
       {
         "lineNumber": 90,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "\u003d\u003d\u003d Go to Canteen: `goto`"
+        "content": ""
       },
       {
         "lineNumber": 91,
@@ -14802,35 +14802,35 @@
       {
         "lineNumber": 92,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "Displays a map with the route between the starting location and the destination."
+        "content": "image::app/list.png[width\u003d\"700\", align\u003d\"left\"]"
       },
       {
         "lineNumber": 93,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "Includes instructions on how to travel there as well as bus services that go to the canteen."
+        "content": ""
       },
       {
         "lineNumber": 94,
         "author": {
-          "gitId": "-"
+          "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
         "lineNumber": 95,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "Format: `goto CANTEEN_NAME f/ CURRENT_LOCATION`"
+        "content": "\u003d\u003d\u003d Go to Canteen: `*goto*`"
       },
       {
         "lineNumber": 96,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -14839,173 +14839,173 @@
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "* Suggestions for the `CANTEEN_NAME` and `CURRENT_LOCATION` field will be provided as the user types."
+        "content": "Displays a map with the route between the starting location and the destination."
       },
       {
         "lineNumber": 98,
         "author": {
-          "gitId": "-"
+          "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "Includes instructions on how to travel there as well as bus services that go to the canteen."
       },
       {
         "lineNumber": 99,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "-"
         },
-        "content": "NOTE: `CANTEEN_NAME` and `CURRENT_LOCATION` field has to be one of the suggestions. Otherwise an error message will be displayed telling the user to provide a valid `CANTEEN_NAME` and `CURRENT_LOCATION`."
+        "content": ""
       },
       {
         "lineNumber": 100,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "Format: `goto CANTEEN_NAME f/ CURRENT_LOCATION`"
       },
       {
         "lineNumber": 101,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "image::wireframe/goto.png[width\u003d\"700\", align\u003d\"left\"]"
+        "content": ""
       },
       {
         "lineNumber": 102,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "* Suggestions for the `CANTEEN_NAME` and `CURRENT_LOCATION` field will be provided as you type."
       },
       {
         "lineNumber": 103,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "-"
         },
-        "content": "\u003d\u003d\u003d View All Stores in Canteen: `*enter*`"
+        "content": ""
       },
       {
         "lineNumber": 104,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "NOTE: `CANTEEN_NAME` and `CURRENT_LOCATION` field has to be one of the suggestions. Otherwise an error message will be displayed telling the user to provide a valid `CANTEEN_NAME` and `CURRENT_LOCATION`."
+      },
+      {
+        "lineNumber": 105,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
-        "lineNumber": 105,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "Displays the stores available at the canteen specified by the user input. Contains information about the cuisine"
-      },
-      {
         "lineNumber": 106,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "sold at the store, the rating of the store and various other things which we haven\u0027t implemented yet."
+        "content": "image::wireframe/goto.png[width\u003d\"700\", align\u003d\"left\"]"
       },
       {
         "lineNumber": 107,
         "author": {
-          "gitId": "-"
+          "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
         "lineNumber": 108,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "Formats: `enter`"
+        "content": "\u003d\u003d\u003d View All Stalls in Canteen: `*enter*`"
       },
       {
         "lineNumber": 109,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
         "lineNumber": 110,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "* `INDEX`: Enter the canteen with the entered index."
+        "content": "Displays the stalls available at the specified canteen."
       },
       {
         "lineNumber": 111,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
         "lineNumber": 112,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "* `CANTEEN_NAME`: Enter the canteen with the entered name."
+        "content": "NOTE: Information about the cuisine"
       },
       {
         "lineNumber": 113,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "sold at the stall, the rating of the stall and various other things will be implemented in v2.0."
       },
       {
         "lineNumber": 114,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "NOTE: The store\u0027s rating is determined from the user\u0027s past experiences of the food items which were selected."
+        "content": ""
       },
       {
         "lineNumber": 115,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "Format: `enter`"
       },
       {
         "lineNumber": 116,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "\u003d\u003d\u003d Select the Food : `*select*`"
+        "content": ""
       },
       {
         "lineNumber": 117,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Parameters:"
+      },
+      {
+        "lineNumber": 118,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
-        "lineNumber": 118,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "Stores the selected food in the database of food to help the user track his history of food consumption."
-      },
-      {
         "lineNumber": 119,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 120,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "ignatiusong"
         },
-        "content": "Formats: `select`"
+        "content": "* `INDEX`: Enter the canteen with the entered index."
       },
       {
         "lineNumber": 121,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "-"
         },
         "content": ""
       },
@@ -15014,105 +15014,105 @@
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "* `INDEX`: Select the food with the given index from the list displayed on the GUI"
+        "content": "* `CANTEEN_NAME`: Enter the canteen with the entered name."
       },
       {
         "lineNumber": 123,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "* `FOOD_NAME`: Select the food with the given name from the list displayed on the GUI"
-      },
-      {
-        "lineNumber": 124,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
+        "lineNumber": 124,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "NOTE: The stall\u0027s rating is determined from the user\u0027s past experiences of the food items which were selected."
+      },
+      {
         "lineNumber": 125,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "-"
         },
-        "content": "NOTE: If a budget has been set up, the budget will be automatically"
+        "content": ""
       },
       {
         "lineNumber": 126,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "shaungoh97"
         },
-        "content": "reduced by the price of the selected food."
+        "content": "\u003d\u003d\u003d Select the Food : `*select*`"
       },
       {
         "lineNumber": 127,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
         "content": ""
       },
       {
         "lineNumber": 128,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "Examples:"
+        "content": "Stalls the selected food in the database of food to help the user track his history of food consumption."
       },
       {
         "lineNumber": 129,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
         "lineNumber": 130,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "* `select 1`"
+        "content": "Format: `select`"
       },
       {
         "lineNumber": 131,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "leslieharland"
         },
-        "content": "** Select food listed at index 1."
+        "content": ""
       },
       {
         "lineNumber": 132,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "Parameters:"
       },
       {
         "lineNumber": 133,
         "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "* `select Combo Set`"
-      },
-      {
-        "lineNumber": 134,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "** Select the food item Combo Set."
-      },
-      {
-        "lineNumber": 135,
-        "author": {
-          "gitId": "-"
+          "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
-        "lineNumber": 136,
+        "lineNumber": 134,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "image::wireframe/select.png[width\u003d\"700\", align\u003d\"left\"]"
+        "content": ""
+      },
+      {
+        "lineNumber": 135,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "* `INDEX`: Select the food with the given index from the list displayed on the GUI"
+      },
+      {
+        "lineNumber": 136,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "* `FOOD_NAME`: Select the food with the given name from the list displayed on the GUI"
       },
       {
         "lineNumber": 137,
@@ -15124,310 +15124,310 @@
       {
         "lineNumber": 138,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "shaungoh97"
         },
-        "content": "\u003d\u003d\u003d Randomize Food Selection : `*randomize*`"
+        "content": "NOTE: If a budget has been set up, the budget will be automatically"
       },
       {
         "lineNumber": 139,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "reduced by the price of the selected food."
       },
       {
         "lineNumber": 140,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "Displays a list of randomized suggestions of food."
-      },
-      {
-        "lineNumber": 141,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 142,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "Format: `randomize`"
-      },
-      {
-        "lineNumber": 143,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 144,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "* `[c/ CANTEEN_NAME]` - Produce a randomized list of foods from foods available at the particular canteen ."
-      },
-      {
-        "lineNumber": 145,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "** Example: `randomize c/ The Deck`"
-      },
-      {
-        "lineNumber": 146,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "* `[t/ TAG]` - Randomize based on foods which are tagged with the tag provided."
-      },
-      {
-        "lineNumber": 147,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "** Example: `randomize t/ rice`"
-      },
-      {
-        "lineNumber": 148,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "* `[c/]` and `[t/]` are optional."
-      },
-      {
-        "lineNumber": 149,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 150,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "image::wireframe/randomize.png[width\u003d\"700\", align\u003d\"left\"]"
-      },
-      {
-        "lineNumber": 151,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 152,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "\u003d\u003d\u003d Set a Budget : `*budget set*`"
-      },
-      {
-        "lineNumber": 153,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 154,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "Sets a daily, weekly or monthly budget.  The budget can be changed."
-      },
-      {
-        "lineNumber": 155,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 156,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "NOTE: Changing the budget will reset the budget overview for the current budget cycle. +"
-      },
-      {
-        "lineNumber": 157,
-        "author": {
-          "gitId": "lsjxavier"
-        },
-        "content": "For example, if you have $5 remaining from a weekly budget of $20, setting a new monthly budget of $150"
-      },
-      {
-        "lineNumber": 158,
-        "author": {
-          "gitId": "lsjxavier"
-        },
-        "content": "will update your current budget settings to the new one, but at the same time resets both the start date"
-      },
-      {
-        "lineNumber": 159,
-        "author": {
-          "gitId": "lsjxavier"
-        },
-        "content": "of the cycle as well as the amount remaining. +"
-      },
-      {
-        "lineNumber": 160,
-        "author": {
-          "gitId": "lsjxavier"
-        },
-        "content": "(But not to worry, your transactions are still saved!)"
-      },
-      {
-        "lineNumber": 161,
-        "author": {
-          "gitId": "lsjxavier"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 162,
-        "author": {
-          "gitId": "-"
-        },
-        "content": "Format: `budget set [PERIOD] [AMOUNT]`"
-      },
-      {
-        "lineNumber": 163,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 164,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "* `AMOUNT`: Defines the maximum amount you can spend in your budget."
-      },
-      {
-        "lineNumber": 165,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "* `PERIOD`: Defines the length of the cycle that a budget is effective for and when it will refresh."
-      },
-      {
-        "lineNumber": 166,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "* List of `PERIOD` inputs includes:"
-      },
-      {
-        "lineNumber": 167,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "** `[d/]` - Daily"
-      },
-      {
-        "lineNumber": 168,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "** `[w/]` - Weekly"
-      },
-      {
-        "lineNumber": 169,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "** `[m/]` - Monthly"
-      },
-      {
-        "lineNumber": 170,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 171,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "NOTE: `PERIOD` field has to be one of the above suggestions. +"
-      },
-      {
-        "lineNumber": 172,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "`AMOUNT` field has to be numeric (with or without decimal places). +"
-      },
-      {
-        "lineNumber": 173,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "Otherwise an error message will be displayed requesting a correct type to be provided."
-      },
-      {
-        "lineNumber": 174,
-        "author": {
-          "gitId": "-"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 175,
         "author": {
           "gitId": "leslieharland"
         },
         "content": ""
       },
       {
-        "lineNumber": 176,
+        "lineNumber": 141,
         "author": {
-          "gitId": "-"
+          "gitId": "Samanthaseahpl"
         },
         "content": "Examples:"
       },
       {
-        "lineNumber": 177,
+        "lineNumber": 142,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
-        "lineNumber": 178,
+        "lineNumber": 143,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "* `select 1`"
+      },
+      {
+        "lineNumber": 144,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "** Selects the food item listed at index 1."
+      },
+      {
+        "lineNumber": 145,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 146,
+        "author": {
+          "gitId": "shaungoh97"
+        },
+        "content": "* `select Combo Set`"
+      },
+      {
+        "lineNumber": 147,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "** Selects the food item Combo Set."
+      },
+      {
+        "lineNumber": 148,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 149,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "* `budget set w/ 9.50`"
+        "content": "image::wireframe/select.png[width\u003d\"700\", align\u003d\"left\"]"
+      },
+      {
+        "lineNumber": 150,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 151,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "\u003d\u003d\u003d Randomize Food Selection : `*randomize*`"
+      },
+      {
+        "lineNumber": 152,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 153,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "Displays a list of randomized suggestions of food."
+      },
+      {
+        "lineNumber": 154,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 155,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "Format: `randomize`"
+      },
+      {
+        "lineNumber": 156,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 157,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Parameters:"
+      },
+      {
+        "lineNumber": 158,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 159,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 160,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "* `[c/ CANTEEN_NAME]` - Produce a randomized list of foods from foods available at the particular canteen ."
+      },
+      {
+        "lineNumber": 161,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "** Example: `randomize c/ The Deck`"
+      },
+      {
+        "lineNumber": 162,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "* `[t/ TAG]` - Randomize based on foods which are tagged with the tag provided."
+      },
+      {
+        "lineNumber": 163,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "** Example: `randomize t/ rice`"
+      },
+      {
+        "lineNumber": 164,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "* `c/` and `t/` are optional."
+      },
+      {
+        "lineNumber": 165,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 166,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "image::wireframe/randomize.png[width\u003d\"700\", align\u003d\"left\"]"
+      },
+      {
+        "lineNumber": 167,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 168,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "\u003d\u003d\u003d Set a Budget : `*budget set*`"
+      },
+      {
+        "lineNumber": 169,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 170,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "Sets a daily, weekly or monthly budget.  The budget can be changed."
+      },
+      {
+        "lineNumber": 171,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 172,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "NOTE: Changing the budget will reset the budget overview for the current budget cycle. +"
+      },
+      {
+        "lineNumber": 173,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "For example, if you have $5 remaining from a weekly budget of $20, setting a new monthly budget of $150"
+      },
+      {
+        "lineNumber": 174,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "will update your current budget settings to the new one, but at the same time resets both the start date"
+      },
+      {
+        "lineNumber": 175,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "of the cycle as well as the amount remaining. +"
+      },
+      {
+        "lineNumber": 176,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": "(But not to worry, your transactions are still saved!)"
+      },
+      {
+        "lineNumber": 177,
+        "author": {
+          "gitId": "lsjxavier"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 178,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Format: `budget set PERIOD AMOUNT`"
       },
       {
         "lineNumber": 179,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "-"
         },
-        "content": "** Sets your weekly budget to $9.50."
+        "content": ""
       },
       {
         "lineNumber": 180,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "* `budget set m/ 100`"
+        "content": "Parameters:"
       },
       {
         "lineNumber": 181,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "** Sets your monthly budget to $100."
+        "content": ""
       },
       {
         "lineNumber": 182,
@@ -15439,191 +15439,191 @@
       {
         "lineNumber": 183,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "* `AMOUNT`: The maximum amount available to spend for the given time period."
       },
       {
         "lineNumber": 184,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "image::wireframe/budget set.png[width\u003d\"700\", align\u003d\"left\"]"
+        "content": "* `PERIOD`: The length of the cycle that a budget is effective for and when it will refresh."
       },
       {
         "lineNumber": 185,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "+"
       },
       {
         "lineNumber": 186,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "\u003d\u003d\u003d View Budget: `*budget view*`"
+        "content": "List of values for `PERIOD` are:"
       },
       {
         "lineNumber": 187,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "+"
       },
       {
         "lineNumber": 188,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "Views the current budget, spendings made during the current budget cycle,"
+        "content": "** `d/` - Daily"
       },
       {
         "lineNumber": 189,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "as well as the remaining budget available to spend."
+        "content": "** `w/` - Weekly"
       },
       {
         "lineNumber": 190,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "** `m/` - Monthly"
       },
       {
         "lineNumber": 191,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "Format: `budget view`"
+        "content": ""
       },
       {
         "lineNumber": 192,
         "author": {
-          "gitId": "-"
+          "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "NOTE: `PERIOD` field has to be one of the above suggestions. +"
       },
       {
         "lineNumber": 193,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "\u003d\u003d\u003d View Expense Report: `*report*`"
+        "content": "`AMOUNT` field has to be numeric (with or without decimal places). +"
       },
       {
         "lineNumber": 194,
         "author": {
-          "gitId": "shaungoh97"
+          "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "Otherwise an error message will be displayed requesting a correct type to be provided."
       },
       {
         "lineNumber": 195,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "-"
         },
-        "content": "Generates a report for your spending and food purchases for the period specified."
+        "content": ""
       },
       {
         "lineNumber": 196,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
         "lineNumber": 197,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "-"
         },
-        "content": "Format: `report`"
+        "content": "Examples:"
       },
       {
         "lineNumber": 198,
         "author": {
-          "gitId": "-"
+          "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
         "lineNumber": 199,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "* `[f/FROM_DATE] [t/TO_DATE]` - Generate report from `FROM_DATE` until `TO_DATE`."
+        "content": "* `budget set w/ 9.50`"
       },
       {
         "lineNumber": 200,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "** Example: `report [f/ 12-02-2020] [t/ 30-04-2020]`"
+        "content": "** Sets your weekly budget to $9.50."
       },
       {
         "lineNumber": 201,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "* `[w/DATE]` - Generate report for the week (Monday-Sunday) of the input date."
+        "content": "* `budget set m/ 100`"
       },
       {
         "lineNumber": 202,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "** Example: `report [w/ 12-02-2020]`"
+        "content": "** Sets your monthly budget to $100."
       },
       {
         "lineNumber": 203,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "* `[m/MONTH]` - Generate report of the input month."
+        "content": ""
       },
       {
         "lineNumber": 204,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "-"
         },
-        "content": "** Example: `report [m/ jan]` - Generates a report for the month of January for the current year."
+        "content": ""
       },
       {
         "lineNumber": 205,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "** Example: \u0027report [m/ jul] [y/ 2019]` - Generates a report for the month of July of the specified year"
+        "content": ""
       },
       {
         "lineNumber": 206,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "of 2019."
+        "content": "\u003d\u003d\u003d View Budget: `*budget view*`"
       },
       {
         "lineNumber": 207,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "-"
         },
-        "content": "* `[y/YEAR]` - Generate report of the input year."
+        "content": ""
       },
       {
         "lineNumber": 208,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "lsjxavier"
         },
-        "content": "** Example: `report [y/ 2020]`"
+        "content": "Views the current budget, spendings made during the current budget cycle,"
       },
       {
         "lineNumber": 209,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "ignatiusong"
         },
-        "content": "* `[f/]`, `[t/]`, `[m/]`, `[w/]` and `[y/]` fields are optional."
+        "content": "as well as the remaining budget available to spend."
       },
       {
         "lineNumber": 210,
@@ -15637,747 +15637,747 @@
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "NOTE: `FROM_DATE` cannot be a future date. +"
+        "content": "Format: `budget view`"
       },
       {
         "lineNumber": 212,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "`TO_DATE` cannot be before the `FROM_DATE`, or the earliest possible date if the [f/] field is empty."
-      },
-      {
-        "lineNumber": 213,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 213,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "\u003d\u003d\u003d View Expense Report: `*report*`"
+      },
+      {
         "lineNumber": 214,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "image::wireframe/report.png[width\u003d\"700\", align\u003d\"left\"]"
-      },
-      {
-        "lineNumber": 215,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 216,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "\u003d\u003d\u003d View Past Transactions: `*transaction*`"
-      },
-      {
-        "lineNumber": 217,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 218,
-        "author": {
-          "gitId": "lsjxavier"
-        },
-        "content": "Displays your past transactions of food purchases for any period specified."
-      },
-      {
-        "lineNumber": 219,
         "author": {
           "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
-        "lineNumber": 220,
+        "lineNumber": 215,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Generatess a report for your spending and food purchases for the period specified."
+      },
+      {
+        "lineNumber": 216,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 217,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "Format: `transaction`"
+        "content": "Format: `report`"
+      },
+      {
+        "lineNumber": 218,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 219,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Parameters:"
+      },
+      {
+        "lineNumber": 220,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
       },
       {
         "lineNumber": 221,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
         "lineNumber": 222,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "* `[f/FROM_DATE] [t/TO_DATE]` - Display transactions from and till the given dates."
+        "content": "* `[f/FROM_DATE] [t/TO_DATE]` - Generates report from `FROM_DATE` until `TO_DATE`."
       },
       {
         "lineNumber": 223,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "** Example: `report [f/ 12-02-2020] [t/ 30-04-2020]`"
+        "content": "** Example: `report f/ 12-02-2020 t/ 30-04-2020`"
       },
       {
         "lineNumber": 224,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "* `[w/DATE]` - Display transactions for the week (Monday-Sunday) of the input date."
+        "content": "* `[w/DATE]` - Generates report for the week (Monday-Sunday) of the input date."
       },
       {
         "lineNumber": 225,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "** Example: transactions `[w/ 12-02-2020]`"
+        "content": "** Example: `report w/ 12-02-2020`"
       },
       {
         "lineNumber": 226,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "* `[m/MONTH]` - Display transactions of the input month."
+        "content": "* `[m/MONTH]` - Generates report of the input month."
       },
       {
         "lineNumber": 227,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "** Example: transactions `[m/ jan]` - Displays all transactions in the month of the current year."
+        "content": "** Example: `report m/ jan` - Generates a report for the month of January for the current year."
       },
       {
         "lineNumber": 228,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "** Example: transactions `[m/ jul] [y/ 2019]` - Displays all transactions in the month of the specified year."
+        "content": "** Example: `report m/ jul y/ 2019` - Generates a report for the month of July of the specified year"
       },
       {
         "lineNumber": 229,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "ignatiusong"
         },
-        "content": "* `[y/YEAR]` - Display transactions of the input year."
+        "content": "of 2019."
       },
       {
         "lineNumber": 230,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "** Example: transactions `[y/ 2020]`"
+        "content": "* `[y/YEAR]` - Generates report of the input year."
       },
       {
         "lineNumber": 231,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "* `[f/]`, `[t/]`, `[m/]`, `[w/]` and `[y/]` fields are optional."
+        "content": "** Example: `report y/ 2020`"
       },
       {
         "lineNumber": 232,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "* `f/`, `t/`, `m/`, `w/` and `y/` fields are optional."
       },
       {
         "lineNumber": 233,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "-"
         },
-        "content": "NOTE: `FROM_DATE` cannot be a future date. +"
+        "content": ""
       },
       {
         "lineNumber": 234,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "`TO_DATE` cannot be before the `FROM_DATE`, or the earliest possible date if the [f/] field is empty."
+        "content": "NOTE: `FROM_DATE` cannot be a future date. +"
       },
       {
         "lineNumber": 235,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "`TO_DATE` cannot be before the `FROM_DATE`, or the earliest possible date if the [f/] field is empty."
       },
       {
         "lineNumber": 236,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "-"
         },
-        "content": "image::wireframe/transaction.png[width\u003d\"700\", align\u003d\"left\"]"
+        "content": ""
       },
       {
         "lineNumber": 237,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "//image::wireframe/report.png[width\u003d\"700\", align\u003d\"left\"]"
       },
       {
         "lineNumber": 238,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "\u003d\u003d\u003d Review Food Items: `*review*`"
+        "content": ""
       },
       {
         "lineNumber": 239,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "\u003d\u003d\u003d View Past Transactions: `*transactions*`"
       },
       {
         "lineNumber": 240,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "Reviews food items from the transactions screen as shown in 3.12."
-      },
-      {
-        "lineNumber": 241,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
-        "lineNumber": 242,
+        "lineNumber": 241,
         "author": {
           "gitId": "lsjxavier"
         },
-        "content": "Format: `review INDEX REVIEW`"
+        "content": "Displays your past transactions of food purchases for any period specified."
       },
       {
-        "lineNumber": 243,
+        "lineNumber": 242,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "shaungoh97"
         },
         "content": ""
       },
       {
+        "lineNumber": 243,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Format: `transactions`"
+      },
+      {
         "lineNumber": 244,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "* Example:"
+        "content": ""
       },
       {
         "lineNumber": 245,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "** `rate 5 This was yummy!` - Adds your review \"This was yummy!\" to the 5th item in your transactions list."
+        "content": "Parameters:"
       },
       {
         "lineNumber": 246,
         "author": {
-          "gitId": "-"
+          "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
         "lineNumber": 247,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "TIP: You can update existing reviews by using the same command."
+        "content": ""
       },
       {
         "lineNumber": 248,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "* `[f/FROM_DATE] [t/TO_DATE]` - Displays transactions from and till the given dates."
       },
       {
         "lineNumber": 249,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "image::wireframe/review.png[width\u003d\"700\", align\u003d\"left\"]"
+        "content": "** Example: `report f/ 12-02-2020 t/ 30-04-2020`"
       },
       {
         "lineNumber": 250,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "* `[w/DATE]` - Displays transactions for the week (Monday-Sunday) of the input date."
       },
       {
         "lineNumber": 251,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "\u003d\u003d\u003d Rate Food Items: `*rate*`"
+        "content": "** Example: transactions `w/ 12-02-2020`"
       },
       {
         "lineNumber": 252,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "* `[m/MONTH]` - Displays transactions of the input month."
       },
       {
         "lineNumber": 253,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "Rates food items from the transactions screen as shown in 3.12."
+        "content": "** Example: transactions `m/ jan` - Displays all transactions in the month of the current year."
       },
       {
         "lineNumber": 254,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "leslieharland"
         },
-        "content": "This rating is on a scale from 0 to 10."
+        "content": "** Example: transactions `m/ jul y/ 2019` - Displays all transactions in the month of the specified year."
       },
       {
         "lineNumber": 255,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "* `[y/YEAR]` - Displays transactions of the input year."
+      },
+      {
+        "lineNumber": 256,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "** Example: transactions `y/ 2020`"
+      },
+      {
+        "lineNumber": 257,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "* `f/`, `t/`, `m/`, `w/` and `y/` fields are optional."
+      },
+      {
+        "lineNumber": 258,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
-        "lineNumber": 256,
-        "author": {
-          "gitId": "lsjxavier"
-        },
-        "content": "Format: `rate INDEX RATING`"
-      },
-      {
-        "lineNumber": 257,
-        "author": {
-          "gitId": "lsjxavier"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 258,
-        "author": {
-          "gitId": "lsjxavier"
-        },
-        "content": "* Example:"
-      },
-      {
         "lineNumber": 259,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "** `rate 3 8` - Rates the 3rd item in your transactions list as 8."
+        "content": "NOTE: `FROM_DATE` cannot be a future date. +"
       },
       {
         "lineNumber": 260,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "`TO_DATE` cannot be before the `FROM_DATE`, or the earliest possible date if the f/ field is empty."
       },
       {
         "lineNumber": 261,
         "author": {
-          "gitId": "lsjxavier"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "TIP: You can also update existing ratings by using the same command."
+        "content": ""
       },
       {
         "lineNumber": 262,
         "author": {
-          "gitId": "-"
+          "gitId": "Samanthaseahpl"
         },
-        "content": ""
+        "content": "image::wireframe/transaction.png[width\u003d\"700\", align\u003d\"left\"]"
       },
       {
         "lineNumber": 263,
         "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "\u003d\u003d\u003d Filter Canteens or Stalls: `*filter*`"
-      },
-      {
-        "lineNumber": 264,
-        "author": {
-          "gitId": "ignatiusong"
+          "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
+        "lineNumber": 264,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "\u003d\u003d\u003d Review Food Items: `*review*`"
+      },
+      {
         "lineNumber": 265,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "-"
         },
-        "content": "Filter canteens or stalls based on whether they have the tag entered by the user. This depends on the menu"
+        "content": ""
       },
       {
         "lineNumber": 266,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "that the user is currently in. If they are in the canteen menu, this will filter the canteens and similarly in"
+        "content": "Reviews food items from the transactions screen as shown in 3.12."
       },
       {
         "lineNumber": 267,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "the stall menu, this will filter the stalls."
+        "content": ""
       },
       {
         "lineNumber": 268,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "Format: `review INDEX REVIEW`"
       },
       {
         "lineNumber": 269,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "lsjxavier"
         },
-        "content": "Format: `filter TAG`"
+        "content": ""
       },
       {
         "lineNumber": 270,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "Parameters:"
       },
       {
         "lineNumber": 271,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "* Example:"
+        "content": ""
       },
       {
         "lineNumber": 272,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "** `filter asian` - Only displays canteens with the asian tag."
+        "content": "* `INDEX` - This must be the first parameter and an index from the list has to be specified."
       },
       {
         "lineNumber": 273,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "* `REVIEW`- This must be the second parameter and the review message cannot be blank."
       },
       {
         "lineNumber": 274,
         "author": {
-          "gitId": "-"
+          "gitId": "leslieharland"
         },
-        "content": "\u003d\u003d FAQ"
+        "content": ""
       },
       {
         "lineNumber": 275,
         "author": {
-          "gitId": "-"
+          "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "* Example:"
       },
       {
         "lineNumber": 276,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "lsjxavier"
         },
-        "content": "*Q*: How do I transfer my data to another computer? +"
+        "content": "** `rate 5 This was yummy!` - Adds your review \"This was yummy!\" to the 5th item in your transactions list."
       },
       {
         "lineNumber": 277,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "-"
         },
-        "content": "*A*: Install the app in the other computer and overwrite the empty data file it creates with the file that contains the data of your previous FoodieBot folder."
+        "content": ""
       },
       {
         "lineNumber": 278,
         "author": {
-          "gitId": "-"
+          "gitId": "lsjxavier"
         },
-        "content": ""
+        "content": "TIP: You can update existing reviews by using the same command."
       },
       {
         "lineNumber": 279,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "*Q*: Can I write my personal review in other languages?  +"
+        "content": ""
       },
       {
         "lineNumber": 280,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "*A*: Yes, FoodieBot accepts input for different types of language, however it does not support in-app localization."
+        "content": "//image::wireframe/review.png[width\u003d\"700\", align\u003d\"left\"]"
       },
       {
         "lineNumber": 281,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
         "lineNumber": 282,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "Samanthaseahpl"
         },
-        "content": "*Q*: How can I edit the list of canteen if one canteen closes down? +"
+        "content": "\u003d\u003d\u003d Rate Food Items: `*rate*`"
       },
       {
         "lineNumber": 283,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "*A*: You can download the json file which we have published and edit it accordingly."
-      },
-      {
-        "lineNumber": 284,
         "author": {
           "gitId": "Samanthaseahpl"
         },
         "content": ""
       },
       {
+        "lineNumber": 284,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "Rates food items from the transactions screen as shown in 3.12."
+      },
+      {
         "lineNumber": 285,
         "author": {
-          "gitId": "-"
+          "gitId": "lsjxavier"
         },
-        "content": "\u003d\u003d Command Summary"
+        "content": "This rating is on a scale from 0 to 10."
       },
       {
         "lineNumber": 286,
         "author": {
           "gitId": "Samanthaseahpl"
         },
-        "content": "[width\u003d\"80%\",cols\u003d\"33%,\u003c60%,\u003c60%\",options\u003d\"header\",]"
+        "content": ""
       },
       {
         "lineNumber": 287,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "lsjxavier"
         },
-        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": "Format: `rate INDEX RATING`"
       },
       {
         "lineNumber": 288,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "lsjxavier"
         },
-        "content": "|Command |Function |Example"
+        "content": ""
       },
       {
         "lineNumber": 289,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "Parameters:"
       },
       {
         "lineNumber": 290,
         "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "|budget set PERIOD AMOUNT |Set a budget for the allocated period |budget set w/ 9.50"
-      },
-      {
-        "lineNumber": 291,
-        "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
+        "lineNumber": 291,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "* `INDEX` - This must be the first parameter and an index from the list has to be specified."
+      },
+      {
         "lineNumber": 292,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "|budget view |View current budget|"
+        "content": "* `RATING`- This must be the second parameter and requires a rating for the food item."
       },
       {
         "lineNumber": 293,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
         "lineNumber": 294,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "|enter CANTEEN_NAME |Display the menu for the selected canteen |enter deck"
+        "content": "Examples:"
       },
       {
         "lineNumber": 295,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
       {
         "lineNumber": 296,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "lsjxavier"
         },
-        "content": "|find nearest BLOCK_NAME |Find the nearest canteen from location |find nearest COM1"
+        "content": "** `rate 3 8` - Rates the 3rd item in your transactions list as 8."
       },
       {
         "lineNumber": 297,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 298,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "|goto CANTEEN_NAME f/ CURRENT_LOCATION |Get direction to canteen from the current location |goto The Deck f/ COM1"
-      },
-      {
-        "lineNumber": 299,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 300,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "|list |Display the list of canteen |"
-      },
-      {
-        "lineNumber": 301,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 302,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "|rate INDEX | Give a rating to the store |"
-      },
-      {
-        "lineNumber": 303,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 304,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": "|randomize |Display a list of randomize options | randomize c/ The Deck"
-      },
-      {
-        "lineNumber": 305,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 306,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "|report |Generate a report of the food consumed |report f/ 12-02-2020 t/ 30-04-2020"
-      },
-      {
-        "lineNumber": 307,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 308,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "|review INDEX | Give a review for the store|"
-      },
-      {
-        "lineNumber": 309,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 310,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "|select INDEX| Store the selected food into the database |"
-      },
-      {
-        "lineNumber": 311,
-        "author": {
-          "gitId": "Samanthaseahpl"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 312,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": "|transaction |Generate the transaction breakdown |transaction w/ 12-02-2020"
-      },
-      {
-        "lineNumber": 313,
-        "author": {
-          "gitId": "ignatiusong"
-        },
-        "content": ""
-      },
-      {
-        "lineNumber": 314,
-        "author": {
-          "gitId": "shaungoh97"
-        },
-        "content": "|transaction |Generate the transaction breakdown |transaction w/ 12-02-2020"
-      },
-      {
-        "lineNumber": 315,
         "author": {
           "gitId": "-"
         },
         "content": ""
       },
       {
+        "lineNumber": 298,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "TIP: You can also update existing ratings by using the rate on the same food item."
+      },
+      {
+        "lineNumber": 299,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 300,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "\u003d\u003d\u003d Set Food Items as Favorites: `*favorites set*`"
+      },
+      {
+        "lineNumber": 301,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 302,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Set food items from the stalls as favorites for easier access."
+      },
+      {
+        "lineNumber": 303,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 304,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Format: `favorites set INDEX`"
+      },
+      {
+        "lineNumber": 305,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 306,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Parameters:"
+      },
+      {
+        "lineNumber": 307,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 308,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "* `INDEX` - This must be the first parameter and an index from the list has to be specified."
+      },
+      {
+        "lineNumber": 309,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 310,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 311,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 312,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "\u003d\u003d\u003d View Favorited Food Items: `*favorites view*`"
+      },
+      {
+        "lineNumber": 313,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 314,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "View the food items that have been set as favorites."
+      },
+      {
+        "lineNumber": 315,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
         "lineNumber": 316,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
-        "content": "|filter |Show only canteens or stalls with a specified tag |filter asian"
+        "content": "Format: `favorites view`"
       },
       {
         "lineNumber": 317,
         "author": {
-          "gitId": "ignatiusong"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
@@ -16391,14 +16391,14 @@
       {
         "lineNumber": 319,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
-        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+        "content": "\u003d\u003d\u003d Remove Favorited Food Items: `*favorites remove*`"
       },
       {
         "lineNumber": 320,
         "author": {
-          "gitId": "Samanthaseahpl"
+          "gitId": "leslieharland"
         },
         "content": ""
       },
@@ -16407,16 +16407,527 @@
         "author": {
           "gitId": "leslieharland"
         },
+        "content": "View the food items that have been set as favorites."
+      },
+      {
+        "lineNumber": 322,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 323,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Format: `favorites remove INDEX`"
+      },
+      {
+        "lineNumber": 324,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 325,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Parameters:"
+      },
+      {
+        "lineNumber": 326,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 327,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "* `INDEX` - This must be the first parameter and an index from the list has to be specified."
+      },
+      {
+        "lineNumber": 328,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 329,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 330,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 331,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "\u003d\u003d\u003d Filter Canteens or Stalls: `*filter*`"
+      },
+      {
+        "lineNumber": 332,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 333,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Filter canteens or stalls based on the tag entered."
+      },
+      {
+        "lineNumber": 334,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 335,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "Format: `filter TAG`"
+      },
+      {
+        "lineNumber": 336,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 337,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Parameters:"
+      },
+      {
+        "lineNumber": 338,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 339,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "* `TAG` - a label tag assiociated with the food item."
+      },
+      {
+        "lineNumber": 340,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 341,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "Examples:"
+      },
+      {
+        "lineNumber": 342,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 343,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "** `filter asian` - Only displays canteens with the asian tag."
+      },
+      {
+        "lineNumber": 344,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 345,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d FAQ"
+      },
+      {
+        "lineNumber": 346,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 347,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "*Q*: How can I update the list of canteens if there are changes to the canteens on campus? +"
+      },
+      {
+        "lineNumber": 348,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "*A*: You can manually download foodiebot.json file which we have published link:https://github.com/AY1920S2-CS2103T-F11-3/main/blob/master/foodiebot.json[here]."
+      },
+      {
+        "lineNumber": 349,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 350,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "*Q*: Can I write my personal review in other languages?  +"
+      },
+      {
+        "lineNumber": 351,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "*A*: Yes, FoodieBot accepts input for different types of language, however it does not support in-app localization."
+      },
+      {
+        "lineNumber": 352,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 353,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 354,
+        "author": {
+          "gitId": "-"
+        },
+        "content": "\u003d\u003d Command Summary"
+      },
+      {
+        "lineNumber": 355,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "[width\u003d\"80%\",cols\u003d\"33%,\u003c60%,\u003c60%\",options\u003d\"header\",]"
+      },
+      {
+        "lineNumber": 356,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 357,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "|Command |Function |Example"
+      },
+      {
+        "lineNumber": 358,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 359,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|budget set PERIOD AMOUNT |Sets a budget for the allocated period |budget set w/ 9.50"
+      },
+      {
+        "lineNumber": 360,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 361,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|budget view |Views the current budget|"
+      },
+      {
+        "lineNumber": 362,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 363,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|enter CANTEEN_NAME |Displays the menu for the selected canteen |enter The Deck"
+      },
+      {
+        "lineNumber": 364,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 365,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|favorites set |Sets the food item in the stall as a favorite |favorites set 1"
+      },
+      {
+        "lineNumber": 366,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 367,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|favorites view |Displays all favorited food |favorites view"
+      },
+      {
+        "lineNumber": 368,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 369,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|filter |Shows only canteens or stalls with a specified tag |filter asian"
+      },
+      {
+        "lineNumber": 370,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 371,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|find nearest BLOCK_NAME |Finds the nearest canteen from location |find nearest COM1"
+      },
+      {
+        "lineNumber": 372,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 373,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 374,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|goto CANTEEN_NAME f/ CURRENT_LOCATION |Gets direction to canteen from the current location |goto The Deck f/ COM1"
+      },
+      {
+        "lineNumber": 375,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 376,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|list |Displays the list of canteen |"
+      },
+      {
+        "lineNumber": 377,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 378,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|rate INDEX | Gives a rating to the stall |"
+      },
+      {
+        "lineNumber": 379,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 380,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|randomize |Displays a list of randomize options | randomize c/ The Deck"
+      },
+      {
+        "lineNumber": 381,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 382,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|report |Generates a report of the food consumed |report f/ 12-02-2020 t/ 30-04-2020"
+      },
+      {
+        "lineNumber": 383,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 384,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|review INDEX | Creates a review for the stall|"
+      },
+      {
+        "lineNumber": 385,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 386,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|select INDEX| Saves the food in transactions |"
+      },
+      {
+        "lineNumber": 387,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 388,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "|transactions |Generates the transaction breakdown |transaction w/ 12-02-2020"
+      },
+      {
+        "lineNumber": 389,
+        "author": {
+          "gitId": "-"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 390,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 391,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 392,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": "|\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d\u003d"
+      },
+      {
+        "lineNumber": 393,
+        "author": {
+          "gitId": "Samanthaseahpl"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 394,
+        "author": {
+          "gitId": "leslieharland"
+        },
         "content": ""
       }
     ],
     "authorContributionMap": {
-      "leslieharland": 23,
-      "Samanthaseahpl": 113,
-      "lsjxavier": 27,
-      "shaungoh97": 11,
-      "-": 78,
-      "ignatiusong": 69
+      "leslieharland": 170,
+      "Samanthaseahpl": 89,
+      "lsjxavier": 17,
+      "shaungoh97": 6,
+      "-": 77,
+      "ignatiusong": 35
     }
   },
   {
@@ -52560,203 +53071,203 @@
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "import seedu.foodiebot.logic.parser.ParserContext;"
+        "content": "import static seedu.foodiebot.logic.parser.ParserContext.INVALID_CONTEXT_MESSAGE;"
       },
       {
         "lineNumber": 4,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "import seedu.foodiebot.model.Model;"
+        "content": ""
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "import seedu.foodiebot.model.canteen.Canteen;"
+        "content": "import seedu.foodiebot.logic.parser.ParserContext;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "import seedu.foodiebot.model.tag.Tag;"
+        "content": "import seedu.foodiebot.model.Model;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "import seedu.foodiebot.model.canteen.Canteen;"
       },
       {
         "lineNumber": 8,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "/**"
+        "content": "import seedu.foodiebot.model.canteen.Stall;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": " * Filters a list of canteens or stalls to only display things which have a particular keyword"
+        "content": "import seedu.foodiebot.model.tag.Tag;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": " */"
+        "content": ""
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "public class FilterCommand extends Command {"
+        "content": "/**"
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    public static final String COMMAND_WORD \u003d \"filter\";"
+        "content": " * Filters a list of canteens or stalls to only display things which have a particular keyword"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": " */"
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    public static final String MESSAGE_USAGE \u003d"
+        "content": "public class FilterCommand extends Command {"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "            COMMAND_WORD"
+        "content": "    public static final String COMMAND_WORD \u003d \"filter\";"
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "                    + \"Parameters: \""
+        "content": ""
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "                    + \"TAG \\n\""
+        "content": "    public static final String MESSAGE_USAGE \u003d"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "                    + \"Example: \""
+        "content": "            COMMAND_WORD"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "                    + COMMAND_WORD"
+        "content": "                    + \"Parameters: \""
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "                    + \" \""
+        "content": "                    + \"TAG \\n\""
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "                    + \"Western\";"
+        "content": "                    + \"Example: \""
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "                    + COMMAND_WORD"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    public static final String MESSAGE_SUCCESS \u003d \"Successfully filtered canteens\";"
+        "content": "                    + \" \""
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "                    + \"Western\";"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    public static final String MESSAGE_CONSTRAINTS \u003d \"Filter argument cannot be empty\";"
+        "content": ""
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "    public static final String MESSAGE_SUCCESS \u003d \"Successfully filtered canteens\";"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    private Tag tag;"
+        "content": ""
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "    public static final String MESSAGE_CONSTRAINTS \u003d \"Filter argument cannot be empty\";"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    public FilterCommand(String tag) {"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "        this.tag \u003d new Tag(tag);"
+        "content": "    private Tag tag;"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    }"
+        "content": "    private Integer price;"
       },
       {
         "lineNumber": 32,
@@ -52770,21 +53281,21 @@
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    @Override"
+        "content": "    public FilterCommand(String tag) {"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    public CommandResult execute(Model model) {"
+        "content": "        this.tag \u003d new Tag(tag);"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "        String context \u003d ParserContext.getCurrentContext();"
+        "content": "    }"
       },
       {
         "lineNumber": 36,
@@ -52798,101 +53309,297 @@
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "        if (context.equals(ParserContext.MAIN_CONTEXT)) {"
+        "content": "    public FilterCommand(int price) {"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "            model.updateFilteredCanteenList(s -\u003e s.getTags().contains(this.tag));"
+        "content": "        this.price \u003d price;"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "        } else if (context.equals(ParserContext.CANTEEN_CONTEXT)) {"
+        "content": "    }"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "            Canteen canteen \u003d ParserContext.getCurrentCanteen().get();"
+        "content": ""
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "            model.updateFilteredStallList(s -\u003e s.getCanteenName().equalsIgnoreCase("
+        "content": "    @Override"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "                    canteen.getName().toString()) \u0026\u0026 s.getTags().contains(this.tag));"
+        "content": "    public CommandResult execute(Model model) {"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "        }"
+        "content": "        String context \u003d ParserContext.getCurrentContext();"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "        return new CommandResult(COMMAND_WORD, MESSAGE_SUCCESS);"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    }"
+        "content": "        if (price !\u003d null) {"
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "            if (ParserContext.getCurrentContext().equals(ParserContext.STALL_CONTEXT)) {"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    @Override"
+        "content": "                Stall stall \u003d ParserContext.getCurrentStall().get();"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    public boolean needToSaveCommand() {"
+        "content": ""
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "        return false;"
+        "content": "                model.updateFilteredFoodList(f -\u003e f.getStallName().equalsIgnoreCase("
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    }"
+        "content": "                        stall.getName().toString()) \u0026\u0026 f.getPrice() \u003c\u003d price);"
       },
       {
         "lineNumber": 51,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "                return new CommandResult(COMMAND_WORD, MESSAGE_SUCCESS);"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 54,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            } else {"
+      },
+      {
+        "lineNumber": 55,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "                return new CommandResult(COMMAND_WORD, INVALID_CONTEXT_MESSAGE);"
+      },
+      {
+        "lineNumber": 56,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            }"
+      },
+      {
+        "lineNumber": 57,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 58,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 59,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        if (context.equals(ParserContext.MAIN_CONTEXT)) {"
+      },
+      {
+        "lineNumber": 60,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            model.updateFilteredCanteenList(s -\u003e s.getTags().contains(this.tag));"
+      },
+      {
+        "lineNumber": 61,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        } else if (context.equals(ParserContext.CANTEEN_CONTEXT)) {"
+      },
+      {
+        "lineNumber": 62,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            Canteen canteen \u003d ParserContext.getCurrentCanteen().get();"
+      },
+      {
+        "lineNumber": 63,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            model.updateFilteredStallList(s -\u003e s.getCanteenName().equalsIgnoreCase("
+      },
+      {
+        "lineNumber": 64,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "                    canteen.getName().toString()) \u0026\u0026 s.getTags().contains(this.tag));"
+      },
+      {
+        "lineNumber": 65,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        } else if (context.equals(ParserContext.STALL_CONTEXT)) {"
+      },
+      {
+        "lineNumber": 66,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            Stall stall \u003d ParserContext.getCurrentStall().get();"
+      },
+      {
+        "lineNumber": 67,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            model.updateFilteredFoodList(f -\u003e f.getStallName().equalsIgnoreCase("
+      },
+      {
+        "lineNumber": 68,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "                    stall.getName().toString()) \u0026\u0026 f.getTags().contains(this.tag));"
+      },
+      {
+        "lineNumber": 69,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        } else {"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            return new CommandResult(COMMAND_WORD, INVALID_CONTEXT_MESSAGE);"
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        return new CommandResult(COMMAND_WORD, MESSAGE_SUCCESS);"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "    @Override"
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "    public boolean needToSaveCommand() {"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        return false;"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 79,
         "author": {
           "gitId": "ignatiusong"
         },
@@ -52900,7 +53607,7 @@
       }
     ],
     "authorContributionMap": {
-      "ignatiusong": 51
+      "ignatiusong": 79
     }
   },
   {
@@ -62584,31 +63291,66 @@
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "        String tag \u003d ParserUtil.parseFilterTag(enteredText);"
+        "content": "        try {"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "        return new FilterCommand(tag);"
+        "content": "            int price \u003d ParserUtil.parseIndex(args).getOneBased();"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "            return new FilterCommand(price);"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "ignatiusong"
         },
-        "content": "    }"
+        "content": "        } catch (ParseException e) {"
       },
       {
         "lineNumber": 35,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            String tag \u003d ParserUtil.parseFilterTag(enteredText);"
+      },
+      {
+        "lineNumber": 36,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            return new FilterCommand(tag);"
+      },
+      {
+        "lineNumber": 37,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 38,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 39,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 40,
         "author": {
           "gitId": "ignatiusong"
         },
@@ -62616,7 +63358,7 @@
       }
     ],
     "authorContributionMap": {
-      "ignatiusong": 35
+      "ignatiusong": 40
     }
   },
   {
@@ -112704,467 +113446,544 @@
       {
         "lineNumber": 3,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": "import javafx.fxml.FXML;"
+        "content": "import java.util.Comparator;"
       },
       {
         "lineNumber": 4,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": "import javafx.scene.control.Label;"
+        "content": ""
       },
       {
         "lineNumber": 5,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "import javafx.scene.image.ImageView;"
+        "content": "import javafx.fxml.FXML;"
       },
       {
         "lineNumber": 6,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "import javafx.scene.layout.HBox;"
+        "content": "import javafx.scene.control.Label;"
       },
       {
         "lineNumber": 7,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "import javafx.scene.layout.Region;"
+        "content": "import javafx.scene.image.ImageView;"
       },
       {
         "lineNumber": 8,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "import javafx.scene.layout.FlowPane;"
       },
       {
         "lineNumber": 9,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "import seedu.foodiebot.model.canteen.Stall;"
+        "content": "import javafx.scene.layout.HBox;"
       },
       {
         "lineNumber": 10,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "import javafx.scene.layout.Region;"
       },
       {
         "lineNumber": 11,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "/**"
+        "content": ""
       },
       {
         "lineNumber": 12,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": " * An UI component that displays information of a {@code Stall}."
+        "content": "import seedu.foodiebot.model.canteen.Stall;"
       },
       {
         "lineNumber": 13,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": " */"
+        "content": ""
       },
       {
         "lineNumber": 14,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "public class StallCard extends UiPart\u003cRegion\u003e {"
+        "content": "/**"
       },
       {
         "lineNumber": 15,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    private static final String FXML \u003d \"StallListCard.fxml\";"
+        "content": " * An UI component that displays information of a {@code Stall}."
       },
       {
         "lineNumber": 16,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": " */"
       },
       {
         "lineNumber": 17,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    /**"
+        "content": "public class StallCard extends UiPart\u003cRegion\u003e {"
       },
       {
         "lineNumber": 18,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * Note: Certain keywords such as \"location\" and \"resources\" are reserved keywords in JavaFX. As"
+        "content": "    private static final String FXML \u003d \"StallListCard.fxml\";"
       },
       {
         "lineNumber": 19,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * a consequence, UI elements\u0027 variable names cannot be set to such keywords or an exception"
+        "content": ""
       },
       {
         "lineNumber": 20,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * will be thrown by JavaFX during runtime."
+        "content": "    /**"
       },
       {
         "lineNumber": 21,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     *"
+        "content": "     * Note: Certain keywords such as \"location\" and \"resources\" are reserved keywords in JavaFX. As"
       },
       {
         "lineNumber": 22,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * @see \u003ca href\u003d\"https://github.com/se-edu/addressbook-level4/issues/336\"\u003eThe issue on"
+        "content": "     * a consequence, UI elements\u0027 variable names cannot be set to such keywords or an exception"
       },
       {
         "lineNumber": 23,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     * AddressBook level 4\u003c/a\u003e"
+        "content": "     * will be thrown by JavaFX during runtime."
       },
       {
         "lineNumber": 24,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "     */"
+        "content": "     *"
       },
       {
         "lineNumber": 25,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public final Stall stall;"
+        "content": "     * @see \u003ca href\u003d\"https://github.com/se-edu/addressbook-level4/issues/336\"\u003eThe issue on"
       },
       {
         "lineNumber": 26,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "     * AddressBook level 4\u003c/a\u003e"
       },
       {
         "lineNumber": 27,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @FXML"
+        "content": "     */"
       },
       {
         "lineNumber": 28,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    private HBox cardPane;"
+        "content": "    public final Stall stall;"
       },
       {
         "lineNumber": 29,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @FXML"
+        "content": ""
       },
       {
         "lineNumber": 30,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    private Label name;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 31,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @FXML"
+        "content": "    private HBox cardPane;"
       },
       {
         "lineNumber": 32,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    private ImageView iv;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 33,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @FXML"
+        "content": "    private Label name;"
       },
       {
         "lineNumber": 34,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    private Label id;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 35,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @FXML"
+        "content": "    private ImageView iv;"
       },
       {
         "lineNumber": 36,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    private Label stallNumber;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 37,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @FXML"
+        "content": "    private Label id;"
       },
       {
         "lineNumber": 38,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    private Label cuisine;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @FXML"
+        "content": "    private Label stallNumber;"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    private Label overallPriceRating;"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    private Label cuisine;"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public StallCard(Stall stall, int displayedIndex) {"
+        "content": "    @FXML"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        super(FXML);"
+        "content": "    private Label overallPriceRating;"
       },
       {
         "lineNumber": 44,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": "        this.stall \u003d stall;"
+        "content": "    @FXML private FlowPane tags;"
       },
       {
         "lineNumber": 45,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        id.setText(displayedIndex + \". \");"
+        "content": ""
       },
       {
         "lineNumber": 46,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        iv.setImage(stall.getStallImage());"
+        "content": "    public StallCard(Stall stall, int displayedIndex) {"
       },
       {
         "lineNumber": 47,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        name.setText(stall.getName().fullName);"
+        "content": "        super(FXML);"
       },
       {
         "lineNumber": 48,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        stallNumber.setText(String.valueOf(stall.getStallNumber()));"
+        "content": "        this.stall \u003d stall;"
       },
       {
         "lineNumber": 49,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        cuisine.setText(stall.getCuisine());"
+        "content": "        id.setText(displayedIndex + \". \");"
       },
       {
         "lineNumber": 50,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        overallPriceRating.setText(stall.getOverallPriceRating());"
+        "content": "        iv.setImage(stall.getStallImage());"
       },
       {
         "lineNumber": 51,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    }"
+        "content": "        name.setText(stall.getName().fullName);"
       },
       {
         "lineNumber": 52,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "        stallNumber.setText(String.valueOf(stall.getStallNumber()));"
       },
       {
         "lineNumber": 53,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    @Override"
+        "content": "        cuisine.setText(stall.getCuisine());"
       },
       {
         "lineNumber": 54,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    public boolean equals(Object other) {"
+        "content": "        overallPriceRating.setText(stall.getOverallPriceRating());"
       },
       {
         "lineNumber": 55,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": "        // short circuit if same object"
+        "content": "        try {"
       },
       {
         "lineNumber": 56,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": "        if (other \u003d\u003d this) {"
+        "content": "            stall.getTags().stream()"
       },
       {
         "lineNumber": 57,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": "            return true;"
+        "content": "                    .sorted(Comparator.comparing(tag -\u003e tag.tagName))"
       },
       {
         "lineNumber": 58,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": "        }"
+        "content": "                    .forEach(tag -\u003e tags.getChildren().add(new Label(tag.tagName)));"
       },
       {
         "lineNumber": 59,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": ""
+        "content": "        } catch (ClassCastException e) {"
       },
       {
         "lineNumber": 60,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": "        // instanceof handles nulls"
+        "content": "            System.out.println(e);"
       },
       {
         "lineNumber": 61,
         "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
-        "content": "        if (!(other instanceof StallCard)) {"
+        "content": "        }"
       },
       {
         "lineNumber": 62,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            return false;"
+        "content": "    }"
       },
       {
         "lineNumber": 63,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        }"
+        "content": ""
       },
       {
         "lineNumber": 64,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": ""
+        "content": "    @Override"
       },
       {
         "lineNumber": 65,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        // state check"
+        "content": "    public boolean equals(Object other) {"
       },
       {
         "lineNumber": 66,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        StallCard card \u003d (StallCard) other;"
+        "content": "        // short circuit if same object"
       },
       {
         "lineNumber": 67,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        return id.getText().equals(card.id.getText()) \u0026\u0026 stall.equals(card.stall);"
+        "content": "        if (other \u003d\u003d this) {"
       },
       {
         "lineNumber": 68,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "    }"
+        "content": "            return true;"
       },
       {
         "lineNumber": 69,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 70,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 71,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        // instanceof handles nulls"
+      },
+      {
+        "lineNumber": 72,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        if (!(other instanceof StallCard)) {"
+      },
+      {
+        "lineNumber": 73,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "            return false;"
+      },
+      {
+        "lineNumber": 74,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        }"
+      },
+      {
+        "lineNumber": 75,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 76,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        // state check"
+      },
+      {
+        "lineNumber": 77,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        StallCard card \u003d (StallCard) other;"
+      },
+      {
+        "lineNumber": 78,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "        return id.getText().equals(card.id.getText()) \u0026\u0026 stall.equals(card.stall);"
+      },
+      {
+        "lineNumber": 79,
+        "author": {
+          "gitId": "leslieharland"
+        },
+        "content": "    }"
+      },
+      {
+        "lineNumber": 80,
         "author": {
           "gitId": "leslieharland"
         },
@@ -113172,7 +113991,8 @@
       }
     ],
     "authorContributionMap": {
-      "leslieharland": 69
+      "leslieharland": 69,
+      "ignatiusong": 11
     }
   },
   {
@@ -121509,108 +122329,150 @@
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        \u003cFlowPane fx:id\u003d\"tags\"\u003e"
+        "content": "         \u003cHBox\u003e"
       },
       {
         "lineNumber": 39,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "      \u003cLabel fx:id\u003d\"cuisine\" styleClass\u003d\"cell_small_label\" text\u003d\"\\$cuisine\" visible\u003d\"false\" /\u003e"
+        "content": "            \u003cchildren\u003e"
       },
       {
         "lineNumber": 40,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "        \u003c/FlowPane\u003e"
+        "content": "               \u003cLabel text\u003d\"Price Rating: \" /\u003e"
       },
       {
         "lineNumber": 41,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "         \u003cHBox\u003e"
+        "content": "            \u003cLabel fx:id\u003d\"overallPriceRating\" styleClass\u003d\"cell_small_label\" text\u003d\"\\$overallPriceRating\" /\u003e"
       },
       {
         "lineNumber": 42,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            \u003cchildren\u003e"
+        "content": "            \u003c/children\u003e"
       },
       {
         "lineNumber": 43,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "               \u003cLabel text\u003d\"Price Rating: \" /\u003e"
+        "content": "         \u003c/HBox\u003e"
       },
       {
         "lineNumber": 44,
         "author": {
           "gitId": "leslieharland"
         },
-        "content": "            \u003cLabel fx:id\u003d\"overallPriceRating\" styleClass\u003d\"cell_small_label\" text\u003d\"\\$overallPriceRating\" /\u003e"
+        "content": ""
       },
       {
         "lineNumber": 45,
         "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "            \u003c/children\u003e"
-      },
-      {
-        "lineNumber": 46,
-        "author": {
-          "gitId": "leslieharland"
-        },
-        "content": "         \u003c/HBox\u003e"
-      },
-      {
-        "lineNumber": 47,
-        "author": {
-          "gitId": "leslieharland"
+          "gitId": "ignatiusong"
         },
         "content": ""
       },
       {
+        "lineNumber": 46,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        \u003cFlowPane fx:id\u003d\"tags\"\u003e"
+      },
+      {
+        "lineNumber": 47,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            \u003cHBox\u003e"
+      },
+      {
         "lineNumber": 48,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "                \u003cchildren\u003e"
+      },
+      {
+        "lineNumber": 49,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "                    \u003cLabel fx:id\u003d\"cuisine\" styleClass\u003d\"cell_small_label\" text\u003d\"\\$numberOfStalls\" /\u003e"
+      },
+      {
+        "lineNumber": 50,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "                \u003c/children\u003e"
+      },
+      {
+        "lineNumber": 51,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "            \u003c/HBox\u003e"
+      },
+      {
+        "lineNumber": 52,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": "        \u003c/FlowPane\u003e"
+      },
+      {
+        "lineNumber": 53,
+        "author": {
+          "gitId": "ignatiusong"
+        },
+        "content": ""
+      },
+      {
+        "lineNumber": 54,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "    \u003c/VBox\u003e"
       },
       {
-        "lineNumber": 49,
+        "lineNumber": 55,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "      \u003crowConstraints\u003e"
       },
       {
-        "lineNumber": 50,
+        "lineNumber": 56,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "         \u003cRowConstraints /\u003e"
       },
       {
-        "lineNumber": 51,
+        "lineNumber": 57,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "      \u003c/rowConstraints\u003e"
       },
       {
-        "lineNumber": 52,
+        "lineNumber": 58,
         "author": {
           "gitId": "leslieharland"
         },
         "content": "  \u003c/GridPane\u003e"
       },
       {
-        "lineNumber": 53,
+        "lineNumber": 59,
         "author": {
           "gitId": "leslieharland"
         },
@@ -121618,7 +122480,8 @@
       }
     ],
     "authorContributionMap": {
-      "leslieharland": 53
+      "leslieharland": 50,
+      "ignatiusong": 9
     }
   },
   {
