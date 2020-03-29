@@ -203,6 +203,20 @@
             "deletions": 77
           }
         ]
+      },
+      {
+        "insertions": 157,
+        "deletions": 49,
+        "date": "2020-03-29",
+        "commitResults": [
+          {
+            "hash": "1c1e73f27aa94756a4bdc7cf7397b3a01d9a3136",
+            "messageTitle": "Fix bugs (#126)",
+            "messageBody": "",
+            "insertions": 157,
+            "deletions": 49
+          }
+        ]
       }
     ],
     "lsjxavier": [
@@ -706,6 +720,20 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 49,
+        "deletions": 26,
+        "date": "2020-03-29",
+        "commitResults": [
+          {
+            "hash": "ba7f210153d594578f1bbe752e365ce1ef12b321",
+            "messageTitle": "Fixed issues (#132)",
+            "messageBody": "-Fixed select items out of bounds issue\r\n-Changed invalid context message to be more user friendly\r\n-Throws invalid message when using rate/review with missing arguments",
+            "insertions": 49,
+            "deletions": 26
+          }
+        ]
       }
     ],
     "ignatiusong": [
@@ -880,18 +908,18 @@
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 10627,
-    "lsjxavier": 2796,
-    "Samanthaseahpl": 2007,
-    "shaungoh97": 984,
-    "ignatiusong": 1685
+    "leslieharland": 10747,
+    "lsjxavier": 2780,
+    "Samanthaseahpl": 2006,
+    "shaungoh97": 1025,
+    "ignatiusong": 1678
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
       "gitignore": 1,
       "yml": 12,
       "adoc": 13,
-      "gradle": 11,
+      "gradle": 12,
       "adoc": 24,
       "adoc": 10,
       "adoc": 110,
@@ -903,7 +931,7 @@
       "java": 2,
       "java": 2,
       "java": 17,
-      "java": 9,
+      "java": 10,
       "java": 9,
       "java": 10,
       "java": 2,
@@ -927,7 +955,7 @@
       "java": 94,
       "java": 23,
       "java": 13,
-      "java": 115,
+      "java": 121,
       "java": 49,
       "java": 97,
       "java": 6,
@@ -945,7 +973,7 @@
       "java": 72,
       "java": 45,
       "java": 8,
-      "java": 48,
+      "java": 47,
       "java": 9,
       "java": 51,
       "java": 47,
@@ -977,7 +1005,7 @@
       "java": 4,
       "java": 11,
       "java": 26,
-      "java": 129,
+      "java": 127,
       "java": 33,
       "java": 138,
       "java": 11,
@@ -997,15 +1025,15 @@
       "java": 24,
       "java": 97,
       "java": 11,
-      "java": 316,
+      "java": 345,
       "java": 70,
       "java": 51,
-      "java": 18,
+      "java": 82,
       "java": 32,
       "java": 63,
       "java": 4,
       "java": 18,
-      "java": 30,
+      "java": 40,
       "java": 14,
       "java": 246,
       "java": 3,
@@ -1016,7 +1044,8 @@
       "java": 15,
       "java": 33,
       "fxml": 53,
-      "css": 4,
+      "fxml": 3,
+      "css": 13,
       "fxml": 30,
       "fxml": 1,
       "fxml": 50,
@@ -1155,13 +1184,13 @@
       "java": 51,
       "java": 64,
       "java": 3,
-      "java": 17,
+      "java": 14,
       "java": 4,
       "java": 4,
       "java": 1,
-      "java": 40,
+      "java": 34,
       "java": 64,
-      "java": 31,
+      "java": 28,
       "java": 58,
       "java": 32,
       "java": 15,
@@ -1180,7 +1209,7 @@
       "java": 53,
       "java": 54,
       "java": 16,
-      "java": 27,
+      "java": 23,
       "java": 78,
       "java": 47,
       "fxml": 51,
@@ -1214,7 +1243,7 @@
       "java": 2,
       "java": 321,
       "java": 21,
-      "java": 10,
+      "java": 9,
       "java": 5,
       "java": 47,
       "java": 1,
@@ -1232,13 +1261,18 @@
       "java": 12,
       "java": 1,
       "java": 7,
+      "java": 2,
       "java": 1,
-      "java": 83,
+      "java": 88,
       "java": 3,
-      "java": 1,
-      "java": 12,
+      "java": 6,
+      "java": 3,
+      "java": 7,
+      "java": 14,
       "java": 17,
-      "java": 43,
+      "java": 8,
+      "java": 7,
+      "java": 45,
       "java": 15,
       "java": 12,
       "java": 54,
@@ -1296,13 +1330,13 @@
       "java": 17,
       "java": 73,
       "java": 27,
-      "java": 79,
+      "java": 77,
       "java": 4,
-      "java": 6,
-      "java": 41,
+      "java": 5,
+      "java": 40,
       "java": 40,
       "java": 8,
-      "java": 50,
+      "java": 49,
       "java": 46,
       "java": 19,
       "java": 7,
@@ -1313,7 +1347,7 @@
       "java": 125,
       "java": 3,
       "java": 1,
-      "java": 20,
+      "java": 18,
       "java": 11,
       "xml": 16,
       "fxml": 11,
@@ -1331,11 +1365,11 @@
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3712867.0,
+    "leslieharland": 3705586.8,
     "lsjxavier": 69564.22,
-    "Samanthaseahpl": 77076.21,
-    "shaungoh97": 84983.016,
-    "ignatiusong": 122978.15
+    "Samanthaseahpl": 77076.2,
+    "shaungoh97": 84648.88,
+    "ignatiusong": 122978.16
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
