@@ -515,6 +515,20 @@
             "deletions": 37
           }
         ]
+      },
+      {
+        "insertions": 1167,
+        "deletions": 414,
+        "date": "2020-03-30",
+        "commitResults": [
+          {
+            "hash": "684c8931cb3dd0c0fab372a78f3f158032db8536",
+            "messageTitle": "Branch documentation (#134)",
+            "messageBody": "* branch-randomize-diagrams\r\n-sequence diagram\r\n-activity diagram\r\n\r\n* branch-documentation\r\n- update dg\r\n- update ug",
+            "insertions": 1167,
+            "deletions": 414
+          }
+        ]
       }
     ],
     "shaungoh97": [
@@ -908,11 +922,11 @@
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 10747,
-    "lsjxavier": 2780,
-    "Samanthaseahpl": 2006,
-    "shaungoh97": 1025,
-    "ignatiusong": 1678
+    "leslieharland": 10723,
+    "lsjxavier": 2776,
+    "Samanthaseahpl": 2818,
+    "shaungoh97": 1012,
+    "ignatiusong": 1664
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -923,7 +937,7 @@
       "adoc": 24,
       "adoc": 10,
       "adoc": 110,
-      "adoc": 170,
+      "adoc": 146,
       "adoc": 105,
       "java": 9,
       "java": 24,
@@ -1163,7 +1177,7 @@
     },
     "lsjxavier": {
       "gitignore": 2,
-      "adoc": 17,
+      "adoc": 13,
       "java": 10,
       "java": 10,
       "java": 6,
@@ -1225,9 +1239,11 @@
     },
     "Samanthaseahpl": {
       "gradle": 3,
-      "adoc": 52,
-      "adoc": 89,
-      "html": 1218,
+      "adoc": 469,
+      "adoc": 156,
+      "html": 1427,
+      "puml": 26,
+      "puml": 93,
       "java": 2,
       "java": 5,
       "java": 9,
@@ -1254,8 +1270,8 @@
     "shaungoh97": {
       "html": 22,
       "html": 11,
-      "adoc": 23,
-      "adoc": 6,
+      "adoc": 12,
+      "adoc": 4,
       "java": 4,
       "java": 6,
       "java": 12,
@@ -1301,9 +1317,9 @@
     "ignatiusong": {
       "json": 39,
       "adoc": 2,
-      "adoc": 189,
+      "adoc": 178,
       "adoc": 2,
-      "adoc": 35,
+      "adoc": 32,
       "puml": 4,
       "puml": 13,
       "puml": 3,
@@ -1365,11 +1381,11 @@
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3705586.8,
-    "lsjxavier": 69564.22,
-    "Samanthaseahpl": 77076.2,
-    "shaungoh97": 84648.88,
-    "ignatiusong": 122978.16
+    "leslieharland": 3598702.8,
+    "lsjxavier": 67726.34,
+    "Samanthaseahpl": 139968.39,
+    "shaungoh97": 82266.23,
+    "ignatiusong": 119583.09
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
