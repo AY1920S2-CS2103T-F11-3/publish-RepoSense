@@ -373,6 +373,20 @@
             "deletions": 42
           }
         ]
+      },
+      {
+        "insertions": 350,
+        "deletions": 21,
+        "date": "2020-03-30",
+        "commitResults": [
+          {
+            "hash": "68ddcced032b8efff897fb60213eee30eb6a080b",
+            "messageTitle": "Add report feature (#135)",
+            "messageBody": "",
+            "insertions": 350,
+            "deletions": 21
+          }
+        ]
       }
     ],
     "Samanthaseahpl": [
@@ -918,15 +932,29 @@
             "deletions": 5
           }
         ]
+      },
+      {
+        "insertions": 62,
+        "deletions": 8,
+        "date": "2020-03-31",
+        "commitResults": [
+          {
+            "hash": "a795692ede7496c557d9251fcd23fc22317e304a",
+            "messageTitle": "Add uml diagram for enterCommand  (#136)",
+            "messageBody": "* Developer guide Leslie\r\n\r\n* Updated classes in original class diagrams\r\n\r\n* Updated names in class diagrams fix\r\n\r\n* fix UserGuide grammar somewhat\r\n\r\n* add placeholder for Filter function\r\n\r\n* remove unneccessary constructor in FIlterCommand\r\n\r\n* fix trailing whitespace\r\n\r\n* actually fixed hopefully trailing whitespace\r\n\r\n* changed constructor for filterCommand\r\n\r\n* update foodiebot.json\r\n\r\n* add FilterCommand to enable users to filter canteens based on tags\r\n\r\n* Gui update using JavaFX\r\n\r\n* fixed some bugs and wrote test for parseFilterTags\r\n\r\n* update EnterCanteen and EnterStall UI to display canteen and stall entered\r\n\r\n* Fix a bug with enter canteen when using an invalid index\r\n\r\n* fix bug with using invalid index when entering stall\r\n\r\n* fix a bug with exit not exiting\r\n\r\n* Update user guide mainly and a bit of developer guide\r\n\r\n* add tags for stall\r\n*for some reason randomize will throw ClassCastException with updated stallCard\r\n\r\n* fixed a problem with the tags not placed in the correct position\r\n\r\n* update filtercommand to allow filter food by tag and price\r\n\r\n* stash json files\r\n\r\n* add Activity Diagram for EnterCommand and relocated pictures of Randomize\r\n\r\nCo-authored-by: leslieharland \u003cleslieharland@outlook.com\u003e",
+            "insertions": 62,
+            "deletions": 8
+          }
+        ]
       }
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 10723,
-    "lsjxavier": 2776,
-    "Samanthaseahpl": 2818,
-    "shaungoh97": 1012,
-    "ignatiusong": 1664
+    "leslieharland": 10722,
+    "lsjxavier": 3107,
+    "Samanthaseahpl": 2813,
+    "shaungoh97": 1009,
+    "ignatiusong": 1726
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -937,7 +965,7 @@
       "adoc": 24,
       "adoc": 10,
       "adoc": 110,
-      "adoc": 146,
+      "adoc": 145,
       "adoc": 105,
       "java": 9,
       "java": 24,
@@ -1185,14 +1213,14 @@
       "java": 312,
       "java": 14,
       "java": 9,
-      "java": 4,
-      "java": 18,
+      "java": 7,
+      "java": 25,
       "java": 99,
       "java": 6,
       "java": 3,
-      "java": 66,
-      "java": 41,
-      "java": 66,
+      "java": 72,
+      "java": 45,
+      "java": 72,
       "java": 31,
       "java": 52,
       "java": 51,
@@ -1202,20 +1230,21 @@
       "java": 4,
       "java": 4,
       "java": 1,
-      "java": 34,
+      "java": 39,
       "java": 64,
-      "java": 28,
+      "java": 34,
       "java": 58,
-      "java": 32,
-      "java": 15,
-      "java": 80,
-      "java": 5,
+      "java": 40,
+      "java": 18,
+      "java": 88,
+      "java": 8,
       "java": 10,
       "java": 234,
       "java": 2,
       "java": 44,
       "java": 40,
-      "java": 73,
+      "java": 93,
+      "java": 113,
       "java": 127,
       "java": 8,
       "java": 67,
@@ -1223,24 +1252,27 @@
       "java": 53,
       "java": 54,
       "java": 16,
-      "java": 23,
+      "java": 30,
+      "java": 58,
+      "java": 33,
       "java": 78,
       "java": 47,
+      "fxml": 27,
       "fxml": 51,
       "java": 101,
       "java": 143,
-      "java": 33,
+      "java": 39,
       "java": 2,
       "java": 33,
-      "java": 17,
+      "java": 25,
       "java": 1,
       "java": 29,
       "java": 44
     },
     "Samanthaseahpl": {
       "gradle": 3,
-      "adoc": 469,
-      "adoc": 156,
+      "adoc": 467,
+      "adoc": 153,
       "html": 1427,
       "puml": 26,
       "puml": 93,
@@ -1271,7 +1303,7 @@
       "html": 22,
       "html": 11,
       "adoc": 12,
-      "adoc": 4,
+      "adoc": 3,
       "java": 4,
       "java": 6,
       "java": 12,
@@ -1286,8 +1318,8 @@
       "java": 7,
       "java": 14,
       "java": 17,
-      "java": 8,
       "java": 7,
+      "java": 6,
       "java": 45,
       "java": 15,
       "java": 12,
@@ -1315,14 +1347,16 @@
       "java": 1
     },
     "ignatiusong": {
+      "gitignore": 4,
       "json": 39,
       "adoc": 2,
-      "adoc": 178,
+      "adoc": 180,
       "adoc": 2,
-      "adoc": 32,
+      "adoc": 45,
       "puml": 4,
       "puml": 13,
       "puml": 3,
+      "puml": 43,
       "puml": 22,
       "puml": 75,
       "puml": 15,
@@ -1381,11 +1415,11 @@
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3598702.8,
-    "lsjxavier": 67726.34,
-    "Samanthaseahpl": 139968.39,
-    "shaungoh97": 82266.23,
-    "ignatiusong": 119583.09
+    "leslieharland": 3497729.2,
+    "lsjxavier": 67666.055,
+    "Samanthaseahpl": 136580.86,
+    "shaungoh97": 80011.32,
+    "ignatiusong": 115958.805
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
