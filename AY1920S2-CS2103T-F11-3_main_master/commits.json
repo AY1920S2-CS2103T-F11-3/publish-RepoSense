@@ -2,20 +2,6 @@
   "authorDailyContributionsMap": {
     "leslieharland": [
       {
-        "insertions": 5053,
-        "deletions": 5601,
-        "date": "2020-02-29",
-        "commitResults": [
-          {
-            "hash": "66831c8fc3698e878b1683758217f97b10786ead",
-            "messageTitle": "Rename old references (#56)",
-            "messageBody": "",
-            "insertions": 5053,
-            "deletions": 5601
-          }
-        ]
-      },
-      {
         "insertions": 1141,
         "deletions": 234,
         "date": "2020-03-01",
@@ -385,6 +371,20 @@
             "messageBody": "",
             "insertions": 350,
             "deletions": 21
+          }
+        ]
+      },
+      {
+        "insertions": 124,
+        "deletions": 64,
+        "date": "2020-04-01",
+        "commitResults": [
+          {
+            "hash": "2e95184a9814ff91f68ef883906fe1534eed5e96",
+            "messageTitle": "Fixes to transaction and report (#138)",
+            "messageBody": "- Added the instance when the date the app is first launched into user preferences.\r\n- Amended the full date range for transaction and report to start from the date the app was first launched.\r\n- Fixed an issue where transactions and report accept invalid parameters.",
+            "insertions": 124,
+            "deletions": 64
           }
         ]
       }
@@ -950,11 +950,11 @@
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 10722,
-    "lsjxavier": 3107,
+    "leslieharland": 10720,
+    "lsjxavier": 3189,
     "Samanthaseahpl": 2813,
-    "shaungoh97": 1009,
-    "ignatiusong": 1726
+    "shaungoh97": 1008,
+    "ignatiusong": 1708
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -1003,9 +1003,9 @@
       "java": 6,
       "java": 30,
       "java": 15,
-      "java": 17,
+      "java": 16,
       "java": 33,
-      "java": 17,
+      "java": 16,
       "java": 4,
       "java": 12,
       "java": 43,
@@ -1205,12 +1205,13 @@
     },
     "lsjxavier": {
       "gitignore": 2,
-      "adoc": 13,
-      "java": 10,
+      "adoc": 2,
+      "adoc": 19,
+      "java": 15,
       "java": 10,
       "java": 6,
       "java": 103,
-      "java": 312,
+      "java": 345,
       "java": 14,
       "java": 9,
       "java": 7,
@@ -1219,10 +1220,10 @@
       "java": 6,
       "java": 3,
       "java": 72,
-      "java": 45,
+      "java": 57,
       "java": 72,
-      "java": 31,
-      "java": 52,
+      "java": 40,
+      "java": 64,
       "java": 51,
       "java": 64,
       "java": 3,
@@ -1236,10 +1237,11 @@
       "java": 58,
       "java": 40,
       "java": 18,
-      "java": 88,
+      "java": 93,
       "java": 8,
-      "java": 10,
-      "java": 234,
+      "java": 4,
+      "java": 22,
+      "java": 216,
       "java": 2,
       "java": 44,
       "java": 40,
@@ -1311,7 +1313,7 @@
       "java": 7,
       "java": 2,
       "java": 1,
-      "java": 88,
+      "java": 87,
       "java": 3,
       "java": 6,
       "java": 3,
@@ -1347,12 +1349,11 @@
       "java": 1
     },
     "ignatiusong": {
-      "gitignore": 4,
       "json": 39,
       "adoc": 2,
-      "adoc": 180,
+      "adoc": 178,
       "adoc": 2,
-      "adoc": 45,
+      "adoc": 33,
       "puml": 4,
       "puml": 13,
       "puml": 3,
@@ -1415,9 +1416,9 @@
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 3497729.2,
-    "lsjxavier": 67666.055,
-    "Samanthaseahpl": 136580.86,
+    "leslieharland": 237149.72,
+    "lsjxavier": 67343.3,
+    "Samanthaseahpl": 136580.88,
     "shaungoh97": 80011.32,
     "ignatiusong": 115958.805
   },
