@@ -405,20 +405,6 @@
     ],
     "Samanthaseahpl": [
       {
-        "insertions": 1123,
-        "deletions": 72,
-        "date": "2020-03-05",
-        "commitResults": [
-          {
-            "hash": "4a96f0f84a8abf5d8fb49935a5d282aabc4ca9b9",
-            "messageTitle": "Documentation v1.1",
-            "messageBody": "",
-            "insertions": 1123,
-            "deletions": 72
-          }
-        ]
-      },
-      {
         "insertions": 147,
         "deletions": 25,
         "date": "2020-03-07",
@@ -559,8 +545,8 @@
         ]
       },
       {
-        "insertions": 302,
-        "deletions": 177,
+        "insertions": 407,
+        "deletions": 245,
         "date": "2020-04-05",
         "commitResults": [
           {
@@ -569,6 +555,13 @@
             "messageBody": "* branch-randomize\n- include tag \"t/\" function.\n- able to randomize with index for canteen \"c/\" only.\n\n* Add report feature (#135)\n\n* Add uml diagram for enterCommand  (#136)\n\n* Developer guide Leslie\r\n\r\n* Updated classes in original class diagrams\r\n\r\n* Updated names in class diagrams fix\r\n\r\n* fix UserGuide grammar somewhat\r\n\r\n* add placeholder for Filter function\r\n\r\n* remove unneccessary constructor in FIlterCommand\r\n\r\n* fix trailing whitespace\r\n\r\n* actually fixed hopefully trailing whitespace\r\n\r\n* changed constructor for filterCommand\r\n\r\n* update foodiebot.json\r\n\r\n* add FilterCommand to enable users to filter canteens based on tags\r\n\r\n* Gui update using JavaFX\r\n\r\n* fixed some bugs and wrote test for parseFilterTags\r\n\r\n* update EnterCanteen and EnterStall UI to display canteen and stall entered\r\n\r\n* Fix a bug with enter canteen when using an invalid index\r\n\r\n* fix bug with using invalid index when entering stall\r\n\r\n* fix a bug with exit not exiting\r\n\r\n* Update user guide mainly and a bit of developer guide\r\n\r\n* add tags for stall\r\n*for some reason randomize will throw ClassCastException with updated stallCard\r\n\r\n* fixed a problem with the tags not placed in the correct position\r\n\r\n* update filtercommand to allow filter food by tag and price\r\n\r\n* stash json files\r\n\r\n* add Activity Diagram for EnterCommand and relocated pictures of Randomize\r\n\r\nCo-authored-by: leslieharland \u003cleslieharland@outlook.com\u003e\n\n* branch-randomize\n- include tag \"t/\" function.\n- able to randomize with index for canteen \"c/\" only.\n\n* Fixes to transaction and report (#138)\n\n- Added the instance when the date the app is first launched into user preferences.\r\n- Amended the full date range for transaction and report to start from the date the app was first launched.\r\n- Fixed an issue where transactions and report accept invalid parameters.\n\n* Added some tests, improvement for auto-suggestion (#141)\n\n* pull from upstream.\n\n* Branch-randomize\n- edit error message\n- include enter and exit function\n- minor change on randomize UI\n- randomize display 1 option only\n\n* branch-randomize\n\n* branch-randomize\n\n* branch-randomize\n\nCo-authored-by: Xavier Lee \u003c43834485+lsjxavier@users.noreply.github.com\u003e\nCo-authored-by: ignatiusong \u003c42903167+ignatiusong@users.noreply.github.com\u003e\nCo-authored-by: leslieharland \u003cleslieharland@outlook.com\u003e",
             "insertions": 302,
             "deletions": 177
+          },
+          {
+            "hash": "166741d040568c941665e99b80d61a9807415928",
+            "messageTitle": "Branch ug (#205)",
+            "messageBody": "- Updates from Ignatius",
+            "insertions": 105,
+            "deletions": 68
           }
         ]
       }
@@ -811,6 +804,20 @@
             "deletions": 1
           }
         ]
+      },
+      {
+        "insertions": 114,
+        "deletions": 17,
+        "date": "2020-04-06",
+        "commitResults": [
+          {
+            "hash": "8b7f92ee1d23736c0232eb38e59c1a1b647bd340",
+            "messageTitle": "Added progress bar for budget, fixed budget bug (#206)",
+            "messageBody": "* added food for every stall\r\n\r\n* checkstyle\r\n\r\n* readded food pics\r\n\r\n* Small change to food class\r\n\r\n* fixed checkstyle\r\n\r\n* fixed checkstyle\r\n\r\n* Small edit to UI",
+            "insertions": 114,
+            "deletions": 17
+          }
+        ]
       }
     ],
     "ignatiusong": [
@@ -1013,11 +1020,11 @@
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 6251,
-    "lsjxavier": 2835,
-    "Samanthaseahpl": 5495,
-    "shaungoh97": 930,
-    "ignatiusong": 1160
+    "leslieharland": 6234,
+    "lsjxavier": 2829,
+    "Samanthaseahpl": 4812,
+    "shaungoh97": 1038,
+    "ignatiusong": 1155
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -1027,7 +1034,7 @@
       "adoc": 2,
       "gradle": 9,
       "adoc": 1,
-      "adoc": 147,
+      "adoc": 137,
       "adoc": 105,
       "java": 21,
       "java": 1,
@@ -1045,7 +1052,7 @@
       "java": 23,
       "java": 16,
       "java": 40,
-      "java": 15,
+      "java": 14,
       "java": 7,
       "java": 17,
       "java": 18,
@@ -1087,7 +1094,7 @@
       "java": 5,
       "java": 1,
       "java": 6,
-      "java": 360,
+      "java": 358,
       "java": 5,
       "java": 11,
       "java": 108,
@@ -1105,7 +1112,7 @@
       "java": 19,
       "fxml": 7,
       "fxml": 3,
-      "css": 13,
+      "css": 12,
       "fxml": 17,
       "fxml": 1,
       "fxml": 50,
@@ -1113,7 +1120,7 @@
       "fxml": 16,
       "fxml": 44,
       "fxml": 16,
-      "fxml": 6,
+      "fxml": 3,
       "fxml": 4,
       "java": 78,
       "java": 18,
@@ -1208,9 +1215,9 @@
     },
     "lsjxavier": {
       "gitignore": 2,
-      "adoc": 12,
+      "adoc": 10,
       "java": 20,
-      "java": 10,
+      "java": 8,
       "java": 6,
       "java": 103,
       "java": 345,
@@ -1222,7 +1229,7 @@
       "java": 72,
       "java": 50,
       "java": 72,
-      "java": 48,
+      "java": 47,
       "java": 55,
       "java": 51,
       "java": 42,
@@ -1251,7 +1258,7 @@
       "java": 38,
       "java": 54,
       "java": 10,
-      "java": 30,
+      "java": 29,
       "java": 48,
       "java": 33,
       "java": 78,
@@ -1269,10 +1276,10 @@
     },
     "Samanthaseahpl": {
       "gradle": 3,
-      "adoc": 463,
+      "adoc": 458,
       "html": 2298,
-      "adoc": 205,
-      "html": 1427,
+      "adoc": 245,
+      "html": 710,
       "puml": 26,
       "puml": 91,
       "java": 6,
@@ -1280,7 +1287,7 @@
       "java": 9,
       "java": 2,
       "java": 28,
-      "java": 95,
+      "java": 94,
       "java": 2,
       "java": 25,
       "java": 1,
@@ -1307,10 +1314,12 @@
     },
     "shaungoh97": {
       "adoc": 12,
-      "adoc": 2,
+      "adoc": 1,
       "java": 3,
+      "java": 2,
       "java": 6,
       "java": 11,
+      "java": 1,
       "java": 1,
       "java": 4,
       "java": 2,
@@ -1339,9 +1348,14 @@
       "java": 56,
       "java": 1,
       "java": 10,
+      "java": 30,
       "java": 71,
       "java": 47,
+      "java": 33,
+      "css": 24,
       "fxml": 48,
+      "fxml": 3,
+      "fxml": 16,
       "java": 5,
       "java": 9,
       "java": 16,
@@ -1354,7 +1368,7 @@
       "adoc": 2,
       "adoc": 180,
       "adoc": 2,
-      "adoc": 32,
+      "adoc": 27,
       "puml": 4,
       "puml": 13,
       "puml": 3,
@@ -1411,8 +1425,8 @@
   "authorContributionVariance": {
     "leslieharland": 1616823.8,
     "lsjxavier": 64713.33,
-    "Samanthaseahpl": 321474.4,
-    "shaungoh97": 79704.375,
+    "Samanthaseahpl": 298734.25,
+    "shaungoh97": 79391.8,
     "ignatiusong": 52615.617
   },
   "authorDisplayNameMap": {
