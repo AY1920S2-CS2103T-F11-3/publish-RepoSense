@@ -224,6 +224,34 @@
             "deletions": 6290
           }
         ]
+      },
+      {
+        "insertions": 112,
+        "deletions": 86,
+        "date": "2020-04-06",
+        "commitResults": [
+          {
+            "hash": "836a5c8450c99c3a18752a4de82799411fb8b354",
+            "messageTitle": "Fill in the dg blanks",
+            "messageBody": "",
+            "insertions": 112,
+            "deletions": 86
+          }
+        ]
+      },
+      {
+        "insertions": 30,
+        "deletions": 25,
+        "date": "2020-04-07",
+        "commitResults": [
+          {
+            "hash": "7b2a381ed30b857eec4b981694233d5684954058",
+            "messageTitle": "UserGuide to match google docs",
+            "messageBody": "",
+            "insertions": 30,
+            "deletions": 25
+          }
+        ]
       }
     ],
     "lsjxavier": [
@@ -399,6 +427,34 @@
             "messageBody": "- Initial launching of JAR file now creates canteen, stall and food JSON files.\r\n- Selecting food without a budget now saves into Transactions.",
             "insertions": 22,
             "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 50,
+        "deletions": 10,
+        "date": "2020-04-06",
+        "commitResults": [
+          {
+            "hash": "14309a3a5548a1079719c05f335ba2fe7a200731",
+            "messageTitle": "Add context for Report (#210)",
+            "messageBody": "",
+            "insertions": 50,
+            "deletions": 10
+          }
+        ]
+      },
+      {
+        "insertions": 175,
+        "deletions": 34,
+        "date": "2020-04-07",
+        "commitResults": [
+          {
+            "hash": "ebd3c0f985e4b2dbd6a53cae0b60ea9b7c1ba618",
+            "messageTitle": "Delete command for Transactions (#212)",
+            "messageBody": "",
+            "insertions": 175,
+            "deletions": 34
           }
         ]
       }
@@ -822,48 +878,6 @@
     ],
     "ignatiusong": [
       {
-        "insertions": 1014,
-        "deletions": 181,
-        "date": "2020-03-06",
-        "commitResults": [
-          {
-            "hash": "d6629c3e3a7396748bcdc43d7f1087f8b3d0ff37",
-            "messageTitle": "slightly changed foodmenucommand",
-            "messageBody": "",
-            "insertions": 484,
-            "deletions": 135
-          },
-          {
-            "hash": "09859380854adb3c92357c9de205d513cfe60c7a",
-            "messageTitle": "Slightly changed food files",
-            "messageBody": "",
-            "insertions": 131,
-            "deletions": 11
-          },
-          {
-            "hash": "6d6bfb0ed318b8f9aa8b8fe267d56bdc97d1c74d",
-            "messageTitle": "changed enterCanteenCommand to be aware of its state i.e cannot enterCanteen then call enterCanteen again",
-            "messageBody": "",
-            "insertions": 126,
-            "deletions": 25
-          },
-          {
-            "hash": "c8b557de2da7d18181dad730179e66db9ac6c8d3",
-            "messageTitle": "allows the user to exit from canteen context and stall context add an option to allow commands to only save if necessary",
-            "messageBody": "",
-            "insertions": 48,
-            "deletions": 6
-          },
-          {
-            "hash": "2798d3923f5a74f9cf5d42a8ef5cc56bac0aa65f",
-            "messageTitle": "add EnterStallCommand to allow entry to a stall from a canteen interface. at this point the canteen still isn\u0027t loaded properly and neither are the stalls EnterStallCommand also doesnt change the actual display",
-            "messageBody": "",
-            "insertions": 225,
-            "deletions": 4
-          }
-        ]
-      },
-      {
         "insertions": 134,
         "deletions": 192,
         "date": "2020-03-12",
@@ -1020,11 +1034,11 @@
     ]
   },
   "authorFinalContributionMap": {
-    "leslieharland": 6234,
-    "lsjxavier": 2829,
-    "Samanthaseahpl": 4812,
-    "shaungoh97": 1038,
-    "ignatiusong": 1155
+    "leslieharland": 6355,
+    "lsjxavier": 3033,
+    "Samanthaseahpl": 4712,
+    "shaungoh97": 1030,
+    "ignatiusong": 820
   },
   "authorFileTypeContributionMap": {
     "leslieharland": {
@@ -1033,35 +1047,36 @@
       "yml": 12,
       "adoc": 2,
       "gradle": 9,
-      "adoc": 1,
-      "adoc": 137,
+      "adoc": 107,
+      "adoc": 162,
       "adoc": 105,
       "java": 21,
       "java": 1,
       "java": 3,
       "java": 6,
-      "java": 17,
+      "java": 15,
       "java": 18,
       "java": 5,
       "java": 14,
       "java": 17,
       "java": 4,
       "java": 43,
-      "java": 24,
+      "java": 23,
+      "java": 1,
       "java": 111,
       "java": 23,
       "java": 16,
       "java": 40,
       "java": 14,
-      "java": 7,
+      "java": 8,
       "java": 17,
       "java": 18,
       "java": 9,
       "java": 1,
       "java": 7,
-      "java": 11,
+      "java": 10,
       "java": 44,
-      "java": 4,
+      "java": 3,
       "java": 6,
       "java": 45,
       "java": 10,
@@ -1073,7 +1088,7 @@
       "java": 11,
       "java": 43,
       "java": 19,
-      "java": 107,
+      "java": 105,
       "java": 13,
       "java": 5,
       "java": 2,
@@ -1094,7 +1109,7 @@
       "java": 5,
       "java": 1,
       "java": 6,
-      "java": 358,
+      "java": 359,
       "java": 5,
       "java": 11,
       "java": 108,
@@ -1127,15 +1142,15 @@
       "java": 25,
       "java": 13,
       "java": 46,
-      "java": 46,
+      "java": 40,
       "java": 70,
       "java": 16,
       "java": 1,
-      "java": 3,
+      "java": 1,
       "java": 52,
       "java": 29,
       "java": 16,
-      "java": 59,
+      "java": 61,
       "java": 42,
       "java": 84,
       "java": 10,
@@ -1215,8 +1230,9 @@
     },
     "lsjxavier": {
       "gitignore": 2,
-      "adoc": 10,
-      "java": 20,
+      "adoc": 4,
+      "adoc": 20,
+      "java": 22,
       "java": 8,
       "java": 6,
       "java": 103,
@@ -1224,25 +1240,27 @@
       "java": 14,
       "java": 9,
       "java": 7,
-      "java": 23,
+      "java": 26,
+      "java": 12,
       "java": 78,
+      "java": 31,
       "java": 72,
-      "java": 50,
+      "java": 56,
       "java": 72,
-      "java": 47,
+      "java": 49,
       "java": 55,
       "java": 51,
       "java": 42,
-      "java": 13,
-      "java": 1,
+      "java": 16,
+      "java": 2,
       "java": 35,
       "java": 54,
       "java": 32,
       "java": 48,
-      "java": 26,
-      "java": 12,
-      "java": 64,
-      "java": 6,
+      "java": 31,
+      "java": 14,
+      "java": 71,
+      "java": 7,
       "java": 4,
       "java": 17,
       "java": 137,
@@ -1258,7 +1276,7 @@
       "java": 38,
       "java": 54,
       "java": 10,
-      "java": 29,
+      "java": 43,
       "java": 48,
       "java": 33,
       "java": 78,
@@ -1267,18 +1285,20 @@
       "fxml": 51,
       "java": 101,
       "java": 143,
-      "java": 25,
+      "java": 30,
       "java": 2,
+      "java": 19,
       "java": 33,
-      "java": 15,
+      "java": 20,
       "java": 29,
-      "java": 44
+      "java": 44,
+      "java": 72
     },
     "Samanthaseahpl": {
       "gradle": 3,
-      "adoc": 458,
+      "adoc": 374,
       "html": 2298,
-      "adoc": 245,
+      "adoc": 233,
       "html": 710,
       "puml": 26,
       "puml": 91,
@@ -1289,7 +1309,7 @@
       "java": 28,
       "java": 94,
       "java": 2,
-      "java": 25,
+      "java": 22,
       "java": 1,
       "java": 1,
       "java": 92,
@@ -1306,7 +1326,7 @@
       "java": 47,
       "fxml": 74,
       "java": 1,
-      "java": 17,
+      "java": 16,
       "java": 2,
       "java": 8,
       "java": 8,
@@ -1314,7 +1334,7 @@
     },
     "shaungoh97": {
       "adoc": 12,
-      "adoc": 1,
+      "adoc": 2,
       "java": 3,
       "java": 2,
       "java": 6,
@@ -1324,20 +1344,20 @@
       "java": 4,
       "java": 2,
       "java": 1,
-      "java": 81,
+      "java": 80,
       "java": 3,
       "java": 3,
       "java": 3,
       "java": 7,
-      "java": 13,
+      "java": 10,
       "java": 5,
       "java": 5,
       "java": 27,
       "java": 15,
       "java": 12,
-      "java": 46,
+      "java": 45,
       "java": 5,
-      "java": 12,
+      "java": 10,
       "java": 28,
       "java": 5,
       "java": 201,
@@ -1356,7 +1376,7 @@
       "fxml": 48,
       "fxml": 3,
       "fxml": 16,
-      "java": 5,
+      "java": 3,
       "java": 9,
       "java": 16,
       "java": 7,
@@ -1366,9 +1386,9 @@
     "ignatiusong": {
       "gitignore": 4,
       "adoc": 2,
-      "adoc": 180,
+      "adoc": 177,
       "adoc": 2,
-      "adoc": 27,
+      "adoc": 25,
       "puml": 4,
       "puml": 13,
       "puml": 3,
@@ -1380,29 +1400,22 @@
       "puml": 30,
       "puml": 7,
       "puml": 8,
+      "java": 70,
       "java": 1,
-      "java": 71,
-      "java": 5,
-      "java": 16,
-      "java": 68,
-      "java": 5,
+      "java": 7,
+      "java": 9,
       "java": 76,
       "java": 4,
-      "java": 4,
-      "java": 24,
-      "java": 28,
-      "java": 10,
-      "java": 41,
-      "java": 35,
-      "java": 16,
-      "java": 7,
-      "java": 17,
-      "java": 2,
-      "java": 15,
-      "java": 5,
-      "java": 125,
-      "java": 3,
       "java": 1,
+      "java": 2,
+      "java": 28,
+      "java": 6,
+      "java": 27,
+      "java": 2,
+      "java": 4,
+      "java": 9,
+      "java": 16,
+      "java": 2,
       "java": 50,
       "java": 11,
       "java": 1,
@@ -1413,21 +1426,18 @@
       "json": 1,
       "json": 1,
       "json": 1,
-      "java": 9,
+      "java": 5,
       "java": 3,
       "java": 2,
-      "java": 12,
-      "java": 7,
-      "java": 2,
-      "java": 2
+      "java": 12
     }
   },
   "authorContributionVariance": {
-    "leslieharland": 1616823.8,
-    "lsjxavier": 64713.33,
+    "leslieharland": 1610689.0,
+    "lsjxavier": 64233.004,
     "Samanthaseahpl": 298734.25,
     "shaungoh97": 79391.8,
-    "ignatiusong": 52615.617
+    "ignatiusong": 13247.148
   },
   "authorDisplayNameMap": {
     "leslieharland": "Leslie Harland",
